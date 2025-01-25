@@ -11,11 +11,17 @@ import Section3 from "../components/Section3";
 export default function About() {
   return (
     <>
-      <div>
+    <div className="relative overflow-hidden">
+      <div >
         <Header />
       </div>
         <Pge2/>
+        <div
+        id="F_sec"
+        className="absolute hidden lg:block  w-[769px] h-[742px] rounded-full -left-[30%] "
+      ></div>
         <div className=" mb-20  ">
+     
         <SectionTwo />
       </div>
     <div>
@@ -34,12 +40,17 @@ export default function About() {
       </div>
 
       <div className="mb-[10vw] lg:my-20"> 
+        
         <Future />
       </div>
       <div>
+      <div
+        id="F_sec"
+        className="absolute  w-[809px] h-[742px] rounded-full -right-[30%] "
+      ></div>
         <Footer />
       </div>
-      
+      </div>
     </>
   );
 }

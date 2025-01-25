@@ -21,7 +21,7 @@ export default function SectionFour1() {
 
   return (
     <div className="mt-10 text-center gap-10 flex flex-col mx-auto px-4 md:px-0">
-      <div className="text-[2.8rem] leading-[3rem] font-montserratB font-[700] text-white">
+      <div className="     text-[2rem] leading-[2.6rem]  lg:text-[2.8rem] lg:leading-[3rem] font-montserrat font-[700] text-white">
         What We Offer
       </div>
       <div className="flex flex-col lg:flex-row lg:flex-wrap gap-4 justify-center">
@@ -36,7 +36,7 @@ export default function SectionFour1() {
         >
           <div className="lg:w-[24.816vw]  lg:h-[38.05vh]   lg:max-w-[339px] lg:max-h-[231px]  ">
             <div className="mb-1 text-[2vw]">{Svg("1")}</div>
-            <div className="text-[36px] font-montserrat my-4 font-[700] leading-[36px] text-white">
+            <div className=" text-[26px] leading-[26px] lg:text-[36px] font-montserrat my-4 font-[700] leading-[36px] text-white">
             Activity-Based Rewards:            </div>
             <div className="text-[#8E8E8E] text-[4vw]  md:text-[2vw] md:leading-[2.3vw] xl:text-[1vw] xl:leading-[1vw] my-4 leading-[4vw] my-4 leading-[1.5vw] font-montserrat font-[660]">
             Your participation in TrūIQ Global drives your earning potential.
@@ -56,7 +56,7 @@ export default function SectionFour1() {
         >
           <div className="lg:w-[24.816vw]  lg:h-[38.05vh]   lg:max-w-[339px] lg:max-h-[231px]  ">
             <div className="mb-1 text-[2vw]">{Svg("2")}</div>
-            <div className="text-[36px] font-montserrat my-4 font-[700] leading-[36px] text-white">
+            <div className="text-[26px] leading-[26px] lg:text-[36px] font-montserrat my-4 font-[700] leading-[36px] text-white">
             Real-World Impact:            </div>
             <div className="text-[#8E8E8E] text-[4vw]  md:text-[2vw] md:leading-[2.3vw] xl:text-[1vw] xl:leading-[1vw] my-4 leading-[4vw] my-4 leading-[1.5vw] font-montserrat font-[660]">
             From personal care to wellness products, TrūQoin connects blockchain technology to daily life.
@@ -75,7 +75,7 @@ export default function SectionFour1() {
         >
           <div className="lg:w-[24.816vw]  lg:h-[38.05vh]   lg:max-w-[339px] lg:max-h-[231px]  ">
             <div className="mb-1 text-[2vw]">{Svg("3")}</div>
-            <div className="text-[36px] font-montserrat my-4 font-[700] leading-[36px] text-white">
+            <div className="text-[26px] leading-[26px] lg:text-[36px] font-montserrat my-4 font-[700] leading-[36px] text-white">
             Global Community:
             </div>
             <div className="text-[#8E8E8E] text-[4vw]  md:text-[2vw] md:leading-[2.3vw] xl:text-[1vw] xl:leading-[1vw] my-4 leading-[4vw] my-4 leading-[1.5vw] font-montserrat font-[660]">

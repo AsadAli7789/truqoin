@@ -26,10 +26,10 @@ export default function SectionTwo() {
         animate={{ opacity: visionInView ? 1 : 0, x: visionInView ? 0 : -100 }}
         transition={{ duration: 1 }}
       >
-        <div className="text-[32px] font-montserrat font-[700] text-white my-2">
+        <div className="text-[24px] md:text-[32px] font-montserrat font-[700] text-white my-2">
           Our Vision{" "}
         </div>
-        <div className="text-[12px] leading-[15.07px] font-montserratSB my-2 text-[#8E8E8E] font-[700]">
+        <div className="text-[8px] md:text-[12px] md:leading-[13px] leading-[9.07px] font-montserrat my-2 text-[#8E8E8E] font-[700]">
           To empower people worldwide with a transparent, inclusive, and
           decentralized financial system.
         </div>
@@ -43,10 +43,10 @@ export default function SectionTwo() {
         animate={{ opacity: missionInView ? 1 : 0, x: missionInView ? 0 : 100 }}
         transition={{ duration: 1 }}
       >
-        <div className="text-[32px] font-montserratB font-[700] text-white my-2">
+        <div className="text-[24px] md:text-[32px] font-montserrat font-[700] text-white my-2">
           Our Mission
         </div>
-        <div className="text-[12px] leading-[15.07px] font-montserratSB my-2 text-[#8E8E8E] font-[700]">
+        <div className="text-[8px] md:text-[12px] md:leading-[13px] leading-[9.07px] font-montserrat my-2 text-[#8E8E8E] font-[700]">
           To connect innovative blockchain technology with real-world value,
           making financial growth a reality for everyone.
         </div>

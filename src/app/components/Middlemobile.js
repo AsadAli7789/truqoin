@@ -11,7 +11,7 @@ export default function MiddleMobile() {
   return (
     <div
       id="M_bg"
-      className="border-white w-[100%] xsm:max-w-[390px] h-[100%] p-6 gap-3 flex flex-col"
+      className="border-white w-[100%] rounded-[8px] xsm:max-w-[390px] h-[100%] p-6 gap-3 flex flex-col"
     >
       {/* Header Section */}
       <div className="border-white w-[100%] h-[10%] p-4 flex justify-between">

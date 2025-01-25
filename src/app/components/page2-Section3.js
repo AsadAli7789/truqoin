@@ -4,13 +4,13 @@ import Image from "next/image";
 export default function Pge2(){
     return(<>
        <div className="border-white mt-20">
-        <div className="w-[83.162vw] font-montserrat border-white mx-auto">
+        <div className="md:w-[83.162vw] w-[100vw] font-montserrat border-white mx-auto">
           <div className="w-full  border-white mx-auto text-center">
-            <div className="lg:text-[2vw] xsm:text-[4vw] leading-[2vw] xsm:leading-[2vw] font-[700] text-white">
+            <div className="lg:text-[2vw] xsm:text-[8vw] leading-[2vw] xsm:leading-[4vw] font-[700] text-white">
               About Us
             </div>
 
-            <div className="xl:text-[5.12vw] text-[5vw]  sm:text-[5vw] font-[700] text-white">
+            <div className="xl:text-[5.12vw] text-[8vw]  sm:text-[5vw] font-[700] text-white">
               Welcome to <b id="h2">TrūQoin</b>{" "}
             </div>
 

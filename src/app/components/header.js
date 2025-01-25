@@ -10,9 +10,9 @@ const arry = [
   { name: "Earn", Link: "/" },
   { name: "Trade", Link: "/" },
   { name: "Spend", Link: "/" },
-  { name: "About", Link: "/" },
+  { name: "About", Link: "/about" },
   { name: "Doc", Link: "/" },
-  { name: "Contact", Link: "/" },
+  { name: "Contact", Link: "/contact" },
 ];
 
 export default function Header() {
@@ -87,7 +87,7 @@ export default function Header() {
         {menuOpen && (
           <motion.div
             id="nav"
-            className="text-white p-4 rounded-[20px] mt-2 flex flex-col items-center md:hidden"
+            className="text-white absolute w-[90vw] mx-4  p-4 rounded-[20px] mt-2 flex flex-col items-center md:hidden"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}

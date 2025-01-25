@@ -171,6 +171,18 @@ body {
   filter: blur(500px);
   z-index: -1;
 }
+#F_sec {
+  background: linear-gradient(
+    263.55deg,
+    #000000 -91.24%,
+    #a80601 -18.58%,
+    #ee5a02 84.27%,
+    #ddb28f 132.34%
+  );
+  filter: blur(200px);
+  z-index: -1;
+}
+
 
 #Foter_sec {
   background: linear-gradient(

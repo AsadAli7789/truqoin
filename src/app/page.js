@@ -17,7 +17,7 @@ import Carouse from "./components/carasule";
 export default function Home() {
   return (
     <>
-      <div className="relative overflow-hidden">
+      <div className="relative  overflow-hidden">
         <div>
           <Header />
         </div>
@@ -31,24 +31,28 @@ export default function Home() {
           <Carouse />
         </div>
         <div  className="my- relative bg-[]">
-          <div id="bg2" className="absolute w-[300vw] h-[120%] bottom-0  opacity-[0.8] z-[-1]"></div>
+          <div id="bg2" className="absolute w-[300vw] h-[100%] bottom-0  opacity-[0.8] z-[-1]"></div>
           <SectionOne />
-          <div id="bg2" className="absolute w-[300vw] h-[120%] top-0   z-[-1]"></div>
+          <div id="bg2" className="absolute w-[300vw] h-[100%] top-0   z-[-1]"></div>
 
         </div>
-        <div id="gradent" className="  w-[100%] opacity- h-[100%] z-[-1] absolute border-white">
+        <div id="gradent" className="  w-[100%] opacity-  h-[100%] z-[-1] absolute border-white">
         </div>
         <div className="md:my-10 my-20">
 
           <SectionTwo />
         </div>
-        <div className="md:my-10 my-20">
+        <div className="md:my-60 my-20">
           <SectionThree />
         </div>
         <div className="md:my-10 my-20">
           <SectionFour />
         </div>
-        <div className="md:mt-[10vw] my-20">
+        <div className="md:mt-[10vw] mt-20">
+        <div
+        id="F_sec"
+        className="absolute  w-[809px] h-[742px] rounded-full -right-[30%] "
+      ></div>
           <Footer />
         </div>
       </div>

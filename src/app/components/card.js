@@ -1,8 +1,8 @@
 export default function ContactCard() {
   return (
     <>
-      <div className=" p-6 border-white md:w-[100vw]   lg:w-[60vw] flex mx-auto lg:flex-row flex-col ">
-        <div className="  text-white text-center flex flex-col items-center border-white w-[50%] ">
+      <div className=" p-6  border-white md:w-[100vw]   lg:w-[60vw] flex mx-auto lg:flex-row flex-col ">
+        <div className="  text-white mx-auto my-5 lg:mx-0 text-center flex flex-col items-center border-white w-[50%] ">
           <div className="my-2 ">
             <svg
               width="32"
@@ -62,14 +62,14 @@ export default function ContactCard() {
               </defs>
             </svg>
           </div>
-          <div className="lg:text-[1.875vw] sm:text-[2.3vw]  my-2 font-[700] lg:leading-[2vw]">
+          <div className="lg:text-[1.875vw] text-[6vw]  my-2 font-[700] lg:leading-[2vw]">
             Email Us:{" "}
           </div>
-          <div className="text-[1vw] font-[700] xl:w-[70%] leading-[1.vw]">
+          <div className="lg:text-[1vw] font-[700] xl:w-[70%] leading-[1.vw]">
             support@truqoin.com
           </div>
         </div>
-        <div className=" text-white text-center flex flex-col items-center border-white w-[50%] ">
+        <div className=" text-white mx-auto lg:mx-0  my-5 text-center flex flex-col items-center border-white w-[50%] ">
           <div className="my-2">
             <svg
               width="32"
@@ -124,10 +124,10 @@ export default function ContactCard() {
               </defs>
             </svg>
           </div>
-          <div className="text-[1.875vw] my-2 font-[700] leading-[2vw]">
+          <div className="lg:text-[1.875vw] text-[6vw]  my-2 font-[700] lg:leading-[2vw]">
             Address:
           </div>
-          <div className="text-[1vw] font-[700] my-2 xl:w-[60%] leading-[1.vw]">
+          <div className="lg:text-[1vw] font-[700] xl:w-[70%] leading-[1.vw]">
             TrūQoin Headquarters23 Blockchain Drive, Tech City, USA
           </div>
         </div>

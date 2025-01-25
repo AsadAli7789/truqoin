@@ -25,7 +25,7 @@ export default function Form() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 30 }}
               transition={{ duration: 0.5 }}
-              className="xl:text-[3vw] xl:leading-[3vw] text-white font-[600] font-montserrat"
+              className="xl:text-[3vw] text-[6vw] leading-[6vw] xl:leading-[3vw] text-white font-[600] font-montserrat"
             >
               Send Us a Message
             </motion.div>

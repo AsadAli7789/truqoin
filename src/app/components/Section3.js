@@ -5,12 +5,12 @@ import { useInView } from "framer-motion"; // This hook helps with detecting whe
 export default function Section3() {
   return (
     <>
-      <div className=" h-fit flex-col relative max-w-[1330px] mx-auto overflow-hidden flex justify-between">
-        <div className="sm:mx-auto my-5 -white mx-auto lg:w-[45.53vw] translate-y-[0vh] lg:h-[138px]">
-          <h2 className="text-[5vw] font-[700] font-montserrat text-white">
+      <div className=" h-fit flex-col  relative max-w-[1330px] mx-auto overflow-hidden flex justify-between">
+        <div className="sm:mx-auto my-5  text-center  -white mx-auto lg:w-[45.53vw] translate-y-[0vh] lg:h-[138px]">
+          <h2 className="text-[9vw] leading-[9vw] font-[700] font-montserrat text-white">
             Why Choose <b id="h2">TrūQoin?</b>
           </h2>
-          <h2 className="text-[1.729vw] font-[600] font-montserrat text-[#8E8E8E] text-center w-[59vw] px-2">
+          <h2 className="text-[2vw] mx-auto font-[600] font-montserrat text-[#8E8E8E] text-center w-[59vw] px-2">
             Earn rewards through activity, enjoy seamless integration with TrūIQ
             Global products, and access a secure, less blockchain platform
             designed for everyone.
