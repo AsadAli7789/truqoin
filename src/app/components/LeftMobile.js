@@ -3,21 +3,21 @@ import { motion, useInView } from "framer-motion";
 import Image from "next/image";
 import { useRef, useState } from "react";
 
-export default function LeftMobile() {
+export default function LeftMobile({ className }) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   const [trans, settrans] = useState(1);
   return (
     <div
       id="M_bg"
-      className="border-white w-[100%] h-[100%] xsm:max-w-[390px] p-6 gap-3 flex flex-col rounded-[10px]"
+      className={`border-white w-[100%] h-[100%] max-w-[300px]  xsm1:max-w-[390px] p-4 sm:p-6  gap-3 flex flex-col rounded-[10px] ${className}`}
     >
       {/* Header Section */}
-      <div className="border-white w-[100%] h-[10%] py-4 px-2 flex justify-between">
+      <div className="  border-white w-[100%] h-[10%] py-4 px-2 flex justify-between">
         <div className="flex gap-3">
           <button
             id="sec4"
-            className="sm:p-4 lg:p-0 sm:w-[50px] sm:h-[50px] md:w-[2vw] md:h-[2vw]  flex justify-center items-center border border-[#343434] rounded-[5px]"
+            className="px-2 py-4 h sm:p-0  lg:p-0 sm:w-[50px] sm:h-[50px] md:w-[40px] md:h-[40px]  flex justify-center items-center border border-[#343434] rounded-[5px]"
           >
             <svg
               width="20"
@@ -40,7 +40,7 @@ export default function LeftMobile() {
         <div className="flex gap-3">
           <button
             id="sec4"
-            className="sm:p-4 lg:p-0 sm:w-[50px] sm:h-[50px] md:w-[2vw] md:h-[2vw]  flex justify-center items-center border border-[#343434] rounded-[5px]"
+            className="px-2 py-4 sm:p-0  lg:p-0 sm:w-[50px] sm:h-[50px] md:w-[40px] md:h-[40px]  flex justify-center items-center border border-[#343434] rounded-[5px]"
           >
             <svg
               width="20"
@@ -57,11 +57,11 @@ export default function LeftMobile() {
           </button>
           <button
             id="sec4"
-            className="sm:p-4 lg:p-0 sm:w-[50px] sm:h-[50px] md:w-[2vw] md:h-[2vw]  flex justify-center items-center border border-[#343434] rounded-[5px]"
+            className="px-3 py-4 sm:p-0  lg:p-0 sm:w-[50px] sm:h-[50px] md:w-[40px] md:h-[40px]  flex justify-center items-center border border-[#343434] rounded-[5px]"
           >
             <svg
-              width="20"
-              height="20"
+              width="8"
+              height="16"
               viewBox="0 0 4 16"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -134,8 +134,8 @@ export default function LeftMobile() {
               />
             </svg>
           </div>
-          <div className=" border-white mt-1  flex  gap-2 text-[#8C8C8C] xl:text-[0.459vw] items-center justify-center sm:text-[14px]  font-montserrat font-[600] ">
-            <button className=" border border-[#343434] my-2 rounded-[8px]  flex sm:gap-2 py-2 sm:px-4 lg:px-2 justify-center items-center">
+          <div className=" border-white mt-1  flex  gap-2 text-[#8C8C8C]  xl:text-[0.459vw] items-center justify-center xsm1:text-[10px] text-[8px]  font-montserrat font-[600] ">
+            <button className=" border border-[#343434] my-2 rounded-[8px]  px-3 xsm1:px-0 flex sm:gap-2 gap-2 py-2 sm:px-4 lg:px-2 justify-center items-center">
               <svg
                 width="16"
                 height="16"
@@ -150,7 +150,7 @@ export default function LeftMobile() {
               </svg>
               Freeze TRQ
             </button>
-            <button className=" my-2 border border-[#343434] rounded-[8px] sm:gap-2 py-2 sm:px-4 lg:px-2 flex text-[#8C8C8C] justify-center items-center">
+            <button className=" my-2 border  border-[#343434] rounded-[8px] sm:gap-2 py-2 px-3 xsm1:px-0 gap-2 sm:px-4 lg:px-2 flex text-[#8C8C8C] justify-center items-center">
               <svg
                 width="18"
                 height="18"

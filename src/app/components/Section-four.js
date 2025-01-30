@@ -38,7 +38,7 @@ export default function SectionFour() {
       >
         <div className="text-white text-center">
           <motion.h2
-            className="font-montserratB font-[700] my-3 text-[32px] md:text-[48px] leading-[1.2] md:leading-[48px]"
+            className="font-montserrat font-[700] my-3 text-[32px] md:text-[48px] leading-[1.2] md:leading-[48px]"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
@@ -46,7 +46,7 @@ export default function SectionFour() {
             Follow us
           </motion.h2>
           <motion.p
-            className="text-[12px] md:text-[14px] font-[600] my-3 text-[#8E8E8E] font-montserratSB"
+            className="text-[12px] md:text-[14px] font-[600] my-3 text-[#8E8E8E] font-montserrat"
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
@@ -78,7 +78,7 @@ export default function SectionFour() {
             <motion.div
               key={social.name}
               id="sec4"
-              className="social-item border-[1px] rounded-[4px] flex border-[#343434] h-[60px] w-full sm:w-[260px] items-center px-2"
+              className="social-item border-[1px] rounded-[8px] flex border-[#343434] h-[60px] w-full sm:w-[260px] items-center px-2"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               variants={{

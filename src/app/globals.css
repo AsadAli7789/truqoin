@@ -41,19 +41,27 @@ body {
   border: 0.5px dotted rgba(52, 52, 52, 1);
 }
 #btn {
-  background: linear-gradient(90deg, #ff8a00 0%, #c86c01 100%),
+  transition:  1s ease-in-out;
+  background:
     linear-gradient(
-      263.93deg,
+      220deg,
       #000000 -116.86%,
       #a80601 -34.46%,
       #ee5a02 82.16%,
       #ddb28f 136.67%
     );
-    
 
-  border-image-source: linear-gradient(0deg, #2b2b2b, #2b2b2b),
-    linear-gradient(0deg, #343434, #343434),
-    linear-gradient(90deg, #ff8a00 0%, #c86c01 100%);
+}
+#btn:hover{
+  transition: 2s ease-in-out;
+    background:
+    linear-gradient(90deg,
+      #000000 -116.86%,
+      #a80601 -34.46%,
+      #ee5a02 82.16%,
+      #ddb28f 136.67%);
+
+ 
 }
 #h2 {
   background: linear-gradient(
@@ -122,7 +130,8 @@ body {
 #M_ring {
   background-image: url(/donut.png);
   background-position: center;
-  /* background-size: cover; */
+  background-size: contain;
+
   background-repeat: no-repeat;
 }
 #M_btc {
@@ -256,3 +265,21 @@ background-color: #111111;
   /* background-size: contain; */
   
   }
+  #contact_form_btn{
+background: linear-gradient(112.37deg, rgba(36, 36, 36, 0.5) 0%, rgba(20, 20, 20, 0.5) 101.62%);   }
+
+/* @keyframes roTAte {
+  0% {
+   
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: translateY(100%);
+    transform: rotate(360deg);
+  }
+} */
+/* #btn_r_ant{
+  animation: roTAte 1s  infinite;
+    }
+     */

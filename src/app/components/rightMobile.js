@@ -3,21 +3,21 @@ import { motion, useInView } from "framer-motion";
 import Image from "next/image";
 import { useRef, useState } from "react";
 
-export default function RightMobile() {
+export default function RightMobile({ className }) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   const [trans, settrans] = useState(1);
   return (
     <div
       id="M_bg"
-      className="border-white w-[100%] shadow-lg xsm:max-w-[390px]  shadow-black h-[100%] p-6 gap-3 flex rounded-[10px] flex-col"
+      className={`border-white w-[100%] shadow-lg  max-w-[300px]  xsm1:max-w-[390px]  shadow-black h-[100%] p-4 sm:p-6   gap-3 flex rounded-[10px] flex-col ${className}`}
     >
       {/* Header Section */}
-      <div className="border-white w-[100%] h-[10%] py-4 px-1 flex justify-between">
-        <div className="flex gap-3 ">
+      <div className="  border-white w-[100%] h-[10%] py-4 px-2 flex justify-between">
+        <div className="flex gap-3">
           <button
             id="sec4"
-            className="sm:p-4 lg:p-0 sm:w-[50px] sm:h-[50px] md:w-[2vw] md:h-[2vw]  flex justify-center items-center border border-[#343434] rounded-[5px]"
+            className="px-2 py-4 h sm:p-0  lg:p-0 sm:w-[50px] sm:h-[50px] md:w-[40px] md:h-[40px]  flex justify-center items-center border border-[#343434] rounded-[5px]"
           >
             <svg
               width="20"
@@ -40,7 +40,7 @@ export default function RightMobile() {
         <div className="flex gap-3">
           <button
             id="sec4"
-            className="sm:p-4 lg:p-0   sm:w-[50px] sm:h-[50px] md:w-[2vw] md:h-[2vw]  flex justify-center items-center  border border-[#343434] rounded-[5px]"
+            className="px-2 py-4 sm:p-0  lg:p-0 sm:w-[50px] sm:h-[50px] md:w-[40px] md:h-[40px]  flex justify-center items-center border border-[#343434] rounded-[5px]"
           >
             <svg
               width="20"
@@ -57,11 +57,11 @@ export default function RightMobile() {
           </button>
           <button
             id="sec4"
-            className="sm:p-4 lg:p-0   sm:w-[50px] sm:h-[50px] md:w-[2vw] md:h-[2vw] border  flex justify-center items-center border-[#343434] rounded-[5px]"
+            className="px-3 py-4 sm:p-0  lg:p-0 sm:w-[50px] sm:h-[50px] md:w-[40px] md:h-[40px]  flex justify-center items-center border border-[#343434] rounded-[5px]"
           >
             <svg
-              width="20"
-              height="20"
+              width="8"
+              height="16"
               viewBox="0 0 4 16"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -87,13 +87,13 @@ export default function RightMobile() {
         {/* Ring Section */}
         <div
           //   id="M_ring"
-          className="w-[100%] h-[15%]  pt-10  justify-between border-white  flex mx-auto"
+          className="w-[100%] h-[15%]  pt-4 mt-4  justify-between border-white  flex mx-auto"
         >
           <div>
             <button
               onClick={() => settrans(1)}
               id="Right_M_btn"
-              className={`sm:p-4 lg:p-0  sm:w-[80px] sm:h-[80px] xl:w-[2vw] xl:h-[2vw] md:w-[2vw] md:h-[2vw] flex justify-center items-center border ${
+              className={`sm:p-4 px-2 py-1 lg:p-0  sm:w-[80px] sm:h-[80px] xl:w-[2vw] xl:h-[2vw] md:w-[2vw] md:h-[2vw] flex justify-center items-center border ${
                 trans == 2 ? "text-[#FFFFFF]" : "text-[#4B4B4B]"
               } border-[#343434] rounded-[5px]`}
             >
@@ -121,14 +121,14 @@ export default function RightMobile() {
                   trans == 2 ? "translate-x-[100%]" : ""
                 } right-0`}
               >
-                Block 7 (Closed)
+                Block 7
               </div>
               <div
                 className={`absolute  left-0  transition-transform duration-300 ${
                   trans == 1 ? "translate-x-[-100%]" : ""
                 }  right-0`}
               >
-                Block * (Closed)
+                Block *
               </div>
             </div>
           </div>
@@ -136,19 +136,20 @@ export default function RightMobile() {
             <button
               onClick={() => settrans(2)}
               id="Right_M_btn"
-              className={`sm:p-4 lg:p-0  sm:w-[50px] sm:h-[50px] xl:w-[2vw] xl:h-[2vw] md:w-[2vw] md:h-[2vw] flex justify-center items-center border ${
-                trans == 1 ? "text-[#FFFFFF]" : " text-[#4B4B4B]"
+              className={`sm:p-4 px-2 py-1 lg:p-0   sm:w-[80px] sm:h-[80px] xl:w-[2vw] xl:h-[2vw] md:w-[2vw] md:h-[2vw] flex justify-center items-center border ${
+                trans == 1 ? "text-[#FFFFFF]" : "text-[#4B4B4B]"
               } border-[#343434] rounded-[5px]`}
             >
               <svg
-                width="7"
-                height="10"
-                viewBox="0 0 7 10"
+                width="8"
+                height="20"
+                className="rotate-180"
+                viewBox="0 0 8 12"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M4.49935 5L0.666016 1.16667L1.83268 0L6.83268 5L1.83268 10L0.666016 8.83333L4.49935 5Z"
+                  d="M6 12L0 6L6 0L7.4 1.4L2.8 6L7.4 10.6L6 12Z"
                   fill="currentColor"
                 />
               </svg>

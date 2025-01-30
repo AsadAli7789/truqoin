@@ -5,17 +5,16 @@ import MiddleMobile from "./Middlemobile";
 import RightMobile from "./rightMobile";
 
 const Carouse = () => (
-  <Carousel className="w-[100%] h-[844px]  border-white " dots={false}>
-
-    <div className="  w-[100%] h-[844px] mx-auto   border-white ">
-      <LeftMobile />
+  <Carousel arrows className="w-[100%] h-[644px]  border-white " dots={false}>
+    <div className="  w-[100%] h-[644px] mx-auto    border-white ">
+      <LeftMobile className={"mx-auto"} />
     </div>
 
-    <div className="w-[100%] h-[844px]  mx-auto border-white ">
-      <MiddleMobile />
+    <div className="xsm:w-[90%] w-[90%] h-[644px]  mx-auto border-white ">
+      <MiddleMobile className={"mx-auto"} />
     </div>
-    <div className="w-[100%] h-[844px]  mx-auto border-white ">
-      <RightMobile />
+    <div className="w-[100%] h-[644px]  mx-auto border-white ">
+      <RightMobile className={"mx-auto"} />
     </div>
   </Carousel>
 );

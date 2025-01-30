@@ -115,7 +115,7 @@ export default function Header() {
             <motion.button
               whileHover={{ scale: 1.1 }}
               id="btn"
-              className="text-[12px] px-8 py-3 rounded-[10px] mt-4"
+              className="text-[12px] duration-300 px-8 py-3 rounded-[10px] mt-4"
             >
               Launch WebApp
             </motion.button>

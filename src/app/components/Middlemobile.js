@@ -4,25 +4,25 @@ import { useRef } from "react";
 
 const arry = [{ id: 1 }, { id: 2 }, { id: 3 }, { id: 4 }, { id: 5 }, { id: 6 }];
 
-export default function MiddleMobile() {
+export default function MiddleMobile({ className }) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
   return (
     <div
       id="M_bg"
-      className="border-white w-[100%] rounded-[8px] xsm:max-w-[390px] h-[100%] p-6 gap-3 flex flex-col"
+      className={`border-white w-[100%]  rounded-[14px] max-w-[300px]  xsm1:max-w-[390px] h-[100%] p-4 sm:p-6 gap-3 flex flex-col ${className}`}
     >
       {/* Header Section */}
-      <div className="border-white w-[100%] h-[10%] p-4 flex justify-between">
+      <div className="  border-white w-[100%] h-[10%] py-4 px-2 flex justify-between">
         <div className="flex gap-3">
           <button
             id="sec4"
-            className="p-2 flex justify-center items-center border border-[#343434] rounded-lg"
+            className="px-2 py-4 sm:p-0  lg:p-0 sm:w-[50px] sm:h-[50px] md:w-[40px] md:h-[40px]  flex justify-center items-center border border-[#343434] rounded-[5px]"
           >
             <svg
-              width="24"
-              height="24"
+              width="20"
+              height="20"
               viewBox="0 0 20 18"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -41,11 +41,11 @@ export default function MiddleMobile() {
         <div className="flex gap-3">
           <button
             id="sec4"
-            className="p-2 flex justify-center items-center border border-[#343434] rounded-lg"
+            className="px-2 py-4 sm:p-0  lg:p-0 sm:w-[50px] sm:h-[50px] md:w-[40px] md:h-[40px]  flex justify-center items-center border border-[#343434] rounded-[5px]"
           >
             <svg
-              width="20"
-              height="20"
+              width="18"
+              height="18"
               viewBox="0 0 18 18"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -58,11 +58,11 @@ export default function MiddleMobile() {
           </button>
           <button
             id="sec4"
-            className="p-2 flex justify-center items-center border border-[#343434] rounded-lg"
+            className="px-2 py-4 sm:p-0  lg:p-0 sm:w-[50px] sm:h-[50px] md:w-[40px] md:h-[40px]  flex justify-center items-center border border-[#343434] rounded-[5px]"
           >
             <svg
-              width="20"
-              height="20"
+              width="18"
+              height="18"
               viewBox="0 0 18 18"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,7 @@ export default function MiddleMobile() {
       <motion.div
         ref={ref}
         id="M_innerSection"
-        className="flex flex-col overflow-scroll scrollbar-hide border-white p-4 w-[100%] h-[90%]"
+        className="flex flex-col overflow-y-scroll overflow-x-hidden scrollbar-hide border-white p-4 w-[100%] h-[90%]"
         initial={{ opacity: 0, y: 20 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.6, ease: "easeOut" }}
@@ -88,10 +88,10 @@ export default function MiddleMobile() {
         {/* Ring Section */}
         <div
           id="M_ring"
-          className="w-[100%] border-white text-center items-center p-28 flex-col justify-center flex mx-auto"
+          className="w-[100%] border-white text-center   items-center p-28 flex-col justify-center flex mx-auto"
         >
           <motion.h1
-            className="text-[24px] font-montserrat font-[700] leading-[24px] text-white"
+            className="xsm1:text-[24px] text-[20px] xsm1:leading-[24px] leading-[20px] font-montserrat font-[700]  text-white"
             initial={{ scale: 0.8, opacity: 0 }}
             animate={isInView ? { scale: 1, opacity: 1 } : {}}
             transition={{ delay: 0.2, duration: 0.5 }}
@@ -99,7 +99,7 @@ export default function MiddleMobile() {
             $14,892.32
           </motion.h1>
           <motion.h1
-            className="text-[14px] leading-[19px] font-montserrat font-[600] text-white"
+            className="xsm1:text-[14px] text-[8px] xsm1:leading-[18px] leading-[10px] font-montserrat font-[600] text-white"
             initial={{ scale: 0.8, opacity: 0 }}
             animate={isInView ? { scale: 1, opacity: 1 } : {}}
             transition={{ delay: 0.4, duration: 0.5 }}
@@ -121,11 +121,12 @@ export default function MiddleMobile() {
             >
               <div className="flex gap-2">
                 {/* Bitcoin Icon */}
-                <div>
+                <div className=" ">
                   {" "}
                   <svg
-                    width="40"
-                    height="40"
+                    width="0"
+                    height="0"
+                    className="w-[20px] h-[20px] xsm1:w-[40px] xsm1:h-[40px]"
                     viewBox="0 0 38 38"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -141,25 +142,25 @@ export default function MiddleMobile() {
                   </svg>
                 </div>
                 <div className="flex flex-col">
-                  <h2 className="text-[14px] font-montserrat font-[600] leading-[18px] text-white">
+                  <h2 className="xsm1:text-[14px] text-[8px] font-montserrat font-[600] xsm1:leading-[18px] leading-[10px]   text-white">
                     Bitcoin
                   </h2>
                   <h2 className="flex mt-1 gap-1">
-                    <span className="text-[14px] font-montserrat font-[500] leading-[17px] text-[#8C8C8C]">
+                    <span className="xsm1:text-[14px] text-[8px]  font-montserrat font-[500] leading-[10px] text-[#8C8C8C]">
                       $20,000
                     </span>
-                    <span className="text-[14px] font-montserrat font-[500] leading-[17px] text-[#3CC750]">
+                    <span className="xsm1:text-[14px] text-[8px]  font-montserrat font-[500] leading-[10px] text-[#3CC750]">
                       +4.12%
                     </span>
                   </h2>
                 </div>
               </div>
               <div className="flex flex-col">
-                <h2 className="text-[14px] font-montserrat font-[600] leading-[18px] text-white">
+                <h2 className="xsm1:text-[14px] text-[8px] font-montserrat font-[600] xsm1:leading-[18px] leading-[10px]  text-white">
                   0.09882 BTC
                 </h2>
                 <h2 className="flex gap-1">
-                  <span className="text-[14px] mt-1 font-montserrat font-[500] leading-[17px] text-[#EE5A02]">
+                  <span className="xsm1:text-[14px] text-[8px] mt-1 font-montserrat font-[500] xsm1:leading-[18px] leading-[10px]  text-[#EE5A02]">
                     $2,110.67{" "}
                   </span>
                 </h2>

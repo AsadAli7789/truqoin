@@ -15,13 +15,13 @@ export default function Footer() {
   return (
     <motion.footer
       id="Footer-bg"
-      className="body-font   relative  "
+      className="body-font    relative  "
       ref={ref}
       initial="hidden"
       animate={inView ? "visible" : "hidden"}
       variants={footerVariants}
     >
-      <div className="lg:w-[68.75vw]  py-20 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+      <div className="lg:w-[68.75vw] md:w-fit   py-20 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <span className="text-xl mb-4">
@@ -48,7 +48,7 @@ export default function Footer() {
             >
               TruQoin
             </h2>
-            <nav className="list-none mb-10 text-[14px] font-montserratSB font-[600]">
+            <nav className="list-none mb-10 text-[14px] font-montserrat font-[600]">
               <li className="my-3">
                 <a className="text-[#8E8E8E] hover:text-white  cursor-default">
                   Earn
@@ -94,12 +94,12 @@ export default function Footer() {
           <div className="lg:w-2/4 md:w-1/2 w-full px-4">
             <h2
               id="h2"
-              className="font-[700] font-montserratB text-[16px] mb-10"
+              className="font-[700] font-montserrat text-[16px] mb-10"
             >
               Web
             </h2>
-            <nav className="list-none mb-10 flex justify-center">
-              <div className="w-[20vw] h-[7vw] flex justify-center items-center relative">
+            <nav className="list-none mb-10 flex justify-start">
+              <div className="w-[20vw]   hover:scale-[1.1] duration-300 h-[7vw] flex justify-center items-center relative">
                 <div className="absolute lg:w-[19vw] md:w-[28vw] xsm:w-[65vw] w-[80vw]">
                   <Image
                     src={"/Frame 5.png"}
@@ -111,7 +111,7 @@ export default function Footer() {
                 </div>
                 <button
                   id="glass-container"
-                  className="z-1 flex text-[14px] font-[700] font-montserratB text-white border px-12 py-3 absolute"
+                  className="z-1 flex text-[14px] font-[700] font-montserrat text-white border px-12 py-3 absolute"
                 >
                   <svg
                     className="mr-3"
@@ -158,7 +158,7 @@ export default function Footer() {
       </div>
       <div className="lg:w-[68.75vw] mx-auto">
         <div className="border-t mt-2 border-[#343434]"></div>
-        <div className="text-[#8E8E8E] font-montserratM font-[500] text-[12px] flex justify-between">
+        <div className="text-[#8E8E8E] font-montserrat font-[500] text-[12px] flex justify-between">
           <h2>©2023 - TruQoin - All rights reserved.</h2>
           <h1>Privacy Policy</h1>
         </div>

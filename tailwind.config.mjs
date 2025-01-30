@@ -18,6 +18,7 @@ export default {
       },
       screens: {
         xsm: "375px", // Define the xsm breakpoint
+        xsm1: "425px",
       },
     },
   },
