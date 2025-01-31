@@ -157,7 +157,11 @@ export default function LeftMobile({ className }) {
               </button>
               <button
                 onClick={() => setstate(2)}
-                className=" my-2 border  border-[#343434] rounded-[8px] sm:gap-2 py-2 px-3 xsm1:px-0 gap-2 sm:px-4 lg:px-2 flex text-[#8C8C8C] justify-center items-center"
+                className="my-2 border rounded-[8px] sm:gap-2 py-2 px-3 xsm1:px-0 gap-2 sm:px-4 lg:px-2 flex justify-center items-center 
+  transition-all duration-300 ease-in-out 
+  hover:shadow-lg shadow-blue-500/50 text-white border-blue-500 
+  ring-[1px] ring-blue-500 ring-offset-[1px]
+  active:scale-95"
               >
                 <svg
                   width="18"
@@ -168,7 +172,7 @@ export default function LeftMobile({ className }) {
                 >
                   <path
                     d="M5.83398 17.3327C5.37565 17.3327 4.98329 17.1695 4.6569 16.8431C4.33051 16.5167 4.16732 16.1243 4.16732 15.666C4.16732 15.2077 4.33051 14.8153 4.6569 14.4889C4.98329 14.1625 5.37565 13.9993 5.83398 13.9993C6.29232 13.9993 6.68468 14.1625 7.01107 14.4889C7.33746 14.8153 7.50065 15.2077 7.50065 15.666C7.50065 16.1243 7.33746 16.5167 7.01107 16.8431C6.68468 17.1695 6.29232 17.3327 5.83398 17.3327ZM14.1673 17.3327C13.709 17.3327 13.3166 17.1695 12.9902 16.8431C12.6638 16.5167 12.5007 16.1243 12.5007 15.666C12.5007 15.2077 12.6638 14.8153 12.9902 14.4889C13.3166 14.1625 13.709 13.9993 14.1673 13.9993C14.6257 13.9993 15.018 14.1625 15.3444 14.4889C15.6708 14.8153 15.834 15.2077 15.834 15.666C15.834 16.1243 15.6708 16.5167 15.3444 16.8431C15.018 17.1695 14.6257 17.3327 14.1673 17.3327ZM5.12565 3.99935L7.12565 8.16602H12.959L15.2507 3.99935H5.12565ZM4.33398 2.33268H16.6257C16.9451 2.33268 17.1882 2.47504 17.3548 2.75977C17.5215 3.04449 17.5284 3.33268 17.3757 3.62435L14.4173 8.95768C14.2645 9.23546 14.0597 9.45074 13.8027 9.60352C13.5458 9.75629 13.2645 9.83268 12.959 9.83268H6.75065L5.83398 11.4993H15.834V13.166H5.83398C5.20898 13.166 4.73676 12.8917 4.41732 12.3431C4.09787 11.7945 4.08398 11.2493 4.37565 10.7077L5.50065 8.66602L2.50065 2.33268H0.833984V0.666016H3.54232L4.33398 2.33268Z"
-                    fill="#8C8C8C"
+                    fill="currentColor"
                   />
                 </svg>
                 Shop TruIQ
@@ -198,16 +202,21 @@ export default function LeftMobile({ className }) {
       >
         <button
           onClick={() => setstate(1)}
-          className="absolute border border-black p-4 left-4 top-2  rounded-full text-black"
+          id="Right_M_btn"
+          className={`sm:p-4 px-2 py-1 lg:p-0  sm:w-[80px] sm:h-[80px] xl:w-[2vw] xl:h-[2vw] md:w-[2vw] md:h-[2vw] absolute top-2 left-4 flex justify-center items-center border text-black border-[#343434] rounded-[5px]`}
         >
+          <div className="bg-black w-[100%] absolute z-[-1] h-[100%]"></div>
           <svg
             width="8"
-            height="12"
+            height="20"
             viewBox="0 0 8 12"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <path d="M6 12L0 6L6 0L7.4 1.4L2.8 6L7.4 10.6L6 12Z" fill="black" />
+            <path
+              d="M6 12L0 6L6 0L7.4 1.4L2.8 6L7.4 10.6L6 12Z"
+              fill="currentColor"
+            />
           </svg>
         </button>
         <Image

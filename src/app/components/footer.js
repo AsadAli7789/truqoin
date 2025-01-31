@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { redirect } from "next/navigation";
 import { useInView } from "react-intersection-observer";
 
 export default function Footer() {
@@ -49,17 +50,17 @@ export default function Footer() {
               TruQoin
             </h2>
             <nav className="list-none mb-10 text-[14px] font-montserrat font-[600]">
-              <li className="my-3">
+              <li className="my-3" onClick={() => redirect("/")}>
                 <a className="text-[#8E8E8E] hover:text-white  cursor-default">
                   Earn
                 </a>
               </li>
-              <li className="my-3">
+              <li className="my-3" onClick={() => redirect("/")}>
                 <a className="text-[#8E8E8E] hover:text-white  cursor-default">
                   Trade
                 </a>
               </li>
-              <li className="my-3">
+              <li className="my-3" onClick={() => redirect("/")}>
                 <a className="text-[#8E8E8E] hover:text-white  cursor-default">
                   Spend
                 </a>
@@ -74,17 +75,17 @@ export default function Footer() {
               Company
             </h2>
             <nav className="list-none mb-10 text-[14px] font-montserratSB font-[600]">
-              <li className="my-3">
+              <li className="my-3" onClick={() => redirect("/")}>
                 <a className="text-[#8E8E8E] hover:text-white cursor-default">
                   Doc
                 </a>
               </li>
-              <li className="my-3">
+              <li className="my-3" onClick={() => redirect("/about")}>
                 <a className="text-[#8E8E8E] hover:text-white cursor-default">
                   About
                 </a>
               </li>
-              <li className="my-3">
+              <li className="my-3" onClick={() => redirect("/contact")}>
                 <a className="text-[#8E8E8E] hover:text-white cursor-default">
                   Contact
                 </a>
