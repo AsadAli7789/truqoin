@@ -17,7 +17,7 @@ export default function SectionOne() {
   const isInView = useInView(sectionRef, { once: true });
 
   return (
-    <div className=" sm:w-[80vw]  mx-auto px-4 py-8 xsm:[90vw]  md:py-16">
+    <div className=" sm:w-[80vw] max-w-[1320px]  mx-auto px-4 py-8 xsm:[90vw]  md:py-16">
       {/* Animated Heading */}
       <motion.h2
         className="text-2xl lg:w-[50vw] lg:mx-auto  md:text-4xl lg:text-[48px] lg:px-14 font-bold text-white text-center mb-8 md:mb-12"
@@ -37,12 +37,12 @@ export default function SectionOne() {
           animate={isInView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <div className="grid xsm:grid-cols-1 py-2 px-2 xl:w-fit xl:px-4  bg-black gap-2 border sm:grid-cols-2   ">
+          <div className="grid xsm:grid-cols-1 py-2 px-2 xl:w-fit xl:px-2 xl:py-2  bg-black gap-2  sm:grid-cols-2   ">
             {arr.map((data, ind) => (
               <motion.div
                 key={ind}
                 id="sec1"
-                className="flex items-center font-montserrat xl:w-[17vw] xl:h-[79px] xl:max-w-[250px] lg:w-[16vw]  h-fit  border-white rounded-lg lg:p-2 p-4 xl:p-4 text-white"
+                className="flex items-center font-montserrat xl:w-[12vw] xl:max-h-[79px] xl:max-w-[250px] lg:w-[16vw]  h-fit  border-white rounded-lg lg:p-2 p-4 xl:py-4 xl:px-4 text-white"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -53,7 +53,7 @@ export default function SectionOne() {
                   alt="Icon"
                   className="mr-3"
                 />
-                <span className="   lg:text-[8px] text-[10px]  xl:text-[14px]  font-montserrat font-[500]">
+                <span className="   lg:text-[8px] text-[10px] xl:leading-[12px]  xl:text-[12px]  font-montserrat font-[500]">
                   {data.title}
                 </span>
               </motion.div>
@@ -63,15 +63,15 @@ export default function SectionOne() {
 
         {/* Right Section */}
         <motion.div
-          className="w-full   lg:w-3/4 xl:mt-10"
+          className="w-full h-fit    lg:w-3/4 xl:mt-10"
           initial={{ opacity: 0, x: 50 }}
           animate={isInView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
           <Image
             src="/Frame 2.png"
-            width={500}
-            height={500}
+            width={800}
+            height={800}
             alt="Frame"
             layout="responsive"
             objectFit="cover"
