@@ -16,7 +16,7 @@ const MobileSection = () => {
   const isRightInView = useInView(rightRef, { once: true });
 
   return (
-    <div className=" border-white hidden  mx-auto lg:w-fit place-content-center relative md:w-[70vw]  gap-6  items-center  justify-between lg:flex">
+    <div className=" border-white hidden xl:max-w-[1076px] mx-auto lg:w-fit place-content-center relative md:w-[70vw]  gap-6  items-center  justify-between lg:flex">
       {/* Left Image */}
       <div
         id="M_sec"

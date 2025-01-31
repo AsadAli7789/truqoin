@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function SectionThree() {
   return (
-    <div className="container mx-auto mt-10 px-4 lg:px-0">
+    <div className="w-[80vw] mx-auto mt-10 px-4 lg:px-0">
       <div className="flex flex-col lg:flex-row xl:gap-20 xl:w-[68.75vw] mx-auto">
         {/* Image Section with Motion */}
         <motion.div
@@ -35,7 +35,7 @@ export default function SectionThree() {
         >
           <div className="mt-4  lg:mt-0 ">
             <motion.h2
-              className="text-3xl lg:text-[2.5rem] xl:text-[3rem] text-white font-[700] font-montserrat leading-tight lg:leading-[3rem] xl:leading-[3.8rem] mb-4"
+              className="text-3xl lg:text-[2.5vw] lg:leading-[3vw] xl:text-[2.5vw]  text-white font-[700] font-montserrat   xl:leading-[3.047vw] mb-4"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1, delay: 0.2 }}
@@ -43,7 +43,7 @@ export default function SectionThree() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit
             </motion.h2>
             <motion.p
-              className="text-sm xl:text-[0.9rem] font-montserrat text-[#8E8E8E] font-[500] mb-6 xl:pr-32 leading-relaxed xl:leading-[1rem] tracking-tighter"
+              className="text-sm xl:text-[0.729vw]  lg:text-[0.729vwvw] lg:leading-[1.4vw] font-montserrat text-[#8E8E8E] font-[500]  mb-6 xl:pr-32 leading-relaxed xl:leading-[0.911vw] tracking-tighter"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1, delay: 0.4 }}

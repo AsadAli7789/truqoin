@@ -98,7 +98,7 @@ export default function Footer() {
             >
               Web
             </h2>
-            <nav className="list-none mb-10 flex justify-start">
+            <nav className="list-none mb-10 flex justify-center md:justify-start ">
               <div className="w-[20vw]   hover:scale-[1.1] duration-300 h-[7vw] flex justify-center items-center relative">
                 <div className="absolute lg:w-[19vw] md:w-[28vw] xsm:w-[65vw] w-[80vw]">
                   <Image
