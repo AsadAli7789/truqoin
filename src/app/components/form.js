@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { useInView } from "react-intersection-observer";
 
 export default function Form() {
@@ -18,7 +19,7 @@ export default function Form() {
           id="Contact_form_bg"
           className="border-white absolute w-[550px] h-[550px] rounded-full left-[30%]"
         ></div>
-        <div
+        {/* <div
           // id="Contact_form_bg"
           className="border-white absolute left-0 right-0 top-0 border  w-[100%] h-fit  "
         >
@@ -990,6 +991,12 @@ export default function Form() {
               </defs>
             </svg>
           </button>
+        </div> */}
+        <div
+          // id="Contact_form_bg"
+          className="border-white absolute left-0 right-0 top-0 border  w-[100%] h-fit  "
+        >
+          <Image src={"../../../public/I"}
         </div>
         <div className="lg:w-[57.083vw] mx-auto my-4">
           <div className="xl:w-[32.396vw] text-center my-4 mx-auto">

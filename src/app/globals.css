@@ -266,20 +266,26 @@ background-color: #111111;
   
   }
   #contact_form_btn{
-background: linear-gradient(112.37deg, rgba(36, 36, 36, 0.5) 0%, rgba(20, 20, 20, 0.5) 101.62%);   }
+    background: linear-gradient(112.37deg, rgba(36, 36, 36, 0.5) 0%, rgba(20, 20, 20, 0.5) 101.62%);   }
+#btn_r_ant {
+  animation: roTAte 1s infinite;
+}
 
-/* @keyframes roTAte {
+@keyframes roTAte {
   0% {
-   
-    transform: rotate(360deg);
+    transform: rotate(0deg);
   }
 
-  100% {
-    transform: translateY(100%);
-    transform: rotate(360deg);
-  }
-} */
-/* #btn_r_ant{
-  animation: roTAte 1s  infinite;
+    50% {
+      /* transform: rotate(360deg) ; */
+      transform: translateY(200%);
     }
-     */
+        75% {
+          /* transform: rotate(360deg) ; */
+          transform: translateY(300%);
+        }
+  100% {
+    /* transform: rotate(360deg) ; */
+    transform: translateY(400%);
+  }
+}
