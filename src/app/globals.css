@@ -108,6 +108,7 @@ body {
 }
 
 #p2_sec3 {
+  background: #00000066;
   backdrop-filter: blur(4px);
 }
 
@@ -398,4 +399,30 @@ body {
   100% {
     transform: translateY(100vh);
   }
+}
+#Sec8 {
+  background: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 64%),
+    linear-gradient(239.68deg, #111111 20.09%, rgba(17, 17, 17, 0) 42.03%),
+    linear-gradient(53.09deg, #111111 10.47%, rgba(17, 17, 17, 0) 36.46%),
+    linear-gradient(360deg, #111111 2.71%, rgba(17, 17, 17, 0) 13.21%);
+}
+#secThree {
+  background: linear-gradient(
+      112.37deg,
+      rgba(26, 26, 26, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 101.62%
+    ),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+#secThree-btm {
+  background: linear-gradient(112.37deg, #1a1a1a 0%, #000000 101.62%);
+}
+#dot {
+  background: linear-gradient(
+    263.93deg,
+    #000000 -116.86%,
+    #a80601 -34.46%,
+    #ee5a02 82.16%,
+    #ddb28f 136.67%
+  );
 }

@@ -46,27 +46,35 @@ export default function Section() {
       initial="hidden"
       animate={inView ? "visible" : "hidden"} // Animate when in view
     >
-      {/* Title */}
-      <motion.div
-        className="text-white font-montserrat  font-[700] my-3 text-[2rem] sm:text-[2.5rem] lg:text-[3.7rem] leading-[2.5rem] sm:leading-[3rem] lg:leading-[4.5rem]"
-        variants={titleVariants}
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing
-      </motion.div>
+      <div className="xl:max-w-[650px] mx-auto w-[80vw]">
+        {/* Title */}
+        <motion.div
+          className="text-white font-montserrat  font-[700] my-3 text-[2rem] sm:text-[2.5rem] lg:text-[3.7rem] leading-[2.5rem] sm:leading-[3rem] lg:leading-[4.5rem]"
+          variants={titleVariants}
+        >
+          Welcome to our Ecosystem!
+        </motion.div>
 
-      {/* Description */}
-      <motion.div
-        className="text-[#8E8E8E] w-[90%] sm:w-[80%] lg:w-[60%] mx-auto font-montserrat my-6 font-[600] text-[12px] sm:text-[12px] leading-[14px] sm:leading-[14px]"
-        variants={descriptionVariants}
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam
-      </motion.div>
-
+        {/* Description */}
+        <motion.div
+          className="text-[#8E8E8E] w-[90%] sm:w-[80%] lg:w-[60%] mx-auto font-montserrat my-6 font-[600] text-[12px] sm:text-[12px] leading-[14px] sm:leading-[14px]"
+          variants={descriptionVariants}
+        >
+          TrūQoin™ – A Decentralized Autonomous Organization
+        </motion.div>
+      </div>
       {/* Avatar and Text */}
+      <div className="xl:max-w-[1320px]">
+        <Image
+          src={"/man.png"}
+          height={0}
+          className="mx-auto"
+          width={0}
+          layout="responsive"
+        />
+      </div>
       <motion.div
-        className="flex items-center justify-center gap-4 w-[90%] sm:w-[75%] lg:w-[50%] my-8 mx-auto"
+        className="flex items-center justify-center gap-4 w-[90%] sm:w-[75%] lg:w-[50%] mt-8 mx-auto"
         variants={bottomVariants}
       >
         <Image
@@ -80,7 +88,9 @@ export default function Section() {
           20k Verified Users
         </div>
       </motion.div>
-
+      <div className="mb-6 mt-2 text-[#8E8E8E] font-montserrat font-[600] sm:text-[14px] sm:leading-[17.5px] ">
+        Rewarding activities – that build sustainable growth.
+      </div>
       {/* Button */}
       <motion.div variants={bottomVariants}>
         <button className="w-full sm:w-[50%] lg:w-[19.5vw] py-3 text-[10px] font-montserrat text-white rounded-[8px] border border-[#EE5A02] font-medium hover:bg-[#EE5A02] transition-colors duration-300">

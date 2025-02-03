@@ -1,20 +1,16 @@
 import Image from "next/image";
 
-
-export default function Pge2(){
-    return(<>
-       <div className="border-white mt-20">
+export default function Pge2() {
+  return (
+    <>
+      <div className="border-white mt-20">
         <div className="md:w-[83.162vw] w-[100vw] font-montserrat border-white mx-auto">
-          <div className="w-full  border-white mx-auto text-center">
-            <div className="lg:text-[2vw] xsm:text-[8vw] leading-[2vw] xsm:leading-[4vw] font-[700] text-white">
+          <div className="w-full border xl:max-w-[1071px] border-white mx-auto text-center">
+            <div className="lg:text-[2vw] xsm:text-[4vw] border font-montserrat h leading-[2vw] xsm:leading-[4vw] font-[700] text-white">
               About Us
             </div>
 
-            <div className="xl:text-[5.12vw] text-[8vw]  sm:text-[5vw] font-[700] text-white">
-              Welcome to <b id="h2">TrūQoin</b>{" "}
-            </div>
-
-            <div className="xl:text-[1.024vw] xl:w-[52.196vw] mx-auto text-[2.5vw] sm:text-[3vw] font-[700] text-[#8E8E8E]">
+            <div className="xl:text-[1.6vw]  mx-auto text-[2.5vw] font-montserrat sm:text-[3vw] font-[700] text-white">
               TrūQoin is a groundbreaking cryptocurrency designed to make
               financial freedom accessible to everyone. Built on the TRON
               blockchain, we’ve created a unique system where your activities
@@ -31,5 +27,7 @@ export default function Pge2(){
           layout="responsive"
           src={"/tab.png"}
         />
-      </div></>)
+      </div>
+    </>
+  );
 }

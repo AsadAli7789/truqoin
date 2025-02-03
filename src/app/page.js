@@ -13,6 +13,9 @@ import MiddleMobile from "./components/Middlemobile";
 import RightMobile from "./components/rightMobile";
 import LeftMobile from "./components/LeftMobile";
 import Carouse from "./components/carasule";
+import Section_8 from "./components/section8";
+import Section3 from "./components/Section3";
+import SectionThrees from "./components/sectionThree";
 
 export default function Home() {
   return (
@@ -24,32 +27,37 @@ export default function Home() {
         <div className="my-28">
           <Section />
         </div>
-        <div className="my- hidden lg:block ">
+        <div className="my- hidden lg:block relative ">
+          <div
+            id="bg2"
+            className="absolute w-[100%] h-[100%] bottom-0  opacity-[0.8] z-[-1]"
+          ></div>
           <MobileSection />
+          <div
+            id="bg2"
+            className="absolute w-[300vw] h-[100%] top-0   z-[-2]"
+          ></div>
         </div>
-        <div className="my- lg:hidden block ">
+        <div className="my- lg:hidden block relative ">
+          <div
+            id="bg2"
+            className="absolute w-[100%] h-[100%] bottom-0  opacity-[0.8] z-[-1]"
+          ></div>
           <Carouse />
-        </div>
-        <div className="my- relative bg-[]">
-          <div
-            id="bg2"
-            className="absolute w-[300vw] h-[100%] bottom-0  opacity-[0.8] z-[-1]"
-          ></div>
-          <SectionOne />
-          <div
-            id="bg2"
-            className="absolute w-[300vw] h-[100%] top-0   z-[-1]"
-          ></div>
         </div>
         <div
           id="gradent"
-          className="  w-[100%] opacity-  h-[100%] z-[-1] absolute border-white"
+          className="  w-[100%] opacity-  h-[100%] z-[-2] absolute border-white"
         ></div>
+        <div className="md:my-32 relative bg-[]">
+          <SectionThrees />
+        </div>
+
         <div className="md:my-10 my-20">
           <SectionTwo />
         </div>
         <div className="md:my-48 my-20">
-          <SectionThree />
+          <Section_8 />
         </div>
         <div className="md:my-10 my-20">
           <SectionFour />

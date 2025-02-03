@@ -16,7 +16,7 @@ export default function SectionTwo() {
   return (
     <div
       id="p2_sec3"
-      className=" border-[0.5px]  border-[#343434] w-[75.99vw]  flex flex-col lg:flex-row mx-auto"
+      className=" border-[0.5px] my-10 border-[#343434] w-[75.99vw]  flex flex-col lg:flex-row mx-auto"
     >
       {/* Vision Section with Motion */}
       <motion.div
