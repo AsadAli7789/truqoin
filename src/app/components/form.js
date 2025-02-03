@@ -4,11 +4,14 @@ import Image from "next/image";
 import { useInView } from "react-intersection-observer";
 // import Button from "./button";
 import { useForm, SubmitHandler } from "react-hook-form";
-// import { sendEmail } from "../action/sendEmail";
-import { Button, message, Space } from "antd";
+import { Button, message, Space, Spin } from "antd";
+import { sendEmail } from "@/action/sendEmail";
+import { useState } from "react";
+import { LoadingOutlined } from "@ant-design/icons";
+
 export default function Form() {
   const [messageApi, contextHolder] = message.useMessage();
-
+  const [loading, setloading] = useState(false);
   const {
     register,
     handleSubmit,
@@ -16,25 +19,37 @@ export default function Form() {
     reset,
     formState: { errors },
   } = useForm();
-  const { ref: formRef, inView } = useInView({
-    triggerOnce: true, // trigger once when in view
-    threshold: 0.3, // 30% of the component is in view before triggering
-  });
-  const sendEmail = async (data) => {
-    const added = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/Email`, {
-      method: "POST",
-      body: JSON.stringify(data),
-    });
-    if (added.ok) {
-      reset();
-    } else {
-    }
-  };
-  const onSubmit = async (data) => {
-    console.log(data);
 
-    const obj = {};
+  const success = () => {
+    messageApi.open({
+      type: "success",
+      content: "The email has been sent successfully.",
+    });
+  };
+
+  const error = () => {
+    messageApi.open({
+      type: "error",
+      content: "The email was not sent successfully. Please try again.",
+    });
+  };
+  const { ref: formRef, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.3,
+  });
+
+  const onSubmit = async (data) => {
+    setloading(true);
+    console.log(data);
     const data1 = await sendEmail(data);
+    reset();
+    if (data1.ok) {
+      setloading(false);
+      return success();
+    }
+    setloading(false);
+
+    error();
     console.log(data1);
   };
 
@@ -44,23 +59,12 @@ export default function Form() {
         id="bg"
         className="border  bg-[#00000066] w-[90vw] over md:w-w-[80vw] xl:max-w-[1459px]  p-8 mt-10 relative border-[#343434] rounded-[10px] lg:w-[75.99vw] mx-auto"
       >
+        {contextHolder}
         <div
           id="Contact_form_bg"
           className="border-white absolute w-[550px] h-[550px] rounded-full left-[30%]"
         ></div>
-        {/* <div
-          // id="Contact_form_bg"
-          className="border-white absolute w-[100%] overflow-hidden    left-0 right-0 -z-10"
-        >
-          <Image
-            src={"/icons.png"}
-            width={0}
-            height={0}
-            layout="responsive"
-            className=""
-            id="transform"
-          />
-        </div> */}
+
         <div
           // id="Contact_form_bg"
           className="border-white absolute h-[100%] -z-10  top-0 overflow-hidden w-[100%]   left-0 right-0 "
@@ -1120,7 +1124,7 @@ export default function Form() {
               {/* Top input: Subject */}
               <motion.input
                 type="text"
-                id="Input"
+                id="Subject"
                 className="border p-6 w-full text-[#8E8E8E] text-[14px] border-[#343434] rounded-[8px]"
                 placeholder="Subject"
                 name="Subject"
@@ -1133,7 +1137,7 @@ export default function Form() {
               {/* Message Textarea */}
               <motion.textarea
                 type="text"
-                id="Input"
+                id="text"
                 name="text"
                 {...register("text", { required: true })}
                 className="border p-6 w-full text-[#8E8E8E] text-[14px] border-[#343434] max-h-[15vh] min-h-[15vh] rounded-[8px]"
@@ -1144,16 +1148,27 @@ export default function Form() {
               />
 
               {/* Button coming from bottom */}
-              <motion.button
-                id="Input_btn"
-                type="submite"
-                className="text-[12px] sm:text-[14px] font-montserrat text-white w-full py-3 rounded-[8px]"
-                initial={{ y: 100, opacity: 0 }}
-                animate={{ y: inView ? 0 : 100, opacity: inView ? 1 : 0 }}
-                transition={{ duration: 0.5, delay: 0.3 }}
-              >
-                Start Earning
-              </motion.button>
+              {loading ? (
+                <div className="  flex justify-center">
+                  <Spin
+                    className="text-[#c86c01] "
+                    indicator={
+                      <LoadingOutlined style={{ fontSize: 48 }} spin />
+                    }
+                  />
+                </div>
+              ) : (
+                <motion.button
+                  id="Input_btn"
+                  type="submite"
+                  className="text-[12px] sm:text-[14px] font-montserrat text-white w-full py-3 rounded-[8px]"
+                  initial={{ y: 100, opacity: 0 }}
+                  animate={{ y: inView ? 0 : 100, opacity: inView ? 1 : 0 }}
+                  transition={{ duration: 0.5, delay: 0.3 }}
+                >
+                  Start Earning
+                </motion.button>
+              )}
             </motion.div>
           </form>
         </div>
