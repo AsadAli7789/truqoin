@@ -1124,7 +1124,7 @@ export default function Form() {
               {/* Top input: Subject */}
               <motion.input
                 type="text"
-                id="Subject"
+                id="Input"
                 className="border p-6 w-full text-[#8E8E8E] text-[14px] border-[#343434] rounded-[8px]"
                 placeholder="Subject"
                 name="Subject"
@@ -1137,7 +1137,7 @@ export default function Form() {
               {/* Message Textarea */}
               <motion.textarea
                 type="text"
-                id="text"
+                id="Input"
                 name="text"
                 {...register("text", { required: true })}
                 className="border p-6 w-full text-[#8E8E8E] text-[14px] border-[#343434] max-h-[15vh] min-h-[15vh] rounded-[8px]"
