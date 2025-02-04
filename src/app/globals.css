@@ -13,6 +13,19 @@
     --foreground: #ededed;
   }
 }
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+/* ::-webkit-scrollbar-track {
+  background: transparent;
+  z-index: -1;
+} */
+
+::-webkit-scrollbar-thumb {
+  background: #ff4e08; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+}
 
 body {
   background-color: #111111;
@@ -425,4 +438,10 @@ body {
     #ee5a02 82.16%,
     #ddb28f 136.67%
   );
+}
+#abot-sec {
+  background: linear-gradient(112.37deg, #1a1a1a 0%, #000000 101.62%);
+}
+#trans {
+  transition: 1s;
 }

@@ -1,8 +1,8 @@
 export default function ContactCard() {
   return (
     <>
-      <div className=" p-6  border-white md:w-[100vw]   lg:w-[60vw] flex mx-auto lg:flex-row flex-col ">
-        <div className="  text-white mx-auto my-5 lg:mx-0 text-center flex flex-col items-center border-white w-[50%] ">
+      <div className=" p-6   md:w-[100vw]   lg:w-[60vw] flex mx-auto lg:flex-row flex-col ">
+        <div className="   text-white mx-auto my-5 lg:mx-0 text-center flex flex-col items-center  w-[50%] ">
           <div className="my-2 ">
             <svg
               width="32"
@@ -69,7 +69,7 @@ export default function ContactCard() {
             support@truqoin.com
           </div>
         </div>
-        <div className=" text-white mx-auto lg:mx-0  my-5 text-center flex flex-col items-center border-white w-[50%] ">
+        <div className="  text-white mx-auto lg:mx-0  my-5 text-center flex flex-col items-center  w-[50%] ">
           <div className="my-2">
             <svg
               width="32"

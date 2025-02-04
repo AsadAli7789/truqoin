@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 gsap.registerPlugin(ScrollTrigger);
 
-export default function Gsap({ color }) {
+export default function Gsap1({ color }) {
   const divv = useRef(null);
   const divv2 = useRef(null);
   const [img, setimg] = useState(false);
@@ -13,102 +13,76 @@ export default function Gsap({ color }) {
   const [img3, setimg3] = useState(false);
 
   const main_div = useRef(null);
-  useEffect(() => {
-    var tll;
 
-    tll = gsap.timeline({
-      scrollTrigger: {
-        trigger: main_div.current,
-        start: "top top", // Start the animation when the top of the section is in the center of the viewport
-        end: "+=250%", // End the animation after scrolling the height of the viewport
-        scrub: 1,
-        markers: false,
-        pin: true, // Pin the section during animation
-      },
-    });
-    tll.to(
-      divv.current,
-      {
-        y: 0, // Animate scale and opacity for desktop
-      },
-      0
-    );
-    tll.to(
-      divv2.current,
-      {
-        y: "-100%",
-      },
-      0
-    );
-    // return () => {
-    //   tll.kill();
-    //   ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-    // };
-  }, []);
   return (
     <>
       {/* <div className=" -white h-[100vh]  w-[100vw] flex "></div> */}
       <div
         ref={main_div}
-        className="  h-fit relative  xl:max-w-[1330px]   mx-auto overflow-hidden w-[90vw]  xl:w-[95vw]  flex justify-between "
+        className="  h-fit relative  xl:max-w-[1330px]   mx-auto overflow-hidden w-[90vw]  xl:w-[100vw]  flex justify-between "
       >
-        <div ref={divv} className={`  w-[50%] translate-y-[0vh] h-[138px] `}>
-          <h2 className=" lg:text-[40px] xl:text-[48px] font-[700] font-montserrat text-white">
-            Why Choose <b id="h2">TrūQoin?</b>
-          </h2>
-          <h2 className=" text-[0.71vw] font-[600] font-montserrat text-[#8E8E8E] px-2">
-            <ul className="flex flex-col gap-y-3 mt-4">
-              <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
-                <div
-                  id="dot"
-                  className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
-                ></div>
-                Acquire cryptocurrency without any hardware of software costs.
-              </li>
-              <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
-                {" "}
-                <div
-                  id="dot"
-                  className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
-                ></div>
-                Mine cryptocurrency through yours and other’s activities.{" "}
-              </li>
-              <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
-                <div
-                  id="dot"
-                  className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
-                ></div>
-                Build a digital-assets business – without any boarders.{" "}
-              </li>
-              <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
-                <div
-                  id="dot"
-                  className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
-                ></div>
-                Achieve success and rewards, for developing a like-minded team.{" "}
-              </li>
-              <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
-                <div
-                  id="dot"
-                  className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
-                ></div>
-                Earn fiat currency (USD) for help to build the TruQoin/TruIQ
-                ecosystem.{" "}
-              </li>
-              <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
-                <div
-                  id="dot"
-                  className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
-                ></div>
-                Use TruQoin to buy products and services in the real world.{" "}
-              </li>
-            </ul>
-          </h2>
+        <div
+          ref={divv}
+          className={`relative  w-[50%] translate-y-[0vh] h-[138px] `}
+        >
+          <div className="fixed border top-0">
+            <h2 className=" lg:text-[40px] xl:text-[48px] font-[700] font-montserrat text-white">
+              Why Choose <b id="h2">TrūQoin?</b>
+            </h2>
+            <h2 className=" text-[0.71vw] font-[600] font-montserrat text-[#8E8E8E] px-2">
+              <ul className="flex flex-col gap-y-3 mt-4">
+                <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
+                  <div
+                    id="dot"
+                    className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
+                  ></div>
+                  Acquire cryptocurrency without any hardware of software costs.
+                </li>
+                <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
+                  {" "}
+                  <div
+                    id="dot"
+                    className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
+                  ></div>
+                  Mine cryptocurrency through yours and other’s activities.{" "}
+                </li>
+                <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
+                  <div
+                    id="dot"
+                    className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
+                  ></div>
+                  Build a digital-assets business – without any boarders.{" "}
+                </li>
+                <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
+                  <div
+                    id="dot"
+                    className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
+                  ></div>
+                  Achieve success and rewards, for developing a like-minded
+                  team.{" "}
+                </li>
+                <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
+                  <div
+                    id="dot"
+                    className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
+                  ></div>
+                  Earn fiat currency (USD) for help to build the TruQoin/TruIQ
+                  ecosystem.{" "}
+                </li>
+                <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
+                  <div
+                    id="dot"
+                    className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
+                  ></div>
+                  Use TruQoin to buy products and services in the real world.{" "}
+                </li>
+              </ul>
+            </h2>
+          </div>
         </div>
-
         <div
           ref={divv2}
-          className=" gap-y-16 w-[50%] flex flex-col h-fit cursor-default    items-end xl:items-none"
+          className=" gap-y-16 w-[50%] flex flex-col    items-end xl:items-none"
         >
           <div
             id="Gsap"
@@ -158,22 +132,22 @@ export default function Gsap({ color }) {
                   </defs>
                 </svg>
               </div>
-              <div className="xl:text-[36px] cursor-default  text-[2.1vw] leading-[2.4vw] xl:leading-[43.88px] font-[700] font-montserrat my-3 text-[#ffff] ">
+              <div className="xl:text-[36px] text-[2.1vw] leading-[2.4vw] xl:leading-[43.88px] font-[700] font-montserrat my-3 text-[#ffff] ">
                 Earn by Engaging:
               </div>
-              <div className=" text-[14px] leading-[17.07px] cursor-default  font-[600] font-montserrat text-[#8E8E8E] w-[98%] my-3 ">
+              <div className=" text-[14px] leading-[17.07px] font-[600] font-montserrat text-[#8E8E8E] w-[98%] my-3 ">
                 We use a Proof-of-Activity Mining (PoAM) model that rewards
                 users for participating in our ecosystem—no expensive hardware
                 needed.
               </div>
             </div>
             <div
-              className={` transition-all ease-in-out duration-500 ${
-                img ? "block h-[200px] xl:h-[300px] " : "h-0  "
+              className={` transition-all ease-in-out duration-50 ${
+                img ? "block h-fit " : "h-2  "
               }`}
             >
               <div
-                className={`transition-all abs duration-500 ease-in-out transform ${
+                className={`transition-all abs duration-50 ease-in-out transform ${
                   img ? "opacity-100 scale-100 " : " opacity-0 scale-50"
                 }`}
               >
@@ -189,7 +163,7 @@ export default function Gsap({ color }) {
           <div
             id="Gsap"
             onClick={() => setimg2(!img2)}
-            className=" h-fit xl:p-4  flex-col p-4 flex xl:justify-center xl:items-center   lg:w-[450px] xl:w-[650px] border-[#343434] rounded-[10px]"
+            className=" h-fit  xl:p-4  flex-col p-4 flex xl:justify-center xl:items-center lg:w-[450px] xl:w-[650px] border-[#343434] rounded-[10px]"
           >
             <div className="lg:w-[343px] xl:w-[543px] h-[179px]  my-3  ">
               <div>
@@ -230,7 +204,7 @@ export default function Gsap({ color }) {
                   </defs>
                 </svg>
               </div>
-              <div className="xl:text-[36px] text-[2.1vw] leading-[2.4vw] xl:leading-[43.88px] font-[700] font-montserrat my-3 text-[#ffff] ">
+              <div className="text-[36px] leading-[43.88px] font-[700] font-montserrat my-3 text-[#ffff] ">
                 Seamless Ecosystem:{" "}
               </div>
               <div className=" text-[14px] leading-[17.07px] font-[600] font-montserrat text-[#8E8E8E] w-[98%] my-3 ">
@@ -239,12 +213,12 @@ export default function Gsap({ color }) {
               </div>
             </div>
             <div
-              className={` transition-all ease-in-out duration-500 ${
-                img2 ? "blockh-[200px] xl:h-[300px]" : "h-0  "
+              className={` transition-all ease-in-out duration-50 ${
+                img2 ? "block h-fit " : "h-2  "
               }`}
             >
               <div
-                className={`transition-all abs duration-500 ease-in-out transform ${
+                className={`transition-all abs duration-50 ease-in-out transform ${
                   img2 ? "opacity-100 scale-100 " : " opacity-0 scale-50"
                 }`}
               >
@@ -385,7 +359,7 @@ export default function Gsap({ color }) {
                   </defs>
                 </svg>
               </div>
-              <div className="xl:text-[36px] text-[2.1vw] leading-[2.4vw] xl:leading-[43.88px] font-[700] font-montserrat my-3 text-[#ffff] ">
+              <div className="text-[36px] leading-[43.88px] font-[700] font-montserrat my-3 text-[#ffff] ">
                 Borderless and Secure:{" "}
               </div>
               <div className=" text-[14px] leading-[17.07px] font-[600] font-montserrat text-[#8E8E8E] w-[98%] my-3 ">
@@ -394,12 +368,12 @@ export default function Gsap({ color }) {
               </div>
             </div>
             <div
-              className={` transition-all ease-in-out duration-500 ${
-                img3 ? "blockh-[200px] xl:h-[300px]" : "h-0  "
+              className={` transition-all ease-in-out duration-50 ${
+                img3 ? "block h-fit " : "h-2  "
               }`}
             >
               <div
-                className={`transition-all abs duration-500 ease-in-out transform ${
+                className={`transition-all abs duration-50 ease-in-out transform ${
                   img3 ? "opacity-100 scale-100 " : " opacity-0 scale-50"
                 }`}
               >

@@ -16,12 +16,12 @@ export default function SectionTwo() {
   return (
     <div
       id="p2_sec3"
-      className=" border-[0.5px] my-10 border-[#343434] w-[75.99vw]  flex flex-col lg:flex-row mx-auto"
+      className=" border-[0.5px] my-10 border-[#343434] overflow-hidden w-[75.99vw]  flex flex-col lg:flex-row mx-auto"
     >
       {/* Vision Section with Motion */}
       <motion.div
         ref={visionRef}
-        className="w-full lg:w-[50%]  p-10 -white text-center"
+        className="w-full lg:w-[50%]   p-10 -white text-center"
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: visionInView ? 1 : 0, x: visionInView ? 0 : -100 }}
         transition={{ duration: 1 }}

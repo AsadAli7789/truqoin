@@ -16,7 +16,7 @@ export default function Section_8() {
       </div>
 
       {/* Image Section */}
-      <div className="max-w-full w-full  xl:max-h-[495.96px] xl:max-w-[1320px] flex flex-col md:flex-row xl:h-[60.7vh] xl:w-[68.75vw] gap-4">
+      <div className="max-w-full md:h-[50vh] lg:h-[70.7vh] w-full   xl:max-h-[495.96px] xl:max-w-[1320px] flex flex-col md:flex-row xl:h-[60.7vh] xl:w-[68.75vw] gap-4">
         {/* Left Image */}
         <div className="w-[80%] mx-auto md:w-1/3 pt-4  md:pt-0 xl:pt-10">
           <Image
@@ -30,25 +30,30 @@ export default function Section_8() {
         </div>
 
         {/* Middle GIF/Image */}
-        <div className="w-[80%] mx-auto md:w-1/3 relative">
-          <div id="Sec8" className="absolute   w-[100%] h-[40vh]"></div>
-          <div
-            id=""
-            className=" absolute inset-0 bg-[#EE5A02] mix-blend-hue  w-[100%] "
-          ></div>
+        <div className="w-[80%] mx-auto md:w-1/3 rotate-45 -translate-y-10 md:translate-y-0  md:rotate-0 z-[-1] relative  ">
+          <div className=" h-fit relative  w-[100%]  ">
+            <div
+              id="Sec8"
+              className="absolute z-[2]   border border-[#111111]  w-[100%] h-[100%] "
+            ></div>
+            <div
+              id=""
+              className=" absolute inset-0 z-[1] border-[#111111] border bg-[#EE5A02] mix-blend-hue   w-[100%] "
+            ></div>
 
-          <Image
-            className="filter  "
-            src="/sec8_3.gif"
-            width={0}
-            height={0}
-            layout="responsive"
-            alt="Middle GIF"
-          />
+            <Image
+              className="filter   scale-x-[-1] "
+              src="/sec8_3.gif"
+              width={0}
+              height={0}
+              layout="responsive"
+              alt="Middle GIF"
+            />
+          </div>
         </div>
 
         {/* Right Image */}
-        <div className="w-[80%] mx-auto border md:w-1/3 mt-auto">
+        <div className="w-[80%] mx-auto   md:w-1/3 mt-auto">
           <Image
             src="/sec8_2.png"
             width={0}
