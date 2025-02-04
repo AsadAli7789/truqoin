@@ -53,7 +53,7 @@ body {
 #sec1-bg {
   border: 0.5px dotted rgba(52, 52, 52, 1);
 }
-#btn {
+/* #btn {
   transition: 1s ease-in-out;
   background: linear-gradient(
     220deg,
@@ -64,7 +64,6 @@ body {
   );
 }
 #btn:hover {
-  transition: 2s ease-in-out;
   background: linear-gradient(
     90deg,
     #000000 -116.86%,
@@ -72,7 +71,7 @@ body {
     #ee5a02 82.16%,
     #ddb28f 136.67%
   );
-}
+} */
 #h2 {
   background: linear-gradient(
     263.93deg,

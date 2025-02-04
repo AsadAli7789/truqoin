@@ -16,6 +16,12 @@ export default {
       fontFamily: {
         sans: ["var(--font-montserrat)", ...fontFamily.sans],
       },
+      backgroundImage: {
+        "custom-gradient":
+          "linear-gradient(  220deg,#000000 -116.86%,#a80601 -34.46%,#ee5a02 82.16%,  #ddb28f 136.67%)",
+        "custom-gradient1":
+          "linear-gradient( 90deg,  #000000 -116.86%, #a80601 -34.46%, #ee5a02 82.16%, #ddb28f 136.67%)",
+      },
       screens: {
         xsm: "375px", // Extra small breakpoint
         xsm1: "425px",

@@ -74,8 +74,8 @@ export default function Header() {
         <div className="hidden md:block">
           <motion.button
             whileHover={{ scale: 1.1 }}
-            id="btn"
-            className="text-[12px] px-10 py-3 leading-[13px] rounded-[8px]"
+            // id="btn"
+            className="text-[12px] px-10  bg-custom-gradient duration-300  hover:bg-custom-gradient1 py-3 leading-[13px] rounded-[8px]"
           >
             Launch WebApp
           </motion.button>
@@ -114,8 +114,7 @@ export default function Header() {
             ))}
             <motion.button
               whileHover={{ scale: 1.1 }}
-              id="btn"
-              className="text-[12px] duration-300 px-8 py-3 rounded-[10px] mt-4"
+              className="text-[12px] bg-custom-gradient duration-300  hover:bg-custom-gradient1  px-8 py-3 rounded-[10px] mt-4"
             >
               Launch WebApp
             </motion.button>
