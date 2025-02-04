@@ -30,7 +30,7 @@ export default function Section_8() {
         </div>
 
         {/* Middle GIF/Image */}
-        <div className="w-[80%] mx-auto md:w-1/3 rotate-45 -translate-y-10 md:translate-y-0  md:rotate-0 z-[-1] relative  ">
+        <div className="w-[80%] mx-auto md:w-1/3 rotate-[48deg] -translate-y-10 md:translate-y-0  md:rotate-0 z-[-1] relative  ">
           <div className=" h-fit relative  w-[100%]  ">
             <div
               id="Sec8"
@@ -53,7 +53,7 @@ export default function Section_8() {
         </div>
 
         {/* Right Image */}
-        <div className="w-[80%] mx-auto   md:w-1/3 mt-auto">
+        <div className="w-[80%] mx-auto -translate-y-10 md:translate-y-0  md:w-1/3 mt-auto">
           <Image
             src="/sec8_2.png"
             width={0}
