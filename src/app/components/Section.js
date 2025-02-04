@@ -46,7 +46,7 @@ export default function Section() {
       initial="hidden"
       animate={inView ? "visible" : "hidden"} // Animate when in view
     >
-      <div className="xl:max-w-[650px] mx-auto w-[80vw]">
+      <div className="xl:max-w-[650px] my-2 mx-auto  ">
         {/* Title */}
         <motion.div
           className="text-white font-montserrat  font-[700] my-3 text-[2rem] sm:text-[2.5rem] lg:text-[3.7rem] leading-[2.5rem] sm:leading-[3rem] lg:leading-[4.5rem]"
@@ -57,14 +57,14 @@ export default function Section() {
 
         {/* Description */}
         <motion.div
-          className="text-[#8E8E8E] w-[90%] sm:w-[80%] lg:w-[60%] mx-auto font-montserrat my-6 font-[600] text-[12px] sm:text-[12px] leading-[14px] sm:leading-[14px]"
+          className="text-[#8E8E8E] w-[90%] sm:w-[80%] lg:text-[14px] lg:w-[60%] xl:w-[90%] mx-auto font-montserrat my-6 font-[600] text-[12px] sm:text-[12px] leading-[14px] sm:leading-[14px]"
           variants={descriptionVariants}
         >
           TrūQoin™ – A Decentralized Autonomous Organization
         </motion.div>
       </div>
       {/* Avatar and Text */}
-      <div className="xl:max-w-[1320px]">
+      <div className="xl:max-w-[1320px] mx-auto">
         <Image
           src={"/man.png"}
           height={0}

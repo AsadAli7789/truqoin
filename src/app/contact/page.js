@@ -12,7 +12,7 @@ export default function Contact() {
           <Header />
         </div>
         <div className="border-white mt-20 my-20 lg:my-32">
-          <div className="w-full sm:w-[59.167vw] font-montserrat border-white mx-auto">
+          <div className="w-full z-10 sm:w-[59.167vw] font-montserrat border-white mx-auto">
             <div className="w-full sm:w-[37.135vw] border-white mx-auto text-center">
               <div className="text-[6vw] sm:text-[1.25vw] leading-[4vw] sm:leading-[1.25vw] font-[700] text-white">
                 Contact Us

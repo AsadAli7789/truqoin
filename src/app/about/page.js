@@ -22,7 +22,7 @@ export default function About() {
           id="F_sec"
           className="absolute hidden lg:block  w-[769px] h-[742px] rounded-full -left-[30%] "
         ></div>
-        <div className=" lg:my-40 ">
+        <div className=" lg:my-20 ">
           <SectionTwo />
         </div>
         <div>

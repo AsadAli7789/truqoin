@@ -308,96 +308,195 @@ body {
 }
 
 #btn_form1 {
+  background: linear-gradient(
+    112.37deg,
+    rgba(36, 36, 36, 0.5) 0%,
+    rgba(20, 20, 20, 0.5) 101.62%
+  );
+
   transform: translateY(-100%);
   animation: roTAte 5s infinite;
+  background-color: transparent;
+  backdrop-filter: blur(3px);
   /* animation-delay: 1s; */
   /* transform-origin:center ; */
 }
 #btn_form2 {
+  background: linear-gradient(
+    112.37deg,
+    rgba(36, 36, 36, 0.5) 0%,
+    rgba(20, 20, 20, 0.5) 101.62%
+  );
+  backdrop-filter: blur(3px);
+  /* background-color: transparent; */
+
   transform: translateY(-100%);
-  animation: roTAte 7s infinite;
-  /* animation-delay: 4s; */
-  /* transform-origin:center ; */
+  animation: roTAte 6s infinite;
 }
 #btn_form3 {
+  background: linear-gradient(
+    112.37deg,
+    rgba(36, 36, 36, 0.5) 0%,
+    rgba(20, 20, 20, 0.5) 101.62%
+  );
+  backdrop-filter: blur(3px);
   transform: translateY(-100%);
   animation: roTAte 8s infinite;
   /* animation-delay: 2s; */
   /* transform-origin:center ; */
 }
 #btn_form4 {
+  background: linear-gradient(
+    112.37deg,
+    rgba(36, 36, 36, 0.5) 0%,
+    rgba(20, 20, 20, 0.5) 101.62%
+  );
+  backdrop-filter: blur(3px);
   transform: translateY(-100%);
   animation: roTAte 10s infinite;
   /* transform-origin:center ; */
   /* animation-delay: 1s; */
 }
 #btn_form5 {
+  background: linear-gradient(
+    112.37deg,
+    rgba(36, 36, 36, 0.5) 0%,
+    rgba(20, 20, 20, 0.5) 101.62%
+  );
+  backdrop-filter: blur(3px);
   transform: translateY(-100%);
   animation: roTAte 20s infinite;
   /* transform-origin:center ; */
   /* animation-delay: 1s; */
 }
+
 #btn_form6 {
+  background: linear-gradient(
+    112.37deg,
+    rgba(36, 36, 36, 0.5) 0%,
+    rgba(20, 20, 20, 0.5) 101.62%
+  );
+  backdrop-filter: blur(3px);
   transform: translateY(-100%);
   animation: roTAte 12s infinite;
   /* transform-origin:center ; */
   /* animation-delay: 1s; */
 }
 #btn_form7 {
+  background: linear-gradient(
+    112.37deg,
+    rgba(36, 36, 36, 0.5) 0%,
+    rgba(20, 20, 20, 0.5) 101.62%
+  );
+  backdrop-filter: blur(3px);
   transform: translateY(-100%);
   animation: roTAte 23s infinite;
   /* transform-origin:center ; */
   /* animation-delay: 1s; */
 }
 #btn_form8 {
+  background: linear-gradient(
+    112.37deg,
+    rgba(36, 36, 36, 0.5) 0%,
+    rgba(20, 20, 20, 0.5) 101.62%
+  );
+  backdrop-filter: blur(3px);
   transform: translateY(-100%);
   animation: roTAte 9s infinite linear;
   transform-origin: center;
   /* animation-delay: 1s; */
 }
 #btn_form9 {
+  background: linear-gradient(
+    112.37deg,
+    rgba(36, 36, 36, 0.5) 0%,
+    rgba(20, 20, 20, 0.5) 101.62%
+  );
+  backdrop-filter: blur(3px);
   transform: translateY(-100%);
   animation: roTAte 20s infinite linear;
   animation-delay: 5s;
   /* transform-origin:center ; */
 }
 #btn_form10 {
+  background: linear-gradient(
+    112.37deg,
+    rgba(36, 36, 36, 0.5) 0%,
+    rgba(20, 20, 20, 0.5) 101.62%
+  );
+  backdrop-filter: blur(3px);
   transform: translateY(-100%);
   animation: roTAte 10s infinite linear;
   animation-delay: 10s;
   /* transform-origin:center ; */
 }
 #btn_form11 {
+  background: linear-gradient(
+    112.37deg,
+    rgba(36, 36, 36, 0.5) 0%,
+    rgba(20, 20, 20, 0.5) 101.62%
+  );
+  backdrop-filter: blur(3px);
   transform: translateY(-100%);
   animation: roTAte 8s infinite linear;
   animation-delay: 5s;
   /* transform-origin:center ; */
 }
 #btn_form12 {
+  background: linear-gradient(
+    112.37deg,
+    rgba(36, 36, 36, 0.5) 0%,
+    rgba(20, 20, 20, 0.5) 101.62%
+  );
+  backdrop-filter: blur(3px);
   transform: translateY(-100%);
   animation: roTAte 13s infinite linear;
   animation-delay: 5s;
   /* transform-origin:center ; */
 }
 #btn_form13 {
+  background: linear-gradient(
+    112.37deg,
+    rgba(36, 36, 36, 0.5) 0%,
+    rgba(20, 20, 20, 0.5) 101.62%
+  );
+  backdrop-filter: blur(3px);
   transform: translateY(-100%);
   animation: roTAte 18s infinite linear;
   animation-delay: 5s;
   /* transform-origin:center ; */
 }
 #btn_form14 {
+  background: linear-gradient(
+    112.37deg,
+    rgba(36, 36, 36, 0.5) 0%,
+    rgba(20, 20, 20, 0.5) 101.62%
+  );
+  backdrop-filter: blur(3px);
   transform: translateY(-100%);
   animation: roTAte 15s infinite linear;
   /* transform-origin:center ; */
   animation-delay: 5s;
 }
 #btn_form15 {
+  background: linear-gradient(
+    112.37deg,
+    rgba(36, 36, 36, 0.5) 0%,
+    rgba(20, 20, 20, 0.5) 101.62%
+  );
+  backdrop-filter: blur(3px);
   transform: translateY(-100%);
   animation: roTAte 20s infinite linear;
   animation-delay: 5s;
   /* transform-origin:center ; */
 }
 #btn_form16 {
+  background: linear-gradient(
+    112.37deg,
+    rgba(36, 36, 36, 0.5) 0%,
+    rgba(20, 20, 20, 0.5) 101.62%
+  );
+  backdrop-filter: blur(3px);
   transform: translateY(-100%);
   animation: roTAte 15s infinite linear;
   animation-delay: 5s;

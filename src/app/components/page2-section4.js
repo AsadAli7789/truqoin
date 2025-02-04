@@ -39,7 +39,7 @@ export default function SectionFour1() {
             <div className=" text-[26px] leading-[26px] xl:text-[36px] font-montserrat my-4 font-[700] lg:text-[2.8vw] lg:leading-[3vw] xl:leading-[36px] text-white">
               Activity-Based Rewards:{" "}
             </div>
-            <div className="text-[#8E8E8E] text-[4vw]  md:text-[2vw] md:leading-[2.3vw] lg:text-[1.5vw] lg:leading-[2vw] xl:text-[1vw] xl:leading-[1vw] my-4 leading-[4vw]  font-montserrat font-[660]">
+            <div className="text-[#8E8E8E] text-[4vw]  md:text-[2vw] md:leading-[2.3vw] lg:text-[1.5vw] lg:leading-[2vw]  xl:text-[14px] xl:leading-[17.07px] my-4 leading-[4vw]  font-montserrat font-[660]">
               Your participation in TrūIQ Global drives your earning potential.
             </div>
           </div>
@@ -59,7 +59,7 @@ export default function SectionFour1() {
             <div className="text-[26px] leading-[26px] xl:text-[36px] font-montserrat my-4 font-[700] lg:text-[2.8vw] lg:leading-[3vw] xl:leading-[36px] text-white">
               Real-World Impact:{" "}
             </div>
-            <div className="text-[#8E8E8E] text-[4vw]  md:text-[2vw] md:leading-[2.3vw] lg:text-[1.5vw] lg:leading-[2vw] xl:text-[1vw] xl:leading-[1vw] my-4 leading-[4vw]  font-montserrat font-[660]">
+            <div className="text-[#8E8E8E] text-[4vw]  md:text-[2vw] md:leading-[2.3vw] lg:text-[1.5vw] lg:leading-[2vw] xl:text-[14px] xl:leading-[17.07px] my-4 leading-[4vw]  font-montserrat font-[660]">
               From personal care to wellness products, TrūQoin connects
               blockchain technology to daily life.
             </div>
@@ -80,7 +80,7 @@ export default function SectionFour1() {
             <div className="text-[26px] leading-[26px] xl:text-[36px] font-montserrat my-4 font-[700] lg:text-[2.8vw] lg:leading-[3vw] xl:leading-[36px] text-white">
               Global Community:
             </div>
-            <div className="text-[#8E8E8E] text-[4vw]  md:text-[2vw] md:leading-[2.3vw] lg:text-[1.5vw] lg:leading-[2vw] xl:text-[1vw] xl:leading-[1vw] my-4 leading-[4vw]  font-montserrat font-[660]">
+            <div className="text-[#8E8E8E] text-[4vw]  md:text-[2vw] md:leading-[2.3vw] lg:text-[1.5vw] lg:leading-[2vw] xl:text-[14px] xl:leading-[17.07px] my-4 leading-[4vw]  font-montserrat font-[660]">
               Join a network of users united by the vision of financial growth
               and innovation.
             </div>
