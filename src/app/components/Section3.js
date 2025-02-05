@@ -125,7 +125,7 @@ export default function Section3() {
             </div>
             <div
               className={` transition-all ease-in-out duration-500 ${
-                img ? "block h-[124px] " : "h-0  "
+                img ? "block xsm:h-[150px] sm:h-[200px] h-[124px] " : "h-0  "
               }`}
             >
               <div
@@ -195,7 +195,7 @@ export default function Section3() {
             </div>
             <div
               className={` transition-all ease-in-out duration-500 ${
-                img2 ? "block h-[124px] " : "h-0  "
+                img2 ? "block xsm:h-[150px] sm:h-[200px] h-[124px] " : "h-0  "
               }`}
             >
               <div
@@ -349,7 +349,7 @@ export default function Section3() {
             </div>
             <div
               className={` transition-all ease-in-out duration-500 ${
-                img3 ? "block h-[124px] " : "h-0  "
+                img3 ? "block xsm:h-[150px] sm:h-[200px] h-[124px]  " : "h-0  "
               }`}
             >
               <div

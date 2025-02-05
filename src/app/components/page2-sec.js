@@ -108,12 +108,12 @@ export default function Gsap({ color }) {
 
         <div
           ref={divv2}
-          className=" gap-y-16 w-[50%] flex flex-col h-fit cursor-default    items-end xl:items-none"
+          className=" gap-y-16 w-[50%] flex flex-col h-fit    items-end xl:items-none"
         >
           <div
             id="Gsap"
             onClick={() => setimg(!img)}
-            className=" h-fit xl:p-4  flex-col p-4 flex xl:justify-center xl:items-center lg:w-[450px] xl:w-[650px] border-[#343434] rounded-[10px] "
+            className=" h-fit xl:p-4  flex-col p-4 flex xl:justify-center  cursor-pointer xl:items-center lg:w-[450px] xl:w-[650px] border-[#343434] rounded-[10px] "
           >
             <div className=" lg:w-[343px] xl:w-[543px] h-[179px]  my-3 ">
               <div>
@@ -158,26 +158,27 @@ export default function Gsap({ color }) {
                   </defs>
                 </svg>
               </div>
-              <div className="xl:text-[36px] cursor-default  text-[2.1vw] leading-[2.4vw] xl:leading-[43.88px] font-[700] font-montserrat my-3 text-[#ffff] ">
+              <div className="xl:text-[36px]  text-[2.1vw] leading-[2.4vw] xl:leading-[43.88px] font-[700] font-montserrat my-3 text-[#ffff] ">
                 Earn by Engaging:
               </div>
-              <div className=" text-[14px] leading-[17.07px] cursor-default  font-[600] font-montserrat text-[#8E8E8E] w-[98%] my-3 ">
+              <div className=" text-[14px] leading-[17.07px]  font-[600] font-montserrat text-[#8E8E8E] w-[98%] my-3 ">
                 We use a Proof-of-Activity Mining (PoAM) model that rewards
                 users for participating in our ecosystem—no expensive hardware
                 needed.
               </div>
             </div>
             <div
-              className={` transition-all ease-in-out duration-500 ${
+              className={` transition-all ease-in-out pointer-events-none  duration-500 ${
                 img ? "block h-[200px] xl:h-[300px] " : "h-0  "
               }`}
             >
               <div
-                className={`transition-all abs duration-500 ease-in-out transform ${
+                className={`transition-all abs  pointer-events-none duration-500 ease-in-out transform ${
                   img ? "opacity-100 scale-100 " : " opacity-0 scale-50"
                 }`}
               >
                 <Image
+                  className={`${img ? "" : "hidden"}`}
                   src={"/man.png"}
                   width={0}
                   height={0}
@@ -189,7 +190,7 @@ export default function Gsap({ color }) {
           <div
             id="Gsap"
             onClick={() => setimg2(!img2)}
-            className=" h-fit xl:p-4  flex-col p-4 flex xl:justify-center xl:items-center   lg:w-[450px] xl:w-[650px] border-[#343434] rounded-[10px]"
+            className=" h-fit xl:p-4  flex-col p-4 flex xl:justify-center xl:items-center cursor-pointer   lg:w-[450px] xl:w-[650px] border-[#343434] rounded-[10px]"
           >
             <div className="lg:w-[343px] xl:w-[543px] h-[179px]  my-3  ">
               <div>
@@ -260,7 +261,7 @@ export default function Gsap({ color }) {
           <div
             id="Gsap"
             onClick={() => setimg3(!img3)}
-            className="  h-fit xl:p-4  flex-col p-4 flex xl:justify-center xl:items-center lg:w-[450px] xl:w-[650px] border-[#343434] rounded-[10px] "
+            className="  h-fit xl:p-4  flex-col p-4 flex xl:justify-center xl:items-center cursor-pointer lg:w-[450px] xl:w-[650px] border-[#343434] rounded-[10px] "
           >
             <div className="lg:w-[343px] xl:w-[543px] h-[179px]  my-3 ">
               <div>

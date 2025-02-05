@@ -65,7 +65,7 @@ export default function ContactCard() {
           <div className="lg:text-[1.875vw] text-[6vw]  my-2 font-[700] lg:leading-[2vw]">
             Email Us:{" "}
           </div>
-          <div className="lg:text-[1vw] font-[700] xl:w-[70%] leading-[1.vw]">
+          <div className="lg:text-[1vw] font-[700] xl:w-[70%] lg:leading-[1.2vw]">
             support@truqoin.com
           </div>
         </div>
