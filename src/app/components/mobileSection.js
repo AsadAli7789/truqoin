@@ -29,7 +29,7 @@ const MobileSection = () => {
         animate={isLeftInView ? { opacity: 1, x: 0 } : {}}
         transition={{ duration: 0.8, delay: 0.2 }}
       >
-        <LeftMobile />
+        <RightMobile />
       </motion.div>
 
       {/* Middle Image */}
@@ -51,7 +51,7 @@ const MobileSection = () => {
         animate={isRightInView ? { opacity: 1, x: 0 } : {}}
         transition={{ duration: 0.8, delay: 0.6 }}
       >
-        <RightMobile />
+        <LeftMobile />
       </motion.div>
     </div>
   );

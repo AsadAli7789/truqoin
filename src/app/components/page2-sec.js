@@ -178,7 +178,7 @@ export default function Gsap({ color }) {
                 }`}
               >
                 <Image
-                  className={`${img ? "" : "hidden"}`}
+                  className="  pointer-events-none"
                   src={"/man.png"}
                   width={0}
                   height={0}

@@ -34,15 +34,15 @@ export default function About() {
             <Gsap />
           </div>
         </div>
-        <div className=" mb-20  lg:mt-[-500px] ">
+        <div className=" mb-20  my-10  lg:mt-[-500px] ">
           <SectionFour1 />
         </div>
 
-        <div className="mb-[10vw] lg:my-20">
+        <div className="mb-[10vw]  my-10  lg:my-20">
           <Future />
         </div>
         <div>
-          <div className="md:my-20 lg:my-32">
+          <div className="md:my-20 my-10 lg:my-32">
             <AboutSec />
           </div>
           <div className="md:my-20">
