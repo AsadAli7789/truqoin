@@ -131,7 +131,7 @@ export default function AboutSec() {
             <div className="lg:text-[1.3vw]  sm:text-[4vw] text-[6vw] md:text-[3vw]   my-2 font-[700] lg:leading-[2vw]">
               Address 2:{" "}
             </div>
-            <div className="lg:text-[0.79vw] font-[700] xl:w-[70%] leading-[1.vw]">
+            <div className="lg:text-[0.79vw] font-[700] xl:w-[70%] lg:leading-[0.79vw]">
               Sharjah Media City, Al Messaned – Al Mutsannid Suburb – Sharjah{" "}
             </div>
           </div>
