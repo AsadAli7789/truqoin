@@ -38,7 +38,7 @@ export default function Home() {
             className="absolute w-[300vw] h-[100%] top-0   z-[-2]"
           ></div>
         </div>
-        <div className="my- lg:hidden block relative ">
+        <div className="my-10 lg:hidden block relative ">
           <div
             id="bg2"
             className="absolute w-[100%] h-[100%] bottom-0  opacity-[0.8] z-[-1]"
