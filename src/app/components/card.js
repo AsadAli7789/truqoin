@@ -127,7 +127,7 @@ export default function ContactCard() {
           <div className="lg:text-[1.875vw] text-[6vw]  my-2 font-[700] lg:leading-[2vw]">
             Address:
           </div>
-          <div className="lg:text-[1vw] font-[700] xl:w-[70%] leading-[1.vw]">
+          <div className="lg:text-[1vw] font-[700] xl:w-[70%] lg:leading-[1vw]">
             TrūQoin Headquarters23 Blockchain Drive, Tech City, USA
           </div>
         </div>
