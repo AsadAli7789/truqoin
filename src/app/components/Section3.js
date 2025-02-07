@@ -86,14 +86,14 @@ export default function Section3() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M27.2669 13.3333C27.2669 14.8 26.0669 16 24.6002 16H7.26684C5.80017 16 4.60017 14.8 4.60017 13.3333V3.82699L15.4265 10.1954C15.7394 10.3795 16.1275 10.3795 16.4406 10.1954L27.2669 3.82703V13.3333ZM7.26684 0C6.16711 0 5.21729 0.674681 4.81088 1.63057L15.9335 8.17331L27.0562 1.6306C26.6497 0.674693 25.6999 0 24.6002 0H7.26684ZM14.6667 20.6V18H17.3334V20.6H25.0001C27.2314 20.6 29.0001 22.4531 29.0001 24.6611V24.9167C30.3658 25.45 31.3334 26.7787 31.3334 28.3333C31.3334 30.3584 29.6918 32 27.6667 32C25.6417 32 24.0001 30.3584 24.0001 28.3333C24.0001 26.7787 24.9677 25.45 26.3334 24.9167V24.6611C26.3334 23.8685 25.7021 23.2667 25.0001 23.2667H17.3334V24.9167C18.6991 25.45 19.6667 26.7787 19.6667 28.3333C19.6667 30.3584 18.0251 32 16.0001 32C13.975 32 12.3334 30.3584 12.3334 28.3333C12.3334 26.7787 13.301 25.45 14.6667 24.9167V23.2667H7.00008C6.29812 23.2667 5.66675 23.8685 5.66675 24.6611V24.9167C7.03254 25.45 8.00008 26.7787 8.00008 28.3333C8.00008 30.3584 6.35845 32 4.33341 32C2.30837 32 0.666748 30.3584 0.666748 28.3333C0.666748 26.7787 1.63429 25.45 3.00008 24.9167V24.6611C3.00008 22.4531 4.76871 20.6 7.00008 20.6H14.6667Z"
                     fill="black"
                   />
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M27.2669 13.3333C27.2669 14.8 26.0669 16 24.6002 16H7.26684C5.80017 16 4.60017 14.8 4.60017 13.3333V3.82699L15.4265 10.1954C15.7394 10.3795 16.1275 10.3795 16.4406 10.1954L27.2669 3.82703V13.3333ZM7.26684 0C6.16711 0 5.21729 0.674681 4.81088 1.63057L15.9335 8.17331L27.0562 1.6306C26.6497 0.674693 25.6999 0 24.6002 0H7.26684ZM14.6667 20.6V18H17.3334V20.6H25.0001C27.2314 20.6 29.0001 22.4531 29.0001 24.6611V24.9167C30.3658 25.45 31.3334 26.7787 31.3334 28.3333C31.3334 30.3584 29.6918 32 27.6667 32C25.6417 32 24.0001 30.3584 24.0001 28.3333C24.0001 26.7787 24.9677 25.45 26.3334 24.9167V24.6611C26.3334 23.8685 25.7021 23.2667 25.0001 23.2667H17.3334V24.9167C18.6991 25.45 19.6667 26.7787 19.6667 28.3333C19.6667 30.3584 18.0251 32 16.0001 32C13.975 32 12.3334 30.3584 12.3334 28.3333C12.3334 26.7787 13.301 25.45 14.6667 24.9167V23.2667H7.00008C6.29812 23.2667 5.66675 23.8685 5.66675 24.6611V24.9167C7.03254 25.45 8.00008 26.7787 8.00008 28.3333C8.00008 30.3584 6.35845 32 4.33341 32C2.30837 32 0.666748 30.3584 0.666748 28.3333C0.666748 26.7787 1.63429 25.45 3.00008 24.9167V24.6611C3.00008 22.4531 4.76871 20.6 7.00008 20.6H14.6667Z"
                     fill="url(#paint0_linear_85_2152)"
                   />
@@ -107,9 +107,9 @@ export default function Section3() {
                       gradientUnits="userSpaceOnUse"
                     >
                       <stop />
-                      <stop offset="0.325" stop-color="#A80601" />
-                      <stop offset="0.785" stop-color="#EE5A02" />
-                      <stop offset="1" stop-color="#DDB28F" />
+                      <stop offset="0.325" stopColor="#A80601" />
+                      <stop offset="0.785" stopColor="#EE5A02" />
+                      <stop offset="1" stopColor="#DDB28F" />
                     </linearGradient>
                   </defs>
                 </svg>
@@ -178,9 +178,9 @@ export default function Section3() {
                       gradientUnits="userSpaceOnUse"
                     >
                       <stop />
-                      <stop offset="0.325" stop-color="#A80601" />
-                      <stop offset="0.785" stop-color="#EE5A02" />
-                      <stop offset="1" stop-color="#DDB28F" />
+                      <stop offset="0.325" stopColor="#A80601" />
+                      <stop offset="0.785" stopColor="#EE5A02" />
+                      <stop offset="1" stopColor="#DDB28F" />
                     </linearGradient>
                   </defs>
                 </svg>
@@ -280,9 +280,9 @@ export default function Section3() {
                       gradientUnits="userSpaceOnUse"
                     >
                       <stop />
-                      <stop offset="0.325" stop-color="#A80601" />
-                      <stop offset="0.785" stop-color="#EE5A02" />
-                      <stop offset="1" stop-color="#DDB28F" />
+                      <stop offset="0.325" stopColor="#A80601" />
+                      <stop offset="0.785" stopColor="#EE5A02" />
+                      <stop offset="1" stopColor="#DDB28F" />
                     </linearGradient>
                     <linearGradient
                       id="paint1_linear_85_2172"
@@ -293,9 +293,9 @@ export default function Section3() {
                       gradientUnits="userSpaceOnUse"
                     >
                       <stop />
-                      <stop offset="0.325" stop-color="#A80601" />
-                      <stop offset="0.785" stop-color="#EE5A02" />
-                      <stop offset="1" stop-color="#DDB28F" />
+                      <stop offset="0.325" stopColor="#A80601" />
+                      <stop offset="0.785" stopColor="#EE5A02" />
+                      <stop offset="1" stopColor="#DDB28F" />
                     </linearGradient>
                     <linearGradient
                       id="paint2_linear_85_2172"
@@ -306,9 +306,9 @@ export default function Section3() {
                       gradientUnits="userSpaceOnUse"
                     >
                       <stop />
-                      <stop offset="0.325" stop-color="#A80601" />
-                      <stop offset="0.785" stop-color="#EE5A02" />
-                      <stop offset="1" stop-color="#DDB28F" />
+                      <stop offset="0.325" stopColor="#A80601" />
+                      <stop offset="0.785" stopColor="#EE5A02" />
+                      <stop offset="1" stopColor="#DDB28F" />
                     </linearGradient>
                     <linearGradient
                       id="paint3_linear_85_2172"
@@ -319,9 +319,9 @@ export default function Section3() {
                       gradientUnits="userSpaceOnUse"
                     >
                       <stop />
-                      <stop offset="0.325" stop-color="#A80601" />
-                      <stop offset="0.785" stop-color="#EE5A02" />
-                      <stop offset="1" stop-color="#DDB28F" />
+                      <stop offset="0.325" stopColor="#A80601" />
+                      <stop offset="0.785" stopColor="#EE5A02" />
+                      <stop offset="1" stopColor="#DDB28F" />
                     </linearGradient>
                     <linearGradient
                       id="paint4_linear_85_2172"
@@ -332,9 +332,9 @@ export default function Section3() {
                       gradientUnits="userSpaceOnUse"
                     >
                       <stop />
-                      <stop offset="0.325" stop-color="#A80601" />
-                      <stop offset="0.785" stop-color="#EE5A02" />
-                      <stop offset="1" stop-color="#DDB28F" />
+                      <stop offset="0.325" stopColor="#A80601" />
+                      <stop offset="0.785" stopColor="#EE5A02" />
+                      <stop offset="1" stopColor="#DDB28F" />
                     </linearGradient>
                   </defs>
                 </svg>

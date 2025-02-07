@@ -57,7 +57,7 @@ export default function Section() {
 
         {/* Description */}
         <motion.div
-          className="text-[#8E8E8E] w-[90%] sm:w-[80%] lg:text-[14px] xl:text-[20px] lg:w-[60%] xl:w-[90%] mx-auto font-montserrat my-6 font-[600] text-[12px] sm:text-[12px] leading-[14px] sm:leading-[14px]"
+          className="text-[#8E8E8E] w-[90%] sm:w-[80%] lg:text-[14px] xl:font-[500] xl:text-[18px] lg:w-[60%] xl:w-[90%] mx-auto font-montserrat my-6 font-[500] text-[12px] sm:text-[12px] leading-[14px] sm:leading-[14px]"
           variants={descriptionVariants}
         >
           TrūQoin™ – A Decentralized Autonomous Organization
@@ -88,7 +88,7 @@ export default function Section() {
           20k Verified Users
         </div>
       </motion.div>
-      <div className="mb-6 mt-2 text-[#8E8E8E] font-montserrat font-[600] sm:text-[14px] xl:text-[20px] sm:leading-[17.5px] ">
+      <div className="mb-6 mt-2 text-[#8E8E8E] font-montserrat font-[500] xl:font-[500] xl:text-[18px]  text-[12px] sm:text-[12px] leading-[14px] sm:leading-[14px] ">
         Rewarding activities – that build sustainable growth.
       </div>
       {/* Button */}

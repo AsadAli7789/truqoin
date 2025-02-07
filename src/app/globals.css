@@ -365,7 +365,7 @@ body {
   );
   backdrop-filter: blur(3px);
   transform: translateY(-100%);
-  animation: roTAte 20s infinite;
+  animation: roTAte 10s infinite;
   /* transform-origin:center ; */
   /* animation-delay: 1s; */
 }
@@ -390,7 +390,7 @@ body {
   );
   backdrop-filter: blur(3px);
   transform: translateY(-100%);
-  animation: roTAte 23s infinite;
+  animation: roTAte 14s infinite;
   /* transform-origin:center ; */
   /* animation-delay: 1s; */
 }
@@ -414,8 +414,8 @@ body {
   );
   backdrop-filter: blur(3px);
   transform: translateY(-100%);
-  animation: roTAte 20s infinite linear;
-  animation-delay: 5s;
+  animation: roTAte 18s infinite linear;
+  animation-delay: 2s;
   /* transform-origin:center ; */
 }
 #btn_form10 {
@@ -427,7 +427,7 @@ body {
   backdrop-filter: blur(3px);
   transform: translateY(-100%);
   animation: roTAte 10s infinite linear;
-  animation-delay: 10s;
+  animation-delay: 3s;
   /* transform-origin:center ; */
 }
 #btn_form11 {
@@ -463,7 +463,7 @@ body {
   backdrop-filter: blur(3px);
   transform: translateY(-100%);
   animation: roTAte 18s infinite linear;
-  animation-delay: 5s;
+  animation-delay: 2s;
   /* transform-origin:center ; */
 }
 #btn_form14 {
@@ -476,7 +476,7 @@ body {
   transform: translateY(-100%);
   animation: roTAte 15s infinite linear;
   /* transform-origin:center ; */
-  animation-delay: 5s;
+  animation-delay: 7s;
 }
 #btn_form15 {
   background: linear-gradient(
@@ -487,7 +487,7 @@ body {
   backdrop-filter: blur(3px);
   transform: translateY(-100%);
   animation: roTAte 20s infinite linear;
-  animation-delay: 5s;
+  animation-delay: 6s;
   /* transform-origin:center ; */
 }
 #btn_form16 {
@@ -499,19 +499,42 @@ body {
   backdrop-filter: blur(3px);
   transform: translateY(-100%);
   animation: roTAte 15s infinite linear;
-  animation-delay: 5s;
+  animation-delay: 9s;
+}
+#btn_form17 {
+  background: linear-gradient(
+    112.37deg,
+    rgba(36, 36, 36, 0.5) 0%,
+    rgba(20, 20, 20, 0.5) 101.62%
+  );
+  backdrop-filter: blur(3px);
+  transform: translateY(-100%);
+  animation: roTAte 8s infinite linear;
+  animation-delay: 1s;
+}
+#btn_form18 {
+  background: linear-gradient(
+    112.37deg,
+    rgba(36, 36, 36, 0.5) 0%,
+    rgba(20, 20, 20, 0.5) 101.62%
+  );
+  backdrop-filter: blur(3px);
+  transform: translateY(-100%);
+  animation: roTAte 15s infinite linear;
+  animation-delay: 3s;
+}
+#btn_form19 {
+  background: linear-gradient(
+    112.37deg,
+    rgba(36, 36, 36, 0.5) 0%,
+    rgba(20, 20, 20, 0.5) 101.62%
+  );
+  backdrop-filter: blur(3px);
+  transform: translateY(-100%);
+  animation: roTAte 4s infinite linear;
+  /* animation-delay: 9s; */
 }
 
-@keyframes roTAte {
-  0% {
-    /* transform: or; */
-    transform: translateY(0%);
-  }
-
-  100% {
-    transform: translateY(100vh);
-  }
-}
 #Sec8 {
   background: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 64%),
     linear-gradient(239.68deg, #111111 20.09%, rgba(17, 17, 17, 0) 42.03%),
@@ -546,4 +569,28 @@ body {
 }
 #scroller::-webkit-scrollbar {
   display: none;
+}
+@media only screen and (max-width: 1920px) {
+  @keyframes roTAte {
+    0% {
+      /* transform: or; */
+      transform: translateY(0%);
+    }
+
+    100% {
+      transform: translateY(80vh);
+    }
+  }
+}
+@media only screen and (max-width: 1024px) {
+  @keyframes roTAte {
+    0% {
+      /* transform: or; */
+      transform: translateY(0%);
+    }
+
+    100% {
+      transform: translateY(102vh);
+    }
+  }
 }

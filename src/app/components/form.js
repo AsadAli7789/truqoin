@@ -131,9 +131,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
                 <linearGradient
                   id="paint1_linear_63_440"
@@ -144,9 +144,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
                 <linearGradient
                   id="paint2_linear_63_440"
@@ -157,9 +157,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
                 <linearGradient
                   id="paint3_linear_63_440"
@@ -170,9 +170,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
                 <linearGradient
                   id="paint4_linear_63_440"
@@ -183,9 +183,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
               </defs>
             </svg>
@@ -203,14 +203,14 @@ export default function Form() {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M29.0563 0.613937C28.3595 0.375515 27.6015 0.747054 27.3631 1.44376L24.9888 8.3821C24.7504 9.07881 25.1219 9.83689 25.8186 10.0753L30.2339 11.5862C30.9306 11.8246 31.6887 11.4531 31.9271 10.7564L34.3014 3.81805C34.5398 3.12134 34.1683 2.36327 33.4716 2.12485L29.0563 0.613937ZM5.00359 2.95245C4.30688 2.71403 3.5488 3.08556 3.31038 3.78227L0.936096 10.7206C0.697675 11.4173 1.06921 12.1754 1.76592 12.4138L6.18123 13.9247C6.87794 14.1631 7.63601 13.7916 7.87443 13.0949L10.2487 6.15656C10.4871 5.45985 10.1156 4.70177 9.41889 4.46336L5.00359 2.95245ZM8.70426 14.7881C8.00755 14.5497 7.24948 14.9212 7.01106 15.6179L4.63677 22.5563C4.39835 23.253 4.76989 24.0111 5.4666 24.2495L9.88191 25.7604C10.5786 25.9988 11.3367 25.6273 11.5751 24.9306L13.9494 17.9922C14.1878 17.2955 13.8163 16.5374 13.1196 16.299L8.70426 14.7881ZM17.1871 8.53085C17.4255 7.83414 18.1835 7.4626 18.8803 7.70102L23.2956 9.21193C23.9923 9.45035 24.3638 10.2084 24.1254 10.9051L21.7511 17.8435C21.5127 18.5402 20.7546 18.9117 20.0579 18.6733L15.6426 17.1624C14.9459 16.924 14.5744 16.1659 14.8128 15.4692L17.1871 8.53085Z"
                 fill="black"
               />
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M29.0563 0.613937C28.3595 0.375515 27.6015 0.747054 27.3631 1.44376L24.9888 8.3821C24.7504 9.07881 25.1219 9.83689 25.8186 10.0753L30.2339 11.5862C30.9306 11.8246 31.6887 11.4531 31.9271 10.7564L34.3014 3.81805C34.5398 3.12134 34.1683 2.36327 33.4716 2.12485L29.0563 0.613937ZM5.00359 2.95245C4.30688 2.71403 3.5488 3.08556 3.31038 3.78227L0.936096 10.7206C0.697675 11.4173 1.06921 12.1754 1.76592 12.4138L6.18123 13.9247C6.87794 14.1631 7.63601 13.7916 7.87443 13.0949L10.2487 6.15656C10.4871 5.45985 10.1156 4.70177 9.41889 4.46336L5.00359 2.95245ZM8.70426 14.7881C8.00755 14.5497 7.24948 14.9212 7.01106 15.6179L4.63677 22.5563C4.39835 23.253 4.76989 24.0111 5.4666 24.2495L9.88191 25.7604C10.5786 25.9988 11.3367 25.6273 11.5751 24.9306L13.9494 17.9922C14.1878 17.2955 13.8163 16.5374 13.1196 16.299L8.70426 14.7881ZM17.1871 8.53085C17.4255 7.83414 18.1835 7.4626 18.8803 7.70102L23.2956 9.21193C23.9923 9.45035 24.3638 10.2084 24.1254 10.9051L21.7511 17.8435C21.5127 18.5402 20.7546 18.9117 20.0579 18.6733L15.6426 17.1624C14.9459 16.924 14.5744 16.1659 14.8128 15.4692L17.1871 8.53085Z"
                 fill="url(#paint0_linear_65_546)"
               />
@@ -224,9 +224,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
               </defs>
             </svg>
@@ -262,9 +262,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
               </defs>
             </svg>
@@ -300,9 +300,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
               </defs>
             </svg>
@@ -321,14 +321,14 @@ export default function Form() {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M12.0175 0.521322C11.6367 0.138299 11.0205 0.126895 10.6258 0.495563L7.4996 3.41541C7.33365 3.5704 7.2254 3.77726 7.19264 4.00195L5.91939 12.735L1.51143 17.5978C1.35625 17.769 1.2651 17.9888 1.25358 18.2195L0.93611 24.5644C0.909231 25.1024 1.3133 25.5651 1.85004 25.6108L7.23502 26.0692L9.15816 29.7893C9.27241 30.0103 9.46488 30.1809 9.69806 30.2675L16.273 32.7114C16.5062 32.7981 16.7634 32.7947 16.9942 32.702L20.8803 31.141L25.2574 34.3112C25.6937 34.6271 26.3018 34.5407 26.6328 34.1158L30.5367 29.1039C30.6787 28.9217 30.7531 28.6957 30.7475 28.4647L30.5858 21.9034L35.3257 14.4589C35.4477 14.2673 35.5007 14.04 35.4764 13.8142L35.0162 9.56137C34.9581 9.02436 34.4841 8.63057 33.9456 8.67187L25.061 9.35316L18.3001 6.84015L12.0175 0.521322ZM3.37901 18.5155L3.23322 18.6764L2.98187 23.6999L7.95469 24.1232C8.29698 24.1524 8.6004 24.3552 8.75819 24.6604L10.7573 28.5276L16.6075 30.7021L20.6472 29.0794C20.9659 28.9514 21.3281 28.996 21.6064 29.1974L25.6484 32.1249L28.7392 28.1568L28.734 27.9398L21.7599 24.1597L18.64 24.5764L18.2787 26.8821C18.2323 27.1786 18.0551 27.4386 17.796 27.5902C17.5371 27.7419 17.2237 27.7692 16.9423 27.6647L12.4876 26.0089C12.2062 25.9043 11.9867 25.6789 11.8897 25.3949C11.7926 25.1109 11.8283 24.7982 11.9868 24.5434L13.2192 22.5615L11.1289 20.2082L3.37901 18.5155ZM12.7416 16.3705C12.286 16.0582 11.6636 16.1743 11.3513 16.6297C11.039 17.0852 11.155 17.7077 11.6105 18.0201L13.779 19.507C14.2345 19.8193 14.8569 19.7033 15.1692 19.2478C15.4816 18.7924 15.3656 18.1699 14.91 17.8576L12.7416 16.3705ZM23.9287 21.3047C23.9897 20.7558 23.5942 20.2614 23.0453 20.2004L20.4319 19.9101C19.8831 19.849 19.3887 20.2446 19.3276 20.7935C19.2667 21.3424 19.6622 21.8367 20.2112 21.8978L22.8244 22.1882C23.3733 22.2491 23.8678 21.8536 23.9287 21.3047ZM10.7921 3.27688C11.0874 3.00718 11.552 3.05637 11.7843 3.38192L16.5014 9.99284C16.7408 10.3284 16.6214 10.7987 16.2508 10.9793L13.7605 12.1931C13.6858 12.2295 13.605 12.2516 13.5222 12.2583L8.70454 12.6482C8.27906 12.6827 7.93133 12.3139 7.99054 11.8912L8.93056 5.18433C8.95209 5.03064 9.02659 4.88927 9.14119 4.78461L10.7921 3.27688ZM32.2537 10.9903C32.6423 10.8955 33.0262 11.1617 33.0736 11.5588L33.3389 13.7788C33.3573 13.9329 33.3215 14.0886 33.2375 14.2191L29.5686 19.9117C29.3373 20.2704 28.8331 20.3225 28.5335 20.0186L25.14 16.5766C25.0818 16.5175 25.035 16.4479 25.0022 16.3716L23.9093 13.8259C23.7467 13.4471 23.9634 13.013 24.3639 12.9153L32.2537 10.9903Z"
                 fill="black"
               />
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M12.0175 0.521322C11.6367 0.138299 11.0205 0.126895 10.6258 0.495563L7.4996 3.41541C7.33365 3.5704 7.2254 3.77726 7.19264 4.00195L5.91939 12.735L1.51143 17.5978C1.35625 17.769 1.2651 17.9888 1.25358 18.2195L0.93611 24.5644C0.909231 25.1024 1.3133 25.5651 1.85004 25.6108L7.23502 26.0692L9.15816 29.7893C9.27241 30.0103 9.46488 30.1809 9.69806 30.2675L16.273 32.7114C16.5062 32.7981 16.7634 32.7947 16.9942 32.702L20.8803 31.141L25.2574 34.3112C25.6937 34.6271 26.3018 34.5407 26.6328 34.1158L30.5367 29.1039C30.6787 28.9217 30.7531 28.6957 30.7475 28.4647L30.5858 21.9034L35.3257 14.4589C35.4477 14.2673 35.5007 14.04 35.4764 13.8142L35.0162 9.56137C34.9581 9.02436 34.4841 8.63057 33.9456 8.67187L25.061 9.35316L18.3001 6.84015L12.0175 0.521322ZM3.37901 18.5155L3.23322 18.6764L2.98187 23.6999L7.95469 24.1232C8.29698 24.1524 8.6004 24.3552 8.75819 24.6604L10.7573 28.5276L16.6075 30.7021L20.6472 29.0794C20.9659 28.9514 21.3281 28.996 21.6064 29.1974L25.6484 32.1249L28.7392 28.1568L28.734 27.9398L21.7599 24.1597L18.64 24.5764L18.2787 26.8821C18.2323 27.1786 18.0551 27.4386 17.796 27.5902C17.5371 27.7419 17.2237 27.7692 16.9423 27.6647L12.4876 26.0089C12.2062 25.9043 11.9867 25.6789 11.8897 25.3949C11.7926 25.1109 11.8283 24.7982 11.9868 24.5434L13.2192 22.5615L11.1289 20.2082L3.37901 18.5155ZM12.7416 16.3705C12.286 16.0582 11.6636 16.1743 11.3513 16.6297C11.039 17.0852 11.155 17.7077 11.6105 18.0201L13.779 19.507C14.2345 19.8193 14.8569 19.7033 15.1692 19.2478C15.4816 18.7924 15.3656 18.1699 14.91 17.8576L12.7416 16.3705ZM23.9287 21.3047C23.9897 20.7558 23.5942 20.2614 23.0453 20.2004L20.4319 19.9101C19.8831 19.849 19.3887 20.2446 19.3276 20.7935C19.2667 21.3424 19.6622 21.8367 20.2112 21.8978L22.8244 22.1882C23.3733 22.2491 23.8678 21.8536 23.9287 21.3047ZM10.7921 3.27688C11.0874 3.00718 11.552 3.05637 11.7843 3.38192L16.5014 9.99284C16.7408 10.3284 16.6214 10.7987 16.2508 10.9793L13.7605 12.1931C13.6858 12.2295 13.605 12.2516 13.5222 12.2583L8.70454 12.6482C8.27906 12.6827 7.93133 12.3139 7.99054 11.8912L8.93056 5.18433C8.95209 5.03064 9.02659 4.88927 9.14119 4.78461L10.7921 3.27688ZM32.2537 10.9903C32.6423 10.8955 33.0262 11.1617 33.0736 11.5588L33.3389 13.7788C33.3573 13.9329 33.3215 14.0886 33.2375 14.2191L29.5686 19.9117C29.3373 20.2704 28.8331 20.3225 28.5335 20.0186L25.14 16.5766C25.0818 16.5175 25.035 16.4479 25.0022 16.3716L23.9093 13.8259C23.7467 13.4471 23.9634 13.013 24.3639 12.9153L32.2537 10.9903Z"
                 fill="url(#paint0_linear_65_537)"
               />
@@ -342,9 +342,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
               </defs>
             </svg>
@@ -387,9 +387,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
                 <linearGradient
                   id="paint1_linear_65_557"
@@ -400,9 +400,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
               </defs>
             </svg>
@@ -445,9 +445,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
                 <linearGradient
                   id="paint1_linear_63_482"
@@ -458,9 +458,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
               </defs>
             </svg>
@@ -520,9 +520,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
                 <linearGradient
                   id="paint1_linear_63_462"
@@ -533,9 +533,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
                 <linearGradient
                   id="paint2_linear_63_462"
@@ -546,9 +546,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
                 <linearGradient
                   id="paint3_linear_63_462"
@@ -559,9 +559,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
               </defs>
             </svg>
@@ -580,14 +580,14 @@ export default function Form() {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M12.0175 0.521322C11.6367 0.138299 11.0205 0.126895 10.6258 0.495563L7.4996 3.41541C7.33365 3.5704 7.2254 3.77726 7.19264 4.00195L5.91939 12.735L1.51143 17.5978C1.35625 17.769 1.2651 17.9888 1.25358 18.2195L0.93611 24.5644C0.909231 25.1024 1.3133 25.5651 1.85004 25.6108L7.23502 26.0692L9.15816 29.7893C9.27241 30.0103 9.46488 30.1809 9.69806 30.2675L16.273 32.7114C16.5062 32.7981 16.7634 32.7947 16.9942 32.702L20.8803 31.141L25.2574 34.3112C25.6937 34.6271 26.3018 34.5407 26.6328 34.1158L30.5367 29.1039C30.6787 28.9217 30.7531 28.6957 30.7475 28.4647L30.5858 21.9034L35.3257 14.4589C35.4477 14.2673 35.5007 14.04 35.4764 13.8142L35.0162 9.56137C34.9581 9.02436 34.4841 8.63057 33.9456 8.67187L25.061 9.35316L18.3001 6.84015L12.0175 0.521322ZM3.37901 18.5155L3.23322 18.6764L2.98187 23.6999L7.95469 24.1232C8.29698 24.1524 8.6004 24.3552 8.75819 24.6604L10.7573 28.5276L16.6075 30.7021L20.6472 29.0794C20.9659 28.9514 21.3281 28.996 21.6064 29.1974L25.6484 32.1249L28.7392 28.1568L28.734 27.9398L21.7599 24.1597L18.64 24.5764L18.2787 26.8821C18.2323 27.1786 18.0551 27.4386 17.796 27.5902C17.5371 27.7419 17.2237 27.7692 16.9423 27.6647L12.4876 26.0089C12.2062 25.9043 11.9867 25.6789 11.8897 25.3949C11.7926 25.1109 11.8283 24.7982 11.9868 24.5434L13.2192 22.5615L11.1289 20.2082L3.37901 18.5155ZM12.7416 16.3705C12.286 16.0582 11.6636 16.1743 11.3513 16.6297C11.039 17.0852 11.155 17.7077 11.6105 18.0201L13.779 19.507C14.2345 19.8193 14.8569 19.7033 15.1692 19.2478C15.4816 18.7924 15.3656 18.1699 14.91 17.8576L12.7416 16.3705ZM23.9287 21.3047C23.9897 20.7558 23.5942 20.2614 23.0453 20.2004L20.4319 19.9101C19.8831 19.849 19.3887 20.2446 19.3276 20.7935C19.2667 21.3424 19.6622 21.8367 20.2112 21.8978L22.8244 22.1882C23.3733 22.2491 23.8678 21.8536 23.9287 21.3047ZM10.7921 3.27688C11.0874 3.00718 11.552 3.05637 11.7843 3.38192L16.5014 9.99284C16.7408 10.3284 16.6214 10.7987 16.2508 10.9793L13.7605 12.1931C13.6858 12.2295 13.605 12.2516 13.5222 12.2583L8.70454 12.6482C8.27906 12.6827 7.93133 12.3139 7.99054 11.8912L8.93056 5.18433C8.95209 5.03064 9.02659 4.88927 9.14119 4.78461L10.7921 3.27688ZM32.2537 10.9903C32.6423 10.8955 33.0262 11.1617 33.0736 11.5588L33.3389 13.7788C33.3573 13.9329 33.3215 14.0886 33.2375 14.2191L29.5686 19.9117C29.3373 20.2704 28.8331 20.3225 28.5335 20.0186L25.14 16.5766C25.0818 16.5175 25.035 16.4479 25.0022 16.3716L23.9093 13.8259C23.7467 13.4471 23.9634 13.013 24.3639 12.9153L32.2537 10.9903Z"
                 fill="black"
               />
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M12.0175 0.521322C11.6367 0.138299 11.0205 0.126895 10.6258 0.495563L7.4996 3.41541C7.33365 3.5704 7.2254 3.77726 7.19264 4.00195L5.91939 12.735L1.51143 17.5978C1.35625 17.769 1.2651 17.9888 1.25358 18.2195L0.93611 24.5644C0.909231 25.1024 1.3133 25.5651 1.85004 25.6108L7.23502 26.0692L9.15816 29.7893C9.27241 30.0103 9.46488 30.1809 9.69806 30.2675L16.273 32.7114C16.5062 32.7981 16.7634 32.7947 16.9942 32.702L20.8803 31.141L25.2574 34.3112C25.6937 34.6271 26.3018 34.5407 26.6328 34.1158L30.5367 29.1039C30.6787 28.9217 30.7531 28.6957 30.7475 28.4647L30.5858 21.9034L35.3257 14.4589C35.4477 14.2673 35.5007 14.04 35.4764 13.8142L35.0162 9.56137C34.9581 9.02436 34.4841 8.63057 33.9456 8.67187L25.061 9.35316L18.3001 6.84015L12.0175 0.521322ZM3.37901 18.5155L3.23322 18.6764L2.98187 23.6999L7.95469 24.1232C8.29698 24.1524 8.6004 24.3552 8.75819 24.6604L10.7573 28.5276L16.6075 30.7021L20.6472 29.0794C20.9659 28.9514 21.3281 28.996 21.6064 29.1974L25.6484 32.1249L28.7392 28.1568L28.734 27.9398L21.7599 24.1597L18.64 24.5764L18.2787 26.8821C18.2323 27.1786 18.0551 27.4386 17.796 27.5902C17.5371 27.7419 17.2237 27.7692 16.9423 27.6647L12.4876 26.0089C12.2062 25.9043 11.9867 25.6789 11.8897 25.3949C11.7926 25.1109 11.8283 24.7982 11.9868 24.5434L13.2192 22.5615L11.1289 20.2082L3.37901 18.5155ZM12.7416 16.3705C12.286 16.0582 11.6636 16.1743 11.3513 16.6297C11.039 17.0852 11.155 17.7077 11.6105 18.0201L13.779 19.507C14.2345 19.8193 14.8569 19.7033 15.1692 19.2478C15.4816 18.7924 15.3656 18.1699 14.91 17.8576L12.7416 16.3705ZM23.9287 21.3047C23.9897 20.7558 23.5942 20.2614 23.0453 20.2004L20.4319 19.9101C19.8831 19.849 19.3887 20.2446 19.3276 20.7935C19.2667 21.3424 19.6622 21.8367 20.2112 21.8978L22.8244 22.1882C23.3733 22.2491 23.8678 21.8536 23.9287 21.3047ZM10.7921 3.27688C11.0874 3.00718 11.552 3.05637 11.7843 3.38192L16.5014 9.99284C16.7408 10.3284 16.6214 10.7987 16.2508 10.9793L13.7605 12.1931C13.6858 12.2295 13.605 12.2516 13.5222 12.2583L8.70454 12.6482C8.27906 12.6827 7.93133 12.3139 7.99054 11.8912L8.93056 5.18433C8.95209 5.03064 9.02659 4.88927 9.14119 4.78461L10.7921 3.27688ZM32.2537 10.9903C32.6423 10.8955 33.0262 11.1617 33.0736 11.5588L33.3389 13.7788C33.3573 13.9329 33.3215 14.0886 33.2375 14.2191L29.5686 19.9117C29.3373 20.2704 28.8331 20.3225 28.5335 20.0186L25.14 16.5766C25.0818 16.5175 25.035 16.4479 25.0022 16.3716L23.9093 13.8259C23.7467 13.4471 23.9634 13.013 24.3639 12.9153L32.2537 10.9903Z"
                 fill="url(#paint0_linear_65_537)"
               />
@@ -601,9 +601,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
               </defs>
             </svg>
@@ -646,9 +646,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
                 <linearGradient
                   id="paint1_linear_65_557"
@@ -659,9 +659,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
               </defs>
             </svg>
@@ -704,9 +704,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
                 <linearGradient
                   id="paint1_linear_63_482"
@@ -717,9 +717,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
               </defs>
             </svg>
@@ -779,9 +779,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
                 <linearGradient
                   id="paint1_linear_63_462"
@@ -792,9 +792,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
                 <linearGradient
                   id="paint2_linear_63_462"
@@ -805,9 +805,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
                 <linearGradient
                   id="paint3_linear_63_462"
@@ -818,9 +818,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
               </defs>
             </svg>
@@ -888,9 +888,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
                 <linearGradient
                   id="paint1_linear_63_440"
@@ -901,9 +901,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
                 <linearGradient
                   id="paint2_linear_63_440"
@@ -914,9 +914,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
                 <linearGradient
                   id="paint3_linear_63_440"
@@ -927,9 +927,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
                 <linearGradient
                   id="paint4_linear_63_440"
@@ -940,9 +940,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
               </defs>
             </svg>
@@ -960,14 +960,14 @@ export default function Form() {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M29.0563 0.613937C28.3595 0.375515 27.6015 0.747054 27.3631 1.44376L24.9888 8.3821C24.7504 9.07881 25.1219 9.83689 25.8186 10.0753L30.2339 11.5862C30.9306 11.8246 31.6887 11.4531 31.9271 10.7564L34.3014 3.81805C34.5398 3.12134 34.1683 2.36327 33.4716 2.12485L29.0563 0.613937ZM5.00359 2.95245C4.30688 2.71403 3.5488 3.08556 3.31038 3.78227L0.936096 10.7206C0.697675 11.4173 1.06921 12.1754 1.76592 12.4138L6.18123 13.9247C6.87794 14.1631 7.63601 13.7916 7.87443 13.0949L10.2487 6.15656C10.4871 5.45985 10.1156 4.70177 9.41889 4.46336L5.00359 2.95245ZM8.70426 14.7881C8.00755 14.5497 7.24948 14.9212 7.01106 15.6179L4.63677 22.5563C4.39835 23.253 4.76989 24.0111 5.4666 24.2495L9.88191 25.7604C10.5786 25.9988 11.3367 25.6273 11.5751 24.9306L13.9494 17.9922C14.1878 17.2955 13.8163 16.5374 13.1196 16.299L8.70426 14.7881ZM17.1871 8.53085C17.4255 7.83414 18.1835 7.4626 18.8803 7.70102L23.2956 9.21193C23.9923 9.45035 24.3638 10.2084 24.1254 10.9051L21.7511 17.8435C21.5127 18.5402 20.7546 18.9117 20.0579 18.6733L15.6426 17.1624C14.9459 16.924 14.5744 16.1659 14.8128 15.4692L17.1871 8.53085Z"
                 fill="black"
               />
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M29.0563 0.613937C28.3595 0.375515 27.6015 0.747054 27.3631 1.44376L24.9888 8.3821C24.7504 9.07881 25.1219 9.83689 25.8186 10.0753L30.2339 11.5862C30.9306 11.8246 31.6887 11.4531 31.9271 10.7564L34.3014 3.81805C34.5398 3.12134 34.1683 2.36327 33.4716 2.12485L29.0563 0.613937ZM5.00359 2.95245C4.30688 2.71403 3.5488 3.08556 3.31038 3.78227L0.936096 10.7206C0.697675 11.4173 1.06921 12.1754 1.76592 12.4138L6.18123 13.9247C6.87794 14.1631 7.63601 13.7916 7.87443 13.0949L10.2487 6.15656C10.4871 5.45985 10.1156 4.70177 9.41889 4.46336L5.00359 2.95245ZM8.70426 14.7881C8.00755 14.5497 7.24948 14.9212 7.01106 15.6179L4.63677 22.5563C4.39835 23.253 4.76989 24.0111 5.4666 24.2495L9.88191 25.7604C10.5786 25.9988 11.3367 25.6273 11.5751 24.9306L13.9494 17.9922C14.1878 17.2955 13.8163 16.5374 13.1196 16.299L8.70426 14.7881ZM17.1871 8.53085C17.4255 7.83414 18.1835 7.4626 18.8803 7.70102L23.2956 9.21193C23.9923 9.45035 24.3638 10.2084 24.1254 10.9051L21.7511 17.8435C21.5127 18.5402 20.7546 18.9117 20.0579 18.6733L15.6426 17.1624C14.9459 16.924 14.5744 16.1659 14.8128 15.4692L17.1871 8.53085Z"
                 fill="url(#paint0_linear_65_546)"
               />
@@ -981,9 +981,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
               </defs>
             </svg>
@@ -1019,9 +1019,9 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
               </defs>
             </svg>
@@ -1057,9 +1057,209 @@ export default function Form() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.325" stop-color="#A80601" />
-                  <stop offset="0.785" stop-color="#EE5A02" />
-                  <stop offset="1" stop-color="#DDB28F" />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </button>
+          {/* <button
+            id="btn_form17"
+            className={`border rounded-[8px] left-4 absolute border-[#2B2B2B] p-2`}
+          >
+            <svg
+              width="30"
+              className="md:w-[30px] md:h-[30px] w-[15px] h-[15px]"
+              height="30"
+              viewBox="0 0 41 39"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M29.4552 15.0822C29.3826 15.0559 29.3031 15.0546 29.2297 15.0786C29.1562 15.1027 29.0928 15.1505 29.0497 15.2147C28.3397 16.847 27.0335 18.1467 25.3977 18.8486C23.8483 19.4782 22.119 19.5025 20.5525 18.9167C20.4828 18.8852 20.4039 18.8809 20.3312 18.9047C20.2585 18.9284 20.1974 18.9785 20.1597 19.045C19.354 20.3011 18.1411 21.2422 16.7242 21.7104L16.2173 21.876C14.4955 22.2943 12.6795 22.0518 11.1278 21.1964C11.0581 21.1649 10.9792 21.1607 10.9065 21.1844C10.8338 21.2082 10.7727 21.2582 10.735 21.3247C10.0475 22.1908 9.10122 22.8145 8.03425 23.1048C7.94937 23.1317 7.87806 23.1901 7.8351 23.2681C7.80205 23.3112 7.78004 23.3617 7.77098 23.4153L11.7379 35.557C11.9027 36.0612 12.2609 36.4793 12.7339 36.7194C13.207 36.9594 13.756 37.0017 14.2602 36.837L35.806 29.7975C36.3102 29.6328 36.7283 29.2745 36.9684 28.8015C37.2084 28.3285 37.2507 27.7795 37.086 27.2753L33.1232 15.1462C33.0912 15.0614 33.0284 14.9917 32.9472 14.9512C32.8652 14.9192 32.7752 14.9143 32.6901 14.937C31.6561 15.3351 30.5207 15.386 29.4552 15.0822ZM25.6717 22.392C25.6542 22.3277 25.6497 22.2605 25.6582 22.1944C25.6668 22.1283 25.6883 22.0646 25.7216 22.0068C25.7548 21.949 25.7991 21.8984 25.852 21.8578C25.9048 21.8172 25.9652 21.7874 26.0296 21.7701L30.0853 20.445C30.1474 20.4209 30.2137 20.4094 30.2803 20.4109C30.347 20.4125 30.4126 20.4272 30.4736 20.4542C30.5345 20.4812 30.5895 20.52 30.6355 20.5683C30.6814 20.6166 30.7174 20.6735 30.7413 20.7357L32.9277 27.4276C32.9826 27.5956 32.9685 27.7786 32.8885 27.9363C32.8084 28.094 32.6691 28.2134 32.501 28.2683L28.6988 29.5106C28.5307 29.5655 28.3477 29.5514 28.1901 29.4714C28.0324 29.3913 27.913 29.252 27.858 29.0839L25.6717 22.392ZM13.6313 26.3258C13.6155 26.2665 13.6116 26.2046 13.6198 26.1437C13.6279 26.0829 13.648 26.0242 13.6789 25.9711C13.7097 25.918 13.7508 25.8716 13.7996 25.8344C13.8485 25.7972 13.9042 25.77 13.9636 25.7544L20.6175 23.5804C20.6744 23.556 20.7358 23.5436 20.7977 23.5439C20.8597 23.5441 20.9209 23.557 20.9777 23.5819C21.0344 23.6067 21.0855 23.6429 21.1277 23.6882C21.1699 23.7336 21.2024 23.7871 21.2231 23.8455L22.602 28.0659C22.6198 28.1258 22.6254 28.1887 22.6184 28.2508C22.6115 28.3129 22.5921 28.3729 22.5615 28.4274C22.5309 28.4819 22.4897 28.5297 22.4403 28.5679C22.3909 28.6062 22.3343 28.6341 22.2738 28.65L15.62 30.824C15.5022 30.8663 15.3725 30.861 15.2586 30.8091C15.1448 30.7572 15.0556 30.6629 15.0103 30.5463L13.6313 26.3258Z"
+                fill="black"
+              />
+              <path
+                d="M29.4552 15.0822C29.3826 15.0559 29.3031 15.0546 29.2297 15.0786C29.1562 15.1027 29.0928 15.1505 29.0497 15.2147C28.3397 16.847 27.0335 18.1467 25.3977 18.8486C23.8483 19.4782 22.119 19.5025 20.5525 18.9167C20.4828 18.8852 20.4039 18.8809 20.3312 18.9047C20.2585 18.9284 20.1974 18.9785 20.1597 19.045C19.354 20.3011 18.1411 21.2422 16.7242 21.7104L16.2173 21.876C14.4955 22.2943 12.6795 22.0518 11.1278 21.1964C11.0581 21.1649 10.9792 21.1607 10.9065 21.1844C10.8338 21.2082 10.7727 21.2582 10.735 21.3247C10.0475 22.1908 9.10122 22.8145 8.03425 23.1048C7.94937 23.1317 7.87806 23.1901 7.8351 23.2681C7.80205 23.3112 7.78004 23.3617 7.77098 23.4153L11.7379 35.557C11.9027 36.0612 12.2609 36.4793 12.7339 36.7194C13.207 36.9594 13.756 37.0017 14.2602 36.837L35.806 29.7975C36.3102 29.6328 36.7283 29.2745 36.9684 28.8015C37.2084 28.3285 37.2507 27.7795 37.086 27.2753L33.1232 15.1462C33.0912 15.0614 33.0284 14.9917 32.9472 14.9512C32.8652 14.9192 32.7752 14.9143 32.6901 14.937C31.6561 15.3351 30.5207 15.386 29.4552 15.0822ZM25.6717 22.392C25.6542 22.3277 25.6497 22.2605 25.6582 22.1944C25.6668 22.1283 25.6883 22.0646 25.7216 22.0068C25.7548 21.949 25.7991 21.8984 25.852 21.8578C25.9048 21.8172 25.9652 21.7874 26.0296 21.7701L30.0853 20.445C30.1474 20.4209 30.2137 20.4094 30.2803 20.4109C30.347 20.4125 30.4126 20.4272 30.4736 20.4542C30.5345 20.4812 30.5895 20.52 30.6355 20.5683C30.6814 20.6166 30.7174 20.6735 30.7413 20.7357L32.9277 27.4276C32.9826 27.5956 32.9685 27.7786 32.8885 27.9363C32.8084 28.094 32.6691 28.2134 32.501 28.2683L28.6988 29.5106C28.5307 29.5655 28.3477 29.5514 28.1901 29.4714C28.0324 29.3913 27.913 29.252 27.858 29.0839L25.6717 22.392ZM13.6313 26.3258C13.6155 26.2665 13.6116 26.2046 13.6198 26.1437C13.6279 26.0829 13.648 26.0242 13.6789 25.9711C13.7097 25.918 13.7508 25.8716 13.7996 25.8344C13.8485 25.7972 13.9042 25.77 13.9636 25.7544L20.6175 23.5804C20.6744 23.556 20.7358 23.5436 20.7977 23.5439C20.8597 23.5441 20.9209 23.557 20.9777 23.5819C21.0344 23.6067 21.0855 23.6429 21.1277 23.6882C21.1699 23.7336 21.2024 23.7871 21.2231 23.8455L22.602 28.0659C22.6198 28.1258 22.6254 28.1887 22.6184 28.2508C22.6115 28.3129 22.5921 28.3729 22.5615 28.4274C22.5309 28.4819 22.4897 28.5297 22.4403 28.5679C22.3909 28.6062 22.3343 28.6341 22.2738 28.65L15.62 30.824C15.5022 30.8663 15.3725 30.861 15.2586 30.8091C15.1448 30.7572 15.0556 30.6629 15.0103 30.5463L13.6313 26.3258Z"
+                fill="url(#paint0_linear_63_440)"
+              />
+              <path
+                d="M28.4304 1.68464L24.4381 2.98902C24.386 3.00656 24.3389 3.03624 24.3005 3.07559C24.2622 3.11495 24.2337 3.16287 24.2175 3.21539C24.2104 3.26573 24.215 3.31703 24.2307 3.36536C24.2465 3.41369 24.2732 3.45776 24.3086 3.49422L28.2405 8.78822C28.2934 8.88203 28.3272 8.98542 28.3399 9.0924L29.5821 12.8946C29.5982 12.9438 29.6255 12.9886 29.6619 13.0254C29.6983 13.0622 29.7427 13.09 29.7917 13.1067C30.2953 13.2938 30.8395 13.3441 31.3689 13.2524C31.8983 13.1608 32.3939 12.9305 32.8054 12.5849C33.328 12.119 33.7046 11.5118 33.8897 10.8365C34.0748 10.1612 34.0605 9.4468 33.8484 8.7795L33.4343 7.5121C33.4306 7.47633 33.4193 7.44177 33.4012 7.4107L28.9641 1.98719C28.7463 1.74977 28.5445 1.64737 28.4304 1.68464Z"
+                fill="black"
+              />
+              <path
+                d="M28.4304 1.68464L24.4381 2.98902C24.386 3.00656 24.3389 3.03624 24.3005 3.07559C24.2622 3.11495 24.2337 3.16287 24.2175 3.21539C24.2104 3.26573 24.215 3.31703 24.2307 3.36536C24.2465 3.41369 24.2732 3.45776 24.3086 3.49422L28.2405 8.78822C28.2934 8.88203 28.3272 8.98542 28.3399 9.0924L29.5821 12.8946C29.5982 12.9438 29.6255 12.9886 29.6619 13.0254C29.6983 13.0622 29.7427 13.09 29.7917 13.1067C30.2953 13.2938 30.8395 13.3441 31.3689 13.2524C31.8983 13.1608 32.3939 12.9305 32.8054 12.5849C33.328 12.119 33.7046 11.5118 33.8897 10.8365C34.0748 10.1612 34.0605 9.4468 33.8484 8.7795L33.4343 7.5121C33.4306 7.47633 33.4193 7.44177 33.4012 7.4107L28.9641 1.98719C28.7463 1.74977 28.5445 1.64737 28.4304 1.68464Z"
+                fill="url(#paint1_linear_63_440)"
+              />
+              <path
+                d="M27.5888 13.4477C27.6115 13.3839 27.6134 13.3145 27.5941 13.2496L26.5051 9.9163L26.472 9.81491L22.13 3.99562C22.0921 3.93629 22.0357 3.89111 21.9695 3.86709C21.9034 3.84306 21.8311 3.84153 21.764 3.86273L17.29 5.32446C17.2473 5.33905 17.208 5.36216 17.1745 5.3924C17.141 5.42265 17.1139 5.45938 17.095 5.50038C17.075 5.53992 17.0634 5.58319 17.0609 5.62745C17.0585 5.67171 17.0653 5.716 17.0808 5.7575L20.6503 16.6825C21.2292 17.0761 21.8996 17.314 22.597 17.3736C23.2945 17.4331 23.9956 17.3122 24.6328 17.0225C25.3674 16.6944 26.0163 16.201 26.5291 15.581C27.0418 14.9609 27.4044 14.2309 27.5888 13.4477Z"
+                fill="black"
+              />
+              <path
+                d="M27.5888 13.4477C27.6115 13.3839 27.6134 13.3145 27.5941 13.2496L26.5051 9.9163L26.472 9.81491L22.13 3.99562C22.0921 3.93629 22.0357 3.89111 21.9695 3.86709C21.9034 3.84306 21.8311 3.84153 21.764 3.86273L17.29 5.32446C17.2473 5.33905 17.208 5.36216 17.1745 5.3924C17.141 5.42265 17.1139 5.45938 17.095 5.50038C17.075 5.53992 17.0634 5.58319 17.0609 5.62745C17.0585 5.67171 17.0653 5.716 17.0808 5.7575L20.6503 16.6825C21.2292 17.0761 21.8996 17.314 22.597 17.3736C23.2945 17.4331 23.9956 17.3122 24.6328 17.0225C25.3674 16.6944 26.0163 16.201 26.5291 15.581C27.0418 14.9609 27.4044 14.2309 27.5888 13.4477Z"
+                fill="url(#paint2_linear_63_440)"
+              />
+              <path
+                d="M18.7491 17.3037L15.1756 6.36596C15.1481 6.28193 15.0884 6.21224 15.0096 6.17224C14.9307 6.13223 14.8392 6.12518 14.7552 6.15263L10.2813 7.61436C10.2138 7.63854 10.1556 7.68301 10.1144 7.74166C10.0733 7.8003 10.0514 7.87025 10.0516 7.94187L10.0084 15.1939C10.0121 15.2297 10.0234 15.2642 10.0415 15.2953L11.1264 18.6159C11.1294 18.6837 11.1509 18.7495 11.1885 18.806C11.8133 19.3349 12.5515 19.7128 13.3458 19.9106C14.1402 20.1084 14.9694 20.1206 15.7692 19.9465C16.4535 19.8046 17.0887 19.486 17.6115 19.0223C18.1343 18.5586 18.5266 17.9661 18.7491 17.3037Z"
+                fill="black"
+              />
+              <path
+                d="M18.7491 17.3037L15.1756 6.36596C15.1481 6.28193 15.0884 6.21224 15.0096 6.17224C14.9307 6.13223 14.8392 6.12518 14.7552 6.15263L10.2813 7.61436C10.2138 7.63854 10.1556 7.68301 10.1144 7.74166C10.0733 7.8003 10.0514 7.87025 10.0516 7.94187L10.0084 15.1939C10.0121 15.2297 10.0234 15.2642 10.0415 15.2953L11.1264 18.6159C11.1294 18.6837 11.1509 18.7495 11.1885 18.806C11.8133 19.3349 12.5515 19.7128 13.3458 19.9106C14.1402 20.1084 14.9694 20.1206 15.7692 19.9465C16.4535 19.8046 17.0887 19.486 17.6115 19.0223C18.1343 18.5586 18.5266 17.9661 18.7491 17.3037Z"
+                fill="url(#paint3_linear_63_440)"
+              />
+              <path
+                d="M9.30373 19.52L8.06147 15.7178C8.00852 15.624 7.97474 15.5206 7.96209 15.4136L8.04786 8.80694C8.05495 8.75659 8.05042 8.70529 8.03463 8.65697C8.01884 8.60864 7.99221 8.56456 7.95677 8.52811C7.91616 8.49347 7.86721 8.47003 7.81477 8.4601C7.76232 8.45017 7.70819 8.45411 7.65774 8.47151L3.61472 9.79245C3.50065 9.82972 3.37291 10.0398 3.36261 10.3517L3.00428 17.4121C3.008 17.4479 3.01929 17.4825 3.0374 17.5135L3.45149 18.7809C3.6832 19.4238 4.09246 19.9878 4.63178 20.4075C5.17111 20.8271 5.81838 21.0853 6.49849 21.1519C7.08048 21.2264 7.67078 21.1068 8.17794 20.8118C8.6851 20.5168 9.0808 20.0627 9.30373 19.52Z"
+                fill="black"
+              />
+              <path
+                d="M9.30373 19.52L8.06147 15.7178C8.00852 15.624 7.97474 15.5206 7.96209 15.4136L8.04786 8.80694C8.05495 8.75659 8.05042 8.70529 8.03463 8.65697C8.01884 8.60864 7.99221 8.56456 7.95677 8.52811C7.91616 8.49347 7.86721 8.47003 7.81477 8.4601C7.76232 8.45017 7.70819 8.45411 7.65774 8.47151L3.61472 9.79245C3.50065 9.82972 3.37291 10.0398 3.36261 10.3517L3.00428 17.4121C3.008 17.4479 3.01929 17.4825 3.0374 17.5135L3.45149 18.7809C3.6832 19.4238 4.09246 19.9878 4.63178 20.4075C5.17111 20.8271 5.81838 21.0853 6.49849 21.1519C7.08048 21.2264 7.67078 21.1068 8.17794 20.8118C8.6851 20.5168 9.0808 20.0627 9.30373 19.52Z"
+                fill="url(#paint4_linear_63_440)"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_63_440"
+                  x1="57.5917"
+                  y1="-11.5695"
+                  x2="-7.36896"
+                  y2="23.1482"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
+                </linearGradient>
+                <linearGradient
+                  id="paint1_linear_63_440"
+                  x1="35.8139"
+                  y1="-13.6717"
+                  x2="16.4249"
+                  y2="-5.8785"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
+                </linearGradient>
+                <linearGradient
+                  id="paint2_linear_63_440"
+                  x1="28.5882"
+                  y1="-12.921"
+                  x2="8.62529"
+                  y2="-5.0299"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
+                </linearGradient>
+                <linearGradient
+                  id="paint3_linear_63_440"
+                  x1="19.3911"
+                  y1="-9.94467"
+                  x2="-0.572956"
+                  y2="-2.05592"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
+                </linearGradient>
+                <linearGradient
+                  id="paint4_linear_63_440"
+                  x1="12.5621"
+                  y1="-6.08679"
+                  x2="-6.9281"
+                  y2="1.75378"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </button>
+          <button
+            id="btn_form18"
+            className={`border rounded-[8px] left-[3%] absolute border-[#2B2B2B] p-2`}
+          >
+            <svg
+              width="30"
+              className="md:w-[30px] md:h-[30px] w-[15px] h-[15px]"
+              height="30"
+              viewBox="0 0 35 26"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M29.0563 0.613937C28.3595 0.375515 27.6015 0.747054 27.3631 1.44376L24.9888 8.3821C24.7504 9.07881 25.1219 9.83689 25.8186 10.0753L30.2339 11.5862C30.9306 11.8246 31.6887 11.4531 31.9271 10.7564L34.3014 3.81805C34.5398 3.12134 34.1683 2.36327 33.4716 2.12485L29.0563 0.613937ZM5.00359 2.95245C4.30688 2.71403 3.5488 3.08556 3.31038 3.78227L0.936096 10.7206C0.697675 11.4173 1.06921 12.1754 1.76592 12.4138L6.18123 13.9247C6.87794 14.1631 7.63601 13.7916 7.87443 13.0949L10.2487 6.15656C10.4871 5.45985 10.1156 4.70177 9.41889 4.46336L5.00359 2.95245ZM8.70426 14.7881C8.00755 14.5497 7.24948 14.9212 7.01106 15.6179L4.63677 22.5563C4.39835 23.253 4.76989 24.0111 5.4666 24.2495L9.88191 25.7604C10.5786 25.9988 11.3367 25.6273 11.5751 24.9306L13.9494 17.9922C14.1878 17.2955 13.8163 16.5374 13.1196 16.299L8.70426 14.7881ZM17.1871 8.53085C17.4255 7.83414 18.1835 7.4626 18.8803 7.70102L23.2956 9.21193C23.9923 9.45035 24.3638 10.2084 24.1254 10.9051L21.7511 17.8435C21.5127 18.5402 20.7546 18.9117 20.0579 18.6733L15.6426 17.1624C14.9459 16.924 14.5744 16.1659 14.8128 15.4692L17.1871 8.53085Z"
+                fill="black"
+              />
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M29.0563 0.613937C28.3595 0.375515 27.6015 0.747054 27.3631 1.44376L24.9888 8.3821C24.7504 9.07881 25.1219 9.83689 25.8186 10.0753L30.2339 11.5862C30.9306 11.8246 31.6887 11.4531 31.9271 10.7564L34.3014 3.81805C34.5398 3.12134 34.1683 2.36327 33.4716 2.12485L29.0563 0.613937ZM5.00359 2.95245C4.30688 2.71403 3.5488 3.08556 3.31038 3.78227L0.936096 10.7206C0.697675 11.4173 1.06921 12.1754 1.76592 12.4138L6.18123 13.9247C6.87794 14.1631 7.63601 13.7916 7.87443 13.0949L10.2487 6.15656C10.4871 5.45985 10.1156 4.70177 9.41889 4.46336L5.00359 2.95245ZM8.70426 14.7881C8.00755 14.5497 7.24948 14.9212 7.01106 15.6179L4.63677 22.5563C4.39835 23.253 4.76989 24.0111 5.4666 24.2495L9.88191 25.7604C10.5786 25.9988 11.3367 25.6273 11.5751 24.9306L13.9494 17.9922C14.1878 17.2955 13.8163 16.5374 13.1196 16.299L8.70426 14.7881ZM17.1871 8.53085C17.4255 7.83414 18.1835 7.4626 18.8803 7.70102L23.2956 9.21193C23.9923 9.45035 24.3638 10.2084 24.1254 10.9051L21.7511 17.8435C21.5127 18.5402 20.7546 18.9117 20.0579 18.6733L15.6426 17.1624C14.9459 16.924 14.5744 16.1659 14.8128 15.4692L17.1871 8.53085Z"
+                fill="url(#paint0_linear_65_546)"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_65_546"
+                  x1="77.5837"
+                  y1="-15.4547"
+                  x2="-2.17075"
+                  y2="-33.8021"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </button> */}
+          <button
+            id="btn_form19"
+            className={`border rounded-[8px] left-[8%] absolute border-[#2B2B2B] p-2`}
+          >
+            {" "}
+            <svg
+              width="30"
+              className="md:w-[30px] md:h-[30px] w-[15px] h-[15px]"
+              height="30"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.9257 1.19793C6.99811 2.39929 4.49251 4.44181 2.72575 7.0672C0.958994 9.69258 0.01043 12.7829 1.00318e-05 15.9474C-0.0104101 19.1119 0.917782 22.2084 2.66721 24.8453C4.41664 27.4823 6.90873 29.5413 9.82835 30.7619C12.748 31.9825 15.964 32.31 19.0697 31.7028C22.1754 31.0957 25.0313 29.5812 27.2763 27.351C29.5213 25.1207 31.0545 22.2748 31.6821 19.1732C32.3097 16.0715 32.0034 12.8534 30.8021 9.92585C29.1911 6.00008 26.0866 2.87505 22.1715 1.23825C18.2564 -0.398556 13.8515 -0.41306 9.9257 1.19793ZM9.95325 15.6998L11.7396 7.76061C11.7811 7.60902 11.8568 7.46898 11.9609 7.35126C12.065 7.23355 12.1948 7.14131 12.3401 7.08165C12.4855 7.02199 12.6427 6.9965 12.7995 7.00715C12.9563 7.01779 13.1085 7.06429 13.2445 7.14306L20.0927 11.539C20.3048 11.6697 20.4595 11.8757 20.526 12.1158C20.5924 12.3558 20.5656 12.6121 20.4509 12.8332L17.6521 18.3054C17.5426 18.5247 17.3572 18.6969 17.1304 18.79C16.9036 18.883 16.6507 18.8907 16.4186 18.8116L10.5828 16.8827C10.3482 16.801 10.1531 16.6338 10.0364 16.4145C9.91972 16.1953 9.89002 15.94 9.95325 15.6998ZM23.4835 19.7317L20.7218 25.1887C20.5778 25.4788 20.3332 25.7067 20.0336 25.8296C19.734 25.9526 19.3998 25.9623 19.0936 25.8569L13.2947 23.9128C12.9591 23.7982 12.6828 23.5551 12.5265 23.2367C12.3702 22.9184 12.3467 22.5511 12.4613 22.2155C12.5758 21.8799 12.819 21.6035 13.1373 21.4472C13.4556 21.2909 13.823 21.2675 14.1586 21.382L18.87 22.9941L21.091 18.5373C21.2493 18.22 21.5273 17.9786 21.8636 17.8663C22.2 17.7539 22.5672 17.7798 22.8845 17.9382C23.2017 18.0966 23.4431 18.3745 23.5554 18.7109C23.6678 19.0472 23.6419 19.4144 23.4835 19.7317Z"
+                fill="black"
+              />
+              <path
+                d="M9.9257 1.19793C6.99811 2.39929 4.49251 4.44181 2.72575 7.0672C0.958994 9.69258 0.01043 12.7829 1.00318e-05 15.9474C-0.0104101 19.1119 0.917782 22.2084 2.66721 24.8453C4.41664 27.4823 6.90873 29.5413 9.82835 30.7619C12.748 31.9825 15.964 32.31 19.0697 31.7028C22.1754 31.0957 25.0313 29.5812 27.2763 27.351C29.5213 25.1207 31.0545 22.2748 31.6821 19.1732C32.3097 16.0715 32.0034 12.8534 30.8021 9.92585C29.1911 6.00008 26.0866 2.87505 22.1715 1.23825C18.2564 -0.398556 13.8515 -0.41306 9.9257 1.19793ZM9.95325 15.6998L11.7396 7.76061C11.7811 7.60902 11.8568 7.46898 11.9609 7.35126C12.065 7.23355 12.1948 7.14131 12.3401 7.08165C12.4855 7.02199 12.6427 6.9965 12.7995 7.00715C12.9563 7.01779 13.1085 7.06429 13.2445 7.14306L20.0927 11.539C20.3048 11.6697 20.4595 11.8757 20.526 12.1158C20.5924 12.3558 20.5656 12.6121 20.4509 12.8332L17.6521 18.3054C17.5426 18.5247 17.3572 18.6969 17.1304 18.79C16.9036 18.883 16.6507 18.8907 16.4186 18.8116L10.5828 16.8827C10.3482 16.801 10.1531 16.6338 10.0364 16.4145C9.91972 16.1953 9.89002 15.94 9.95325 15.6998ZM23.4835 19.7317L20.7218 25.1887C20.5778 25.4788 20.3332 25.7067 20.0336 25.8296C19.734 25.9526 19.3998 25.9623 19.0936 25.8569L13.2947 23.9128C12.9591 23.7982 12.6828 23.5551 12.5265 23.2367C12.3702 22.9184 12.3467 22.5511 12.4613 22.2155C12.5758 21.8799 12.819 21.6035 13.1373 21.4472C13.4556 21.2909 13.823 21.2675 14.1586 21.382L18.87 22.9941L21.091 18.5373C21.2493 18.22 21.5273 17.9786 21.8636 17.8663C22.2 17.7539 22.5672 17.7798 22.8845 17.9382C23.2017 18.0966 23.4431 18.3745 23.5554 18.7109C23.6678 19.0472 23.6419 19.4144 23.4835 19.7317Z"
+                fill="url(#paint0_linear_63_495)"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_63_495"
+                  x1="47.2408"
+                  y1="-49.7589"
+                  x2="-31.287"
+                  y2="-7.33333"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop />
+                  <stop offset="0.325" stopColor="#A80601" />
+                  <stop offset="0.785" stopColor="#EE5A02" />
+                  <stop offset="1" stopColor="#DDB28F" />
                 </linearGradient>
               </defs>
             </svg>

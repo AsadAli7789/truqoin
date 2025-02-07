@@ -101,7 +101,7 @@ export default function RightMobile({ className }) {
             <button
               onClick={() => settrans(2)}
               id="Right_M_btn"
-              className={`sm:p-4 px-2 py-1 lg:p-0  sm:w-[80px] sm:h-[80px] xl:w-[2vw] xl:h-[2vw] md:w-[2vw] md:h-[2vw] flex justify-center items-center border ${
+              className={`sm:p-4 px-2 py-1 lg:p-0   w-[35px] h-[35px] sm:w-[50px] sm:h-[50px] xl:w-[2vw] xl:h-[2vw] lg:w-[40px] lg:h-[40px] md:w-[50px] md:h-[50px] xl:max-w-[35px] xl:max-h-[35px] flex justify-center items-center border ${
                 trans == 1 ? "text-[#FFFFFF]" : "text-[#4B4B4B]"
               } border-[#343434] rounded-[5px]`}
             >
@@ -123,20 +123,20 @@ export default function RightMobile({ className }) {
             <div className="sm:text-[24px] md:text-[1.25vw]   xl:text-[.8vw] font-montserrat font-[600]  text-[#BABABA]">
               Transactions
             </div>
-            <div className="  relative w-[90%]  overflow-hidden h-[50%] flex mx-auto text-[16px] text-center font-montserrat font-[400] leading-[19.5px] text-[#BABABA]">
+            <div className="  relative w-[90%]   overflow-hidden h-[50%] flex mx-auto text-[10px] text-center font-montserrat font-[400] leading-[12.5px] text-[#BABABA]">
               <div
-                className={`absolute  left-0 transition-transform duration-300 ${
+                className={`absolute   left-0 transition-transform duration-300 ${
                   trans == 2 ? "translate-x-[100%]" : ""
                 } right-0`}
               >
-                Block 7
+                Block 7 (Closed){" "}
               </div>
               <div
                 className={`absolute  left-0  transition-transform duration-300 ${
                   trans == 1 ? "translate-x-[-100%]" : ""
                 }  right-0`}
               >
-                Block *
+                244,821{" "}
               </div>
             </div>
           </div>
@@ -144,7 +144,7 @@ export default function RightMobile({ className }) {
             <button
               onClick={() => settrans(1)}
               id="Right_M_btn"
-              className={`sm:p-4 px-2 py-1 lg:p-0   sm:w-[80px] sm:h-[80px] xl:w-[2vw] xl:h-[2vw] md:w-[2vw] md:h-[2vw] flex justify-center items-center border ${
+              className={`sm:p-4 px-2 py-1 lg:p-0  w-[35px] h-[35px] sm:w-[50px] sm:h-[50px] xl:w-[2vw] xl:h-[2vw] md:w-[50px] md:h-[50px] lg:w-[40px] lg:h-[40px] xl:max-w-[35px] xl:max-h-[35px] flex justify-center items-center border ${
                 trans == 2 ? "text-[#FFFFFF]" : "text-[#4B4B4B]"
               } border-[#343434] rounded-[5px]`}
             >

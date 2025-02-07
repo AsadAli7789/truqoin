@@ -177,7 +177,7 @@ export default function Gsap({ color }) {
               setimg2(false);
               setimg3(false);
             }}
-            className=" h-fit xl:p-4  flex-col p-4 flex xl:justify-center  cursor-pointer xl:items-center lg:w-[450px] xl:w-[650px] border-[#343434] rounded-[10px] "
+            className="  xl:p-4 xl:h-[326px] h-[276px]   flex-col p-4 flex xl:justify-center  cursor-pointer xl:items-center lg:w-[450px] xl:w-[650px] border-[#343434] rounded-[10px] "
           >
             <div className=" lg:w-[343px] xl:w-[543px] h-[179px]  my-3 ">
               <div>
@@ -188,16 +188,16 @@ export default function Gsap({ color }) {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g clip-path="url(#clip0_85_2151)">
+                  <g clipPath="url(#clip0_85_2151)">
                     <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M27.2669 13.3333C27.2669 14.8 26.0669 16 24.6002 16H7.26684C5.80017 16 4.60017 14.8 4.60017 13.3333V3.82699L15.4265 10.1954C15.7394 10.3795 16.1275 10.3795 16.4406 10.1954L27.2669 3.82703V13.3333ZM7.26684 0C6.16711 0 5.21729 0.674681 4.81088 1.63057L15.9335 8.17331L27.0562 1.6306C26.6497 0.674693 25.6999 0 24.6002 0H7.26684ZM14.6667 20.6V18H17.3334V20.6H25.0001C27.2314 20.6 29.0001 22.4531 29.0001 24.6611V24.9167C30.3658 25.45 31.3334 26.7787 31.3334 28.3333C31.3334 30.3584 29.6918 32 27.6667 32C25.6417 32 24.0001 30.3584 24.0001 28.3333C24.0001 26.7787 24.9677 25.45 26.3334 24.9167V24.6611C26.3334 23.8685 25.7021 23.2667 25.0001 23.2667H17.3334V24.9167C18.6991 25.45 19.6667 26.7787 19.6667 28.3333C19.6667 30.3584 18.0251 32 16.0001 32C13.975 32 12.3334 30.3584 12.3334 28.3333C12.3334 26.7787 13.301 25.45 14.6667 24.9167V23.2667H7.00008C6.29812 23.2667 5.66675 23.8685 5.66675 24.6611V24.9167C7.03254 25.45 8.00008 26.7787 8.00008 28.3333C8.00008 30.3584 6.35845 32 4.33341 32C2.30837 32 0.666748 30.3584 0.666748 28.3333C0.666748 26.7787 1.63429 25.45 3.00008 24.9167V24.6611C3.00008 22.4531 4.76871 20.6 7.00008 20.6H14.6667Z"
                       fill="black"
                     />
                     <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M27.2669 13.3333C27.2669 14.8 26.0669 16 24.6002 16H7.26684C5.80017 16 4.60017 14.8 4.60017 13.3333V3.82699L15.4265 10.1954C15.7394 10.3795 16.1275 10.3795 16.4406 10.1954L27.2669 3.82703V13.3333ZM7.26684 0C6.16711 0 5.21729 0.674681 4.81088 1.63057L15.9335 8.17331L27.0562 1.6306C26.6497 0.674693 25.6999 0 24.6002 0H7.26684ZM14.6667 20.6V18H17.3334V20.6H25.0001C27.2314 20.6 29.0001 22.4531 29.0001 24.6611V24.9167C30.3658 25.45 31.3334 26.7787 31.3334 28.3333C31.3334 30.3584 29.6918 32 27.6667 32C25.6417 32 24.0001 30.3584 24.0001 28.3333C24.0001 26.7787 24.9677 25.45 26.3334 24.9167V24.6611C26.3334 23.8685 25.7021 23.2667 25.0001 23.2667H17.3334V24.9167C18.6991 25.45 19.6667 26.7787 19.6667 28.3333C19.6667 30.3584 18.0251 32 16.0001 32C13.975 32 12.3334 30.3584 12.3334 28.3333C12.3334 26.7787 13.301 25.45 14.6667 24.9167V23.2667H7.00008C6.29812 23.2667 5.66675 23.8685 5.66675 24.6611V24.9167C7.03254 25.45 8.00008 26.7787 8.00008 28.3333C8.00008 30.3584 6.35845 32 4.33341 32C2.30837 32 0.666748 30.3584 0.666748 28.3333C0.666748 26.7787 1.63429 25.45 3.00008 24.9167V24.6611C3.00008 22.4531 4.76871 20.6 7.00008 20.6H14.6667Z"
                       fill="url(#paint0_linear_85_2151)"
                     />
@@ -212,9 +212,9 @@ export default function Gsap({ color }) {
                       gradientUnits="userSpaceOnUse"
                     >
                       <stop />
-                      <stop offset="0.325" stop-color="#A80601" />
-                      <stop offset="0.785" stop-color="#EE5A02" />
-                      <stop offset="1" stop-color="#DDB28F" />
+                      <stop offset="0.325" stopColor="#A80601" />
+                      <stop offset="0.785" stopColor="#EE5A02" />
+                      <stop offset="1" stopColor="#DDB28F" />
                     </linearGradient>
                     <clipPath id="clip0_85_2151">
                       <rect width="32" height="32" fill="white" />
@@ -226,9 +226,11 @@ export default function Gsap({ color }) {
                 Earn by Engaging:
               </div>
               <div className=" text-[14px] leading-[17.07px]  font-[600] font-montserrat text-[#8E8E8E] w-[98%] my-3 ">
-                We use a Proof-of-Activity Mining (PoAM) model that rewards
-                users for participating in our ecosystem—no expensive hardware
-                needed.
+                TrūQoin™ is the first cryptocurrency to integrate
+                Proof-of-Transaction & Activity™ mining technologies into a
+                cryptocurrency, empowering miners to acquire tokens without the
+                costs typically associated with traditional cryptocurrency
+                mining.
               </div>
             </div>
           </div>
@@ -239,7 +241,7 @@ export default function Gsap({ color }) {
               setimg(false);
               setimg3(false);
             }}
-            className=" h-fit xl:p-4  flex-col p-4 flex xl:justify-center xl:items-center cursor-pointer   lg:w-[450px] xl:w-[650px] border-[#343434] rounded-[10px]"
+            className="  xl:p-4  flex-col p-4  xl:h-[326px] h-[276px]  flex xl:justify-center xl:items-center cursor-pointer   lg:w-[450px] xl:w-[650px] border-[#343434] rounded-[10px]"
           >
             <div className="lg:w-[343px] xl:w-[543px] h-[179px]  my-3  ">
               <div>
@@ -250,7 +252,7 @@ export default function Gsap({ color }) {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g clip-path="url(#clip0_85_2161)">
+                  <g clipPath="url(#clip0_85_2161)">
                     <path
                       d="M32 16C32 12.8355 31.0616 9.74207 29.3035 7.11088C27.5454 4.4797 25.0466 2.42894 22.1229 1.21793C19.1993 0.00693258 15.9823 -0.309921 12.8786 0.307443C9.77487 0.924806 6.92394 2.44866 4.6863 4.6863C2.44866 6.92394 0.924806 9.77487 0.307443 12.8786C-0.309921 15.9823 0.00693258 19.1993 1.21793 22.1229C2.42894 25.0466 4.4797 27.5454 7.11088 29.3035C9.74207 31.0616 12.8355 32 16 32H16.16C20.36 31.9965 24.3869 30.3265 27.3567 27.3567C30.3265 24.3869 31.9965 20.36 32 16.16V16ZM29.3333 16C29.3308 17.1851 29.1694 18.3645 28.8533 19.5067C28.83 19.5987 28.7869 19.6846 28.7271 19.7582C28.6672 19.8319 28.592 19.8917 28.5067 19.9333C28.3529 20.0206 28.1711 20.0445 28 20C27.1743 19.6445 26.47 19.056 25.9733 18.3067L23.0133 13.8667C22.7085 13.4109 22.2959 13.0374 21.8121 12.7792C21.3283 12.5211 20.7883 12.3862 20.24 12.3867H19.6667C18.6942 12.3867 17.7616 12.0004 17.0739 11.3127C16.3863 10.6251 16 9.69247 16 8.72001C16 7.74755 16.3863 6.81492 17.0739 6.12728C17.7616 5.43965 18.6942 5.05334 19.6667 5.05334H23.36C23.4985 5.05045 23.6342 5.09255 23.7467 5.17334C25.4711 6.4043 26.8773 8.02847 27.8489 9.91128C28.8204 11.7941 29.3293 13.8813 29.3333 16ZM2.90667 13.5467C2.93218 13.3925 3.01212 13.2525 3.13199 13.1522C3.25186 13.0519 3.40372 12.9979 3.56001 13H9.33334C9.94337 12.9921 10.5489 13.1059 11.1144 13.3348C11.6799 13.5638 12.194 13.9032 12.6267 14.3333L14.1333 15.8667C14.9747 16.7085 15.4627 17.8399 15.4974 19.0296C15.5321 20.2193 15.1109 21.3773 14.32 22.2667L12.5067 24.3067C11.9642 24.9162 11.6652 25.7041 11.6667 26.52V27.6267C11.6677 27.7385 11.6401 27.8486 11.5864 27.9467C11.5327 28.0447 11.4548 28.1274 11.36 28.1867C11.2629 28.2359 11.1555 28.2615 11.0467 28.2615C10.9378 28.2615 10.8305 28.2359 10.7333 28.1867C8.34832 27.1612 6.31454 25.4618 4.88159 23.297C3.44863 21.1322 2.67884 18.5961 2.66667 16C2.66463 15.1763 2.74503 14.3544 2.90667 13.5467Z"
                       fill="black"
@@ -284,8 +286,10 @@ export default function Gsap({ color }) {
                 Seamless Ecosystem:{" "}
               </div>
               <div className=" text-[14px] leading-[17.07px] font-[600] font-montserrat text-[#8E8E8E] w-[98%] my-3 ">
-                TrūQoin is designed to work effortlessly with TrūIQ Global's
-                range of health and wellness products.s
+                Using the latest in blockchain and smart contract technology,
+                Web 3 infrastructure and infused with Responsible AI™ (R-AI),
+                the TrūQoin ecosystem is positioning itself and its members to
+                benefit from the coming integrated economy.
               </div>
             </div>
           </div>
@@ -296,7 +300,7 @@ export default function Gsap({ color }) {
               setimg(false);
               setimg2(false);
             }}
-            className="  h-fit xl:p-4  flex-col p-4 flex xl:justify-center xl:items-center cursor-pointer lg:w-[450px] xl:w-[650px] border-[#343434] rounded-[10px] "
+            className=" xl:p-4  flex-col p-4 xl:h-[326px] h-[276px] flex xl:justify-center xl:items-center cursor-pointer lg:w-[450px] xl:w-[650px] border-[#343434] rounded-[10px] "
           >
             <div className="lg:w-[343px] xl:w-[543px] h-[179px]  my-3 ">
               <div>
@@ -307,7 +311,7 @@ export default function Gsap({ color }) {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g clip-path="url(#clip0_85_2171)">
+                  <g clipPath="url(#clip0_85_2171)">
                     <path
                       d="M14.4934 28.6666C14.5818 28.6666 14.6666 28.6315 14.7291 28.569C14.7916 28.5065 14.8268 28.4217 14.8268 28.3333V24.3333C14.8286 24.289 14.8213 24.2448 14.8052 24.2035C14.7892 24.1622 14.7647 24.1247 14.7333 24.0934C14.702 24.062 14.6645 24.0375 14.6232 24.0215C14.5819 24.0054 14.5377 23.998 14.4934 23.9999C8.7201 23.9999 4.4801 22.4666 2.37343 20.7866C2.32239 20.7516 2.26197 20.7329 2.2001 20.7329C2.13823 20.7329 2.0778 20.7516 2.02676 20.7866C1.97069 20.8123 1.92323 20.8537 1.89012 20.9057C1.857 20.9577 1.83963 21.0182 1.8401 21.0799V23.3333C1.8401 26.4266 7.85343 28.6666 14.4934 28.6666Z"
                       fill="black"
@@ -359,9 +363,9 @@ export default function Gsap({ color }) {
                       gradientUnits="userSpaceOnUse"
                     >
                       <stop />
-                      <stop offset="0.325" stop-color="#A80601" />
-                      <stop offset="0.785" stop-color="#EE5A02" />
-                      <stop offset="1" stop-color="#DDB28F" />
+                      <stop offset="0.325" stopColor="#A80601" />
+                      <stop offset="0.785" stopColor="#EE5A02" />
+                      <stop offset="1" stopColor="#DDB28F" />
                     </linearGradient>
                     <linearGradient
                       id="paint1_linear_85_2171"
@@ -372,9 +376,9 @@ export default function Gsap({ color }) {
                       gradientUnits="userSpaceOnUse"
                     >
                       <stop />
-                      <stop offset="0.325" stop-color="#A80601" />
-                      <stop offset="0.785" stop-color="#EE5A02" />
-                      <stop offset="1" stop-color="#DDB28F" />
+                      <stop offset="0.325" stopColor="#A80601" />
+                      <stop offset="0.785" stopColor="#EE5A02" />
+                      <stop offset="1" stopColor="#DDB28F" />
                     </linearGradient>
                     <linearGradient
                       id="paint2_linear_85_2171"
@@ -385,9 +389,9 @@ export default function Gsap({ color }) {
                       gradientUnits="userSpaceOnUse"
                     >
                       <stop />
-                      <stop offset="0.325" stop-color="#A80601" />
-                      <stop offset="0.785" stop-color="#EE5A02" />
-                      <stop offset="1" stop-color="#DDB28F" />
+                      <stop offset="0.325" stopColor="#A80601" />
+                      <stop offset="0.785" stopColor="#EE5A02" />
+                      <stop offset="1" stopColor="#DDB28F" />
                     </linearGradient>
                     <linearGradient
                       id="paint3_linear_85_2171"
@@ -398,9 +402,9 @@ export default function Gsap({ color }) {
                       gradientUnits="userSpaceOnUse"
                     >
                       <stop />
-                      <stop offset="0.325" stop-color="#A80601" />
-                      <stop offset="0.785" stop-color="#EE5A02" />
-                      <stop offset="1" stop-color="#DDB28F" />
+                      <stop offset="0.325" stopColor="#A80601" />
+                      <stop offset="0.785" stopColor="#EE5A02" />
+                      <stop offset="1" stopColor="#DDB28F" />
                     </linearGradient>
                     <linearGradient
                       id="paint4_linear_85_2171"
@@ -411,9 +415,9 @@ export default function Gsap({ color }) {
                       gradientUnits="userSpaceOnUse"
                     >
                       <stop />
-                      <stop offset="0.325" stop-color="#A80601" />
-                      <stop offset="0.785" stop-color="#EE5A02" />
-                      <stop offset="1" stop-color="#DDB28F" />
+                      <stop offset="0.325" stopColor="#A80601" />
+                      <stop offset="0.785" stopColor="#EE5A02" />
+                      <stop offset="1" stopColor="#DDB28F" />
                     </linearGradient>
                     <clipPath id="clip0_85_2171">
                       <rect width="32" height="32" fill="white" />
@@ -425,8 +429,11 @@ export default function Gsap({ color }) {
                 Borderless and Secure:{" "}
               </div>
               <div className=" text-[14px] leading-[17.07px] font-[600] font-montserrat text-[#8E8E8E] w-[98%] my-3 ">
-                With blockchain technology, TrūQoin ensures a global platform
-                that’s secure and easy to use for everyone.
+                Understanding the purpose, accessibility and use of new
+                technologies requires a careful and legally prudent path to
+                adoption. TruQoin has and will continually monitor local and
+                international governance, to support diverse jurisdictions and
+                to allow the use of TrūQoin throughout the word.
               </div>
             </div>
           </div>

@@ -27,11 +27,21 @@ export default function Home() {
         <div className="my-28">
           <Section />
         </div>
+        <div className=" text-center w-[80vw] md:max-w-[426px] md:my-5  font-montserrat mx-auto  md:w-[50%]">
+          <div className="md:text-[48px] text-[32px] font-[700] text-white">
+            Our Mission
+          </div>
+          <div className="md:text-[14px] text-[14px] text-[#8E8E8E] font-[600]">
+            To simplify and normalize the acquisition and use of cryptocurrency
+            and digital assets.
+          </div>
+        </div>
         <div className="my- hidden lg:block relative ">
           <div
             id="bg2"
             className="absolute w-[100%] h-[100%] bottom-0  opacity-[0.8] z-[-1]"
           ></div>
+
           <MobileSection />
           <div
             id="bg2"
@@ -53,9 +63,9 @@ export default function Home() {
           <SectionThrees />
         </div>
 
-        <div className="md:my-10 my-20">
+        {/* <div className="md:my-10 my-20">
           <SectionTwo />
-        </div>
+        </div> */}
         <div className="md:my-48 my-20">
           <Section_8 />
         </div>

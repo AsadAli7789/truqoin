@@ -90,12 +90,12 @@ export default function SectionFour() {
               <div className="border border-[#2B2B2B] p-2">
                 <SocialIcon name={social.icon} />
               </div>
-              <h3 className="text-[14px] text-white px-2 font-montserrat">
+              <h3 className="text-[10px] sm:text-[14px] text-white px-2 font-montserrat">
                 {social.name}
               </h3>
               <h3
                 id="h2"
-                className="text-[14px] font-[600] font-montserrat ml-auto"
+                className="text-[10px] sm:text-[14px] font-[600] font-montserrat ml-auto"
               >
                 {social.followers}
               </h3>
@@ -180,7 +180,7 @@ function SocialIcon({ name }) {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M13.8757 0.31543H16.4765L10.7952 6.82523L17.4795 15.6851H12.2464L8.14479 10.3127L3.45685 15.6851H0.85366L6.9298 8.71979L0.520538 0.316641H5.88683L9.58872 5.22625L13.8757 0.31543ZM12.9611 14.1248H14.4026L5.2159 1.49994L2.77439 6.72928L9.16063 12.8129L12.9611 14.1248Z"
+            d="M13.8757 0.545654H16.4764L10.7952 7.05546L17.4794 15.9153H12.2464L8.14476 10.5429L3.45682 15.9153H0.85363L6.92977 8.95001L0.520508 0.546866H5.8868L9.58869 5.45647L13.8757 0.545654ZM12.9611 14.3551H14.4026L5.09942 2.02471H3.55373L12.9611 14.3551Z"
             fill="white"
           />
         </svg>

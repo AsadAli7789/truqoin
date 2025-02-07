@@ -99,7 +99,7 @@ export default function LeftMobile({ className }) {
           <div
             className={`w-[100%] h-[90%]   flex-col sm:pt-8 xl:pt-2 text-white  border-white  flex mx-auto`}
           >
-            <div className="flex  justify-center items-center py-1 gap-2 sm:text-[24px] md:text-[1.5vw] xl:text-[1vw] font-montserrat font-[500]">
+            <div className="flex  justify-center items-center py-1 gap-2 sm:text-[24px] md:text-[24px] lg:text-[20px] xl:text-[24px] font-montserrat font-[500]">
               <h1 className="w-[24px] h-[24px]">
                 <Image
                   width={0}
@@ -111,16 +111,16 @@ export default function LeftMobile({ className }) {
 
               <h1>Miner’s Wallet</h1>
             </div>
-            <div className="flex  mt-1 sm:text-[24px] md:text-[18px] xl:text-[1vw]  justify-center items-center gap-4 text-center p-2 font-montserrat font-[500]">
+            <div className="flex  mt-1 sm:text-[24px] md:text-[24px] xl:text-[18px] lg:text-[16px] justify-center items-center gap-4 text-center p-2 font-montserrat font-[500]">
               <h1>
                 16,356
-                <span className="xl:text-[0.729vw] xl:leading-[0.729vw] text-[#8C8C8C]">
+                <span className="xl:text-[16px] xl:leading-[16px] text-[#8C8C8C]">
                   TRQ
                 </span>
               </h1>{" "}
               <h1>
                 $8,745.{" "}
-                <span className="xl:text-[0.729vw]   xl:leading-[0.729vw]  sm:leading-[16px] sm:text-[14px] text-[#8C8C8C]">
+                <span className="xl:text-[16px]   xl:leading-[16px]  sm:leading-[16px] sm:text-[14px] text-[#8C8C8C]">
                   35
                 </span>
               </h1>{" "}
@@ -202,14 +202,15 @@ export default function LeftMobile({ className }) {
         </motion.div>
       </div>
       <div
-        className={`border-white w-[100%] h-[100%] duration-500 transition-all relative max-w-[300px] border   ${
+        id="scroller"
+        className={`border-white w-[100%] h-[100%] duration-500  transition-all relative max-w-[300px] border   ${
           state == 2 ? "flex   animate-fade-in" : "hidden"
-        }  xsm1:max-w-[390px]  overflow-hidden rounded-[10px] ${className}`}
+        }  xsm1:max-w-[390px]  overflow-x-hidden rounded-[10px] ${className}`}
       >
         <button
           onClick={() => setstate(1)}
           id="Right_M_btn"
-          className={`sm:p-4 px-2 py-1 lg:p-0  sm:w-[80px] sm:h-[80px] xl:w-[2vw] xl:h-[2vw] md:w-[2vw] md:h-[2vw] absolute top-2 left-4 flex justify-center items-center border text-black border-[#343434] rounded-[5px]`}
+          className={`sm:p-4 px-2 py-1 lg:p-0  w-[25px]  h-[25px] sm:w-[40px] lg:max-w-[20px] lg:max-h-[20px] sm:h-[40px] lg:w-[2vw] lg:h-[2vw] md:w-[20px] md:h-[20px] absolute md:top-3 top-3 left-3  md:left-3 flex justify-center items-center border text-black border-[#343434] rounded-[5px]`}
         >
           <div className="bg-black w-[100%] absolute z-[-1] h-[100%]"></div>
           <svg
@@ -225,13 +226,15 @@ export default function LeftMobile({ className }) {
             />
           </svg>
         </button>
-        <Image
-          src={"/store.png"}
-          width={0}
-          height={0}
-          layout="responsive"
-          objectFit="cover"
-        />
+        <div className="absolute w-[100%] z-[-2]">
+          <Image
+            src={"/multi.png"}
+            width={0}
+            height={0}
+            layout="responsive"
+            objectFit="cover"
+          />
+        </div>
       </div>
     </>
   );

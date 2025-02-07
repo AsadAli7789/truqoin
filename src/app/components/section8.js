@@ -9,9 +9,8 @@ export default function Section_8() {
           Connecting
         </div>
         <div className="text-sm md:text-base xl:text-[0.729vw] my-4 text-[#8E8E8E] leading-relaxed xl:leading-[0.885vw] font-semibold font-montserrat">
-          TruQoin (along with its Product Partners) is connecting the digital
-          world with that of traditional marketing, shopping, and social
-          rewards.
+          TruQoin (along with its’ Product Partners) is connecting the digital
+          world with that of traditional marketing, shopping and social rewards.
         </div>
       </div>
 
