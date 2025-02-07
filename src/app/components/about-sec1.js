@@ -1,10 +1,10 @@
 export default function AboutSec() {
   return (
     <>
-      <div className="xl:max-w-[1312px] md:w-[50vw] lg:w-[60vw] gap-4 sm:w-[60vw]  w-[80vw] flex lg:flex-row flex-col  gap-x-3 mx-auto">
+      <div className="xl:max-w-[1321px]  md:w-[50vw] lg:w-[60vw] gap-7 sm:w-[60vw]  w-[80vw] flex lg:flex-row flex-col  gap-x-3 mx-auto">
         <div
           id="abot-sec"
-          className="xl:max-w-[646px] lg:w-[50%] flex justify-center items-center rounded-[10px] border border-[#343434] "
+          className="xl:max-w-[646px] lg:w-[50%]  flex justify-center items-center rounded-[10px] border border-[#343434] "
         >
           <div className=" xl:max-w-[315px]  lg:  md:w-[70%] w-[70%]     text-white mx-auto lg:mx-0  my-5 text-center flex flex-col items-center border-white  ">
             <div className="my-2">

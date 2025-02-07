@@ -16,9 +16,9 @@ export default function Section_8() {
       </div>
 
       {/* Image Section */}
-      <div className="max-w-full md:h-[50vh] lg:h-[70.7vh] w-full   xl:max-h-[495.96px] xl:max-w-[1320px] flex flex-col md:flex-row xl:h-[60.7vh] xl:w-[68.75vw] gap-4">
+      <div className="max-w-full md:h-[50vh] lg:h-[70.7vh] w-full   xl:max-h-[495.96px] xl:max-w-[1320px] flex flex-col md:flex-row xl:h-[60.7vh] xl:w-[70.75vw] gap-4">
         {/* Left Image */}
-        <div className="w-[80%] mx-auto md:w-1/3 pt-4  md:pt-0 xl:pt-10">
+        <div className="w-[80%] mx-auto md:w-1/3 pt-4 md:translate-x-20 translate-x-0  md:pt-0 xl:pt-10">
           <Image
             src="/sec8.png"
             width={0}
@@ -27,10 +27,13 @@ export default function Section_8() {
             objectFit="cover"
             alt="Left Image"
           />
+          <h1 className="lg:text-[1.7vw] xl:text-[1.2vw] text-[3.5vw] md:text-[1.5vw] text-center ">
+            <span id="h2"> TruQoin</span> Miner site (Decentralized)
+          </h1>
         </div>
 
         {/* Middle GIF/Image */}
-        <div className="w-[80%] mx-auto md:w-1/3 rotate-[48deg] -translate-y-10 md:translate-y-0  md:rotate-0 z-[-1] relative  ">
+        <div className="w-[80%] mx-auto md:w-1/3 rotate-[48deg] -translate-y-10 md:translate-y-0  md:rotate-[20deg] z-[-1] relative  ">
           <div className=" h-fit relative  w-[100%]  ">
             <div
               id="Sec8"
@@ -53,7 +56,7 @@ export default function Section_8() {
         </div>
 
         {/* Right Image */}
-        <div className="w-[80%] mx-auto -translate-y-10 md:translate-y-0  md:w-1/3 mt-auto">
+        <div className="w-[80%] mx-auto   -translate-y-10 md:translate-y-0 md:-translate-x-20 translate-x-0   md:w-1/3 mt-auto">
           <Image
             src="/sec8_2.png"
             width={0}
@@ -61,6 +64,9 @@ export default function Section_8() {
             layout="responsive"
             alt="Right Image"
           />
+          <h1 className="lg:text-[1.7vw] xl:text-[1.2vw] text-[3.5vw] md:text-[1.5vw] text-center">
+            <span id="h2"> TruQoin</span> Dashboard (Centralized)
+          </h1>
         </div>
       </div>
     </div>

@@ -47,7 +47,6 @@ export default function Gsap({ color }) {
   }, []);
   return (
     <>
-      {/* <div className=" -white h-[100vh]  w-[100vw] flex "></div> */}
       <div
         ref={main_div}
         className="  h-fit relative  xl:max-w-[1330px]   mx-auto overflow-hidden w-[90vw]  xl:w-[95vw]  flex justify-between "
@@ -56,7 +55,13 @@ export default function Gsap({ color }) {
           <h2 className=" lg:text-[40px] xl:text-[48px] font-[700] font-montserrat text-white">
             Why Choose <b id="h2">TrūQoin?</b>
           </h2>
-          <h2 className=" text-[0.71vw] font-[600] font-montserrat text-[#8E8E8E] px-2">
+          <h2
+            className={` transition-all ease-in-out pointer-events-none  duration-500 ${
+              img || img2 || img3
+                ? "h-0 opacity-0 scale-50 "
+                : "h-[200px] opacity-100 scale-100"
+            } text-[0.71vw]  font-[600]   overflow-hidden font-montserrat text-[#8E8E8E] px-2`}
+          >
             <ul className="flex flex-col gap-y-3 mt-4">
               <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
                 <div
@@ -104,6 +109,61 @@ export default function Gsap({ color }) {
               </li>
             </ul>
           </h2>
+          <div
+            className={` transition-all ease-in-out pointer-events-none w-[80%]  border-black   duration-500 ${
+              img ? "block h-[200px] xl:h-[300px] " : "h-0 "
+            }`}
+          >
+            <div
+              className={`transition-all abs  pointer-events-none duration-500 ease-in-out transform ${
+                img ? "opacity-100 scale-100 " : " opacity-0 scale-50"
+              }`}
+            >
+              <Image
+                className="  pointer-events-none"
+                src={"/man.png"}
+                width={0}
+                height={0}
+                layout="responsive"
+              />
+            </div>
+          </div>
+          <div
+            className={` transition-all ease-in-out w-[80%] duration-500 ${
+              img2 ? "blockh-[200px] xl:h-[300px]" : "h-0  "
+            }`}
+          >
+            <div
+              className={`transition-all abs duration-500 ease-in-out transform ${
+                img2 ? "opacity-100 scale-100 " : " opacity-0 scale-50"
+              }`}
+            >
+              <Image
+                src={"/man.png"}
+                width={0}
+                height={0}
+                layout="responsive"
+              />
+            </div>
+          </div>
+          <div
+            className={` transition-all ease-in-out w-[80%] duration-500 ${
+              img3 ? "blockh-[200px] xl:h-[300px]" : "h-0  "
+            }`}
+          >
+            <div
+              className={`transition-all abs duration-500 ease-in-out transform ${
+                img3 ? "opacity-100 scale-100 " : " opacity-0 scale-50"
+              }`}
+            >
+              <Image
+                src={"/man.png"}
+                width={0}
+                height={0}
+                layout="responsive"
+              />
+            </div>
+          </div>
         </div>
 
         <div
@@ -112,7 +172,11 @@ export default function Gsap({ color }) {
         >
           <div
             id="Gsap"
-            onClick={() => setimg(!img)}
+            onClick={() => {
+              setimg(!img);
+              setimg2(false);
+              setimg3(false);
+            }}
             className=" h-fit xl:p-4  flex-col p-4 flex xl:justify-center  cursor-pointer xl:items-center lg:w-[450px] xl:w-[650px] border-[#343434] rounded-[10px] "
           >
             <div className=" lg:w-[343px] xl:w-[543px] h-[179px]  my-3 ">
@@ -167,29 +231,14 @@ export default function Gsap({ color }) {
                 needed.
               </div>
             </div>
-            <div
-              className={` transition-all ease-in-out pointer-events-none  duration-500 ${
-                img ? "block h-[200px] xl:h-[300px] " : "h-0  "
-              }`}
-            >
-              <div
-                className={`transition-all abs  pointer-events-none duration-500 ease-in-out transform ${
-                  img ? "opacity-100 scale-100 " : " opacity-0 scale-50"
-                }`}
-              >
-                <Image
-                  className="  pointer-events-none"
-                  src={"/man.png"}
-                  width={0}
-                  height={0}
-                  layout="responsive"
-                />
-              </div>
-            </div>
           </div>
           <div
             id="Gsap"
-            onClick={() => setimg2(!img2)}
+            onClick={() => {
+              setimg2(!img2);
+              setimg(false);
+              setimg3(false);
+            }}
             className=" h-fit xl:p-4  flex-col p-4 flex xl:justify-center xl:items-center cursor-pointer   lg:w-[450px] xl:w-[650px] border-[#343434] rounded-[10px]"
           >
             <div className="lg:w-[343px] xl:w-[543px] h-[179px]  my-3  ">
@@ -239,28 +288,14 @@ export default function Gsap({ color }) {
                 range of health and wellness products.s
               </div>
             </div>
-            <div
-              className={` transition-all ease-in-out duration-500 ${
-                img2 ? "blockh-[200px] xl:h-[300px]" : "h-0  "
-              }`}
-            >
-              <div
-                className={`transition-all abs duration-500 ease-in-out transform ${
-                  img2 ? "opacity-100 scale-100 " : " opacity-0 scale-50"
-                }`}
-              >
-                <Image
-                  src={"/man.png"}
-                  width={0}
-                  height={0}
-                  layout="responsive"
-                />
-              </div>
-            </div>
           </div>
           <div
             id="Gsap"
-            onClick={() => setimg3(!img3)}
+            onClick={() => {
+              setimg3(!img3);
+              setimg(false);
+              setimg2(false);
+            }}
             className="  h-fit xl:p-4  flex-col p-4 flex xl:justify-center xl:items-center cursor-pointer lg:w-[450px] xl:w-[650px] border-[#343434] rounded-[10px] "
           >
             <div className="lg:w-[343px] xl:w-[543px] h-[179px]  my-3 ">
@@ -392,24 +427,6 @@ export default function Gsap({ color }) {
               <div className=" text-[14px] leading-[17.07px] font-[600] font-montserrat text-[#8E8E8E] w-[98%] my-3 ">
                 With blockchain technology, TrūQoin ensures a global platform
                 that’s secure and easy to use for everyone.
-              </div>
-            </div>
-            <div
-              className={` transition-all ease-in-out duration-500 ${
-                img3 ? "blockh-[200px] xl:h-[300px]" : "h-0  "
-              }`}
-            >
-              <div
-                className={`transition-all abs duration-500 ease-in-out transform ${
-                  img3 ? "opacity-100 scale-100 " : " opacity-0 scale-50"
-                }`}
-              >
-                <Image
-                  src={"/man.png"}
-                  width={0}
-                  height={0}
-                  layout="responsive"
-                />
               </div>
             </div>
           </div>

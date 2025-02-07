@@ -24,7 +24,13 @@ export default function LeftMobile({ className }) {
               id="sec4"
               className="px-2 py-4 h sm:p-0  lg:p-0 sm:w-[50px] sm:h-[50px] md:w-[40px] md:h-[40px]  flex justify-center items-center border border-[#343434] rounded-[5px]"
             >
-              <svg
+              <Image
+                width={24}
+                height={24}
+                src={"/Final.png"}
+                // layout="responsive"
+              />
+              {/* <svg
                 width="20"
                 height="20"
                 viewBox="0 0 20 18"
@@ -39,7 +45,7 @@ export default function LeftMobile({ className }) {
                   d="M12.6501 4.01855V5.9968H9.60479V14.6293H7.48283V5.9968H4.4375V4.01855H12.6501Z"
                   fill="#FF6300"
                 />
-              </svg>
+              </svg> */}
             </button>
           </div>
           <div className="flex gap-3">

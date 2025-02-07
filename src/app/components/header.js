@@ -35,28 +35,64 @@ export default function Header() {
       >
         {/* Logo Section */}
         <div className="flex items-center">
-          <Image src={"/logo.png"} width={120} height={120} alt="Logo" />
+          <Link href={"/"}>
+            <Image src={"/logo.png"} width={120} height={120} alt="Logo" />
+          </Link>
         </div>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex">
           <div className="flex flex-row gap-5">
-            {arry.map((data, ind) => (
-              <Link
-                key={ind}
-                href={data.Link}
-                onClick={() => settext(data.name)}
+            <Link href={"/"}>
+              <motion.span
+                whileHover={{ scale: 1.1 }}
+                className={`font-montserratM hover:text-white  text-[#BABABA]
+                   
+                    font-[500] text-[14px]`}
               >
-                <motion.span
-                  whileHover={{ scale: 1.1 }}
-                  className={`font-montserratM ${
-                    text === data.name ? "text-white" : "text-[#BABABA]"
-                  } font-[500] text-[14px]`}
-                >
-                  {data.name}
-                </motion.span>
-              </Link>
-            ))}
+                Earn
+              </motion.span>
+            </Link>
+            <Link href={"/"}>
+              <motion.span
+                whileHover={{ scale: 1.1 }}
+                className={`font-montserratM  hover:text-white text-[#BABABA] font-[500] text-[14px]`}
+              >
+                Trade
+              </motion.span>
+            </Link>
+            <Link href={"/"}>
+              <motion.span
+                whileHover={{ scale: 1.1 }}
+                className={`font-montserratM hover:text-white text-[#BABABA]  font-[500] text-[14px]`}
+              >
+                Spend
+              </motion.span>
+            </Link>
+            <a href={"/about"}>
+              <motion.span
+                whileHover={{ scale: 1.1 }}
+                className={`font-montserratM hover:text-white text-[#BABABA] font-[500] text-[14px]`}
+              >
+                About
+              </motion.span>
+            </a>
+            <Link href={"/"}>
+              <motion.span
+                whileHover={{ scale: 1.1 }}
+                className={`font-montserratM hover:text-white text-[#BABABA]  font-[500] text-[14px]`}
+              >
+                Doc
+              </motion.span>
+            </Link>
+            <Link href={"/contact"}>
+              <motion.span
+                whileHover={{ scale: 1.1 }}
+                className={`font-montserratM hover:text-white text-[#BABABA]  font-[500] text-[14px]`}
+              >
+                Contact
+              </motion.span>
+            </Link>
           </div>
         </div>
 
@@ -87,7 +123,7 @@ export default function Header() {
         {menuOpen && (
           <motion.div
             id="nav"
-            className="text-white absolute w-[90vw] mx-4  p-4 rounded-[20px] mt-2 flex flex-col items-center md:hidden"
+            className="text-white absolute w-[90vw] mx-4 z-10  p-4 rounded-[20px] mt-2 flex flex-col items-center md:hidden"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
@@ -95,7 +131,6 @@ export default function Header() {
           >
             {arry.map((data, ind) => (
               <Link
-                key={ind}
                 href={data.Link}
                 onClick={() => {
                   settext(data.name);
@@ -105,10 +140,10 @@ export default function Header() {
                 <motion.span
                   whileHover={{ scale: 1.1 }}
                   className={`font-montserrat ${
-                    text === data.name ? "text-white" : "text-[#BABABA]"
+                    text === "Earn" ? "text-white" : "text-[#BABABA]"
                   } font-[900] block my-2`}
                 >
-                  {data.name}
+                  {data.name}{" "}
                 </motion.span>
               </Link>
             ))}

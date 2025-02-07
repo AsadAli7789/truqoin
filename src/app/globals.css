@@ -544,3 +544,6 @@ body {
 #trans {
   transition: 1s;
 }
+#scroller::-webkit-scrollbar {
+  display: none;
+}

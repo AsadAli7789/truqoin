@@ -57,7 +57,7 @@ export default function Section() {
 
         {/* Description */}
         <motion.div
-          className="text-[#8E8E8E] w-[90%] sm:w-[80%] lg:text-[14px] lg:w-[60%] xl:w-[90%] mx-auto font-montserrat my-6 font-[600] text-[12px] sm:text-[12px] leading-[14px] sm:leading-[14px]"
+          className="text-[#8E8E8E] w-[90%] sm:w-[80%] lg:text-[14px] xl:text-[20px] lg:w-[60%] xl:w-[90%] mx-auto font-montserrat my-6 font-[600] text-[12px] sm:text-[12px] leading-[14px] sm:leading-[14px]"
           variants={descriptionVariants}
         >
           TrūQoin™ – A Decentralized Autonomous Organization
@@ -66,7 +66,7 @@ export default function Section() {
       {/* Avatar and Text */}
       <div className="xl:max-w-[1320px] mx-auto">
         <Image
-          src={"/man.png"}
+          src={"/main.png"}
           height={0}
           className="mx-auto"
           width={0}
@@ -84,11 +84,11 @@ export default function Section() {
           height={100}
           className="sm:w-[100px] sm:h-[30px] lg:w-[120px] lg:h-[25px] md:h-[30px]"
         />
-        <div className="text-white font-montserrat font-[700] text-[14px] sm:text-[18px] lg:text-[16px] leading-[16px] sm:leading-[22px]">
+        <div className="text-white font-montserrat font-[700] text-[14px] sm:text-[18px] lg:text-[16px] xl:text-[20px] leading-[16px] sm:leading-[22px]">
           20k Verified Users
         </div>
       </motion.div>
-      <div className="mb-6 mt-2 text-[#8E8E8E] font-montserrat font-[600] sm:text-[14px] sm:leading-[17.5px] ">
+      <div className="mb-6 mt-2 text-[#8E8E8E] font-montserrat font-[600] sm:text-[14px] xl:text-[20px] sm:leading-[17.5px] ">
         Rewarding activities – that build sustainable growth.
       </div>
       {/* Button */}

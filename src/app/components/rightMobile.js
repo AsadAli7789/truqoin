@@ -19,7 +19,13 @@ export default function RightMobile({ className }) {
             id="sec4"
             className="px-2 py-4 h sm:p-0  lg:p-0 sm:w-[50px] sm:h-[50px] md:w-[40px] md:h-[40px]  flex justify-center items-center border border-[#343434] rounded-[5px]"
           >
-            <svg
+            <Image
+              width={24}
+              height={24}
+              src={"/Final.png"}
+              // layout="responsive"
+            />
+            {/* <svg
               width="20"
               height="20"
               viewBox="0 0 20 18"
@@ -34,9 +40,10 @@ export default function RightMobile({ className }) {
                 d="M12.6501 4.01855V5.9968H9.60479V14.6293H7.48283V5.9968H4.4375V4.01855H12.6501Z"
                 fill="#FF6300"
               />
-            </svg>
+            </svg> */}
           </button>
         </div>
+
         <div className="flex gap-3">
           <button
             id="sec4"
@@ -74,27 +81,28 @@ export default function RightMobile({ className }) {
           </button>
         </div>
       </div>
-
+      {/* <div className="relative lg:h-10 h-20  ">
+        <div className="absolute  lg:w-[104%] w-[100%]">
+          <Image src={"/rt.png"} layout="responsive" width={0} height={0} />
+        </div>
+      </div> */}
       {/* Main Content */}
       <motion.div
         ref={ref}
         id="M_innerSection"
-        className="flex flex-col overflow-scroll scrollbar-hide border-white p-4 w-[100%] h-[90%]"
+        className="flex flex-col overflow-scroll  scrollbar-hide border-white px-4 pt-4 w-[100%] h-[90%]"
         initial={{ opacity: 0, y: 20 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
         {/* Ring Section */}
-        <div
-          //   id="M_ring"
-          className="w-[100%] h-[15%]  pt-4 mt-4  justify-between border-white  flex mx-auto"
-        >
+        <div className="w-[100%] h-[15%]  pt-4 mt-4  justify-between border-white  flex mx-auto">
           <div>
             <button
-              onClick={() => settrans(1)}
+              onClick={() => settrans(2)}
               id="Right_M_btn"
               className={`sm:p-4 px-2 py-1 lg:p-0  sm:w-[80px] sm:h-[80px] xl:w-[2vw] xl:h-[2vw] md:w-[2vw] md:h-[2vw] flex justify-center items-center border ${
-                trans == 2 ? "text-[#FFFFFF]" : "text-[#4B4B4B]"
+                trans == 1 ? "text-[#FFFFFF]" : "text-[#4B4B4B]"
               } border-[#343434] rounded-[5px]`}
             >
               <svg
@@ -134,10 +142,10 @@ export default function RightMobile({ className }) {
           </div>
           <div>
             <button
-              onClick={() => settrans(2)}
+              onClick={() => settrans(1)}
               id="Right_M_btn"
               className={`sm:p-4 px-2 py-1 lg:p-0   sm:w-[80px] sm:h-[80px] xl:w-[2vw] xl:h-[2vw] md:w-[2vw] md:h-[2vw] flex justify-center items-center border ${
-                trans == 1 ? "text-[#FFFFFF]" : "text-[#4B4B4B]"
+                trans == 2 ? "text-[#FFFFFF]" : "text-[#4B4B4B]"
               } border-[#343434] rounded-[5px]`}
             >
               <svg
@@ -159,7 +167,10 @@ export default function RightMobile({ className }) {
 
         {/* Wallet List */}
         <div className="w-[100%] h-[90%]  pt-10 justify-between border-white  flex mx-auto">
-          <div className=" border-white relative overflow-hidden w-[100%]">
+          <div
+            id="scroller"
+            className=" border-white relative overflow-x-hidden    w-[100%]"
+          >
             <div
               className={`absolute  left-0 transition-transform duration-300 ${
                 trans == 2 ? "translate-x-[100%]" : ""
@@ -180,7 +191,7 @@ export default function RightMobile({ className }) {
               <Image
                 width={0}
                 height={0}
-                src={"/wrapper.png"}
+                src={"/Wrapper.png"}
                 layout="responsive"
               />
             </div>
