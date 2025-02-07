@@ -570,7 +570,7 @@ body {
 #scroller::-webkit-scrollbar {
   display: none;
 }
-@media only screen and (max-width: 1920px) {
+@media only screen and (max-width: 3220px) {
   @keyframes roTAte {
     0% {
       /* transform: or; */
@@ -578,7 +578,7 @@ body {
     }
 
     100% {
-      transform: translateY(80vh);
+      transform: translateY(84vh);
     }
   }
 }

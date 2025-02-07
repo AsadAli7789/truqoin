@@ -32,7 +32,7 @@ export default function Section_8() {
         </div>
 
         {/* Middle GIF/Image */}
-        <div className="w-[80%] mx-auto md:w-1/3 rotate-[48deg] -translate-y-10 md:translate-y-0  md:rotate-[20deg] z-[-1] relative  ">
+        <div className="w-[80%] mx-auto md:w-1/3 rotate-[48deg]  -translate-y-10 md:translate-y-0  md:rotate-[20deg] z-[-1] relative  ">
           <div className=" h-fit relative  w-[100%]  ">
             <div
               id="Sec8"
@@ -40,7 +40,7 @@ export default function Section_8() {
             ></div>
             <div
               id=""
-              className=" absolute inset-0 z-[1] border-[#111111] border bg-[#EE5A02] mix-blend-hue   w-[100%] "
+              className=" absolute inset-0 z-[1] border-[#111111] border mt-2 h-[90%]  bg-[#EE5A02] mix-blend-hue  left-1 w-[95%] "
             ></div>
 
             <Image

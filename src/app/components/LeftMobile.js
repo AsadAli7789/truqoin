@@ -210,14 +210,14 @@ export default function LeftMobile({ className }) {
         <button
           onClick={() => setstate(1)}
           id="Right_M_btn"
-          className={`sm:p-4 px-2 py-1 lg:p-0  w-[25px]  h-[25px] sm:w-[40px] lg:max-w-[20px] lg:max-h-[20px] sm:h-[40px] lg:w-[2vw] lg:h-[2vw] md:w-[20px] md:h-[20px] absolute md:top-3 top-3 left-3  md:left-3 flex justify-center items-center border text-black border-[#343434] rounded-[5px]`}
+          className={`sm:p-4 px-2 py-1 lg:p-0  w-[25px] text-white h-[25px] sm:w-[40px] lg:max-w-[20px] lg:max-h-[20px] sm:h-[40px] lg:w-[2vw] lg:h-[2vw] md:w-[20px] md:h-[20px] absolute md:top-3 top-3 left-3 sm:left-4  md:left-3 flex justify-center items-center border  border-[#343434] rounded-[5px]`}
         >
           <div className="bg-black w-[100%] absolute z-[-1] h-[100%]"></div>
           <svg
             width="8"
             height="20"
             viewBox="0 0 8 12"
-            fill="none"
+            fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path

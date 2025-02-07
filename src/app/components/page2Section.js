@@ -10,7 +10,7 @@ export default function Future() {
     <motion.div
       id="page2"
       ref={ref}
-      className="w-[90vw] p-4 xl:w-[90vw] lg:w-[90vw] mx-auto flex flex-col rounded-[20px] justify-center items-center text-center max-w-[1459px] h-[70vh] max-h-[373px] lg:h-[61.44vh]  border-white"
+      className="w-[90vw] p-4 xl:w-[90vw] lg:w-[90vw] mx-auto flex flex-col rounded-[25px] justify-center items-center text-center max-w-[1459px] h-[70vh] max-h-[373px] lg:h-[61.44vh]  border-white"
       initial={{ opacity: 0, y: 50 }} // Initial animation state
       animate={isInView ? { opacity: 1, y: 0 } : {}} // Animate when in view
       transition={{ duration: 1.2, ease: "easeOut" }}
