@@ -114,14 +114,13 @@ export default function Header() {
             // id="btn"
             className="text-[12px] px-10  flex justify-center items-center gap-0 bg-custom-gradient duration-300  hover:bg-custom-gradient1 py-3 leading-[13px] rounded-[8px]"
           >
-            Launch WebApp
             <div className=" text-white ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlSpace="preserve"
                 id="Layer_1"
-                width="20"
-                height="16"
+                width="18"
+                height="12"
                 fill="currentColor"
                 version="1.1"
                 viewBox="0 0 330 330"
@@ -134,6 +133,7 @@ export default function Header() {
                 </g>
               </svg>
             </div>
+            Launch WebApp
           </motion.button>
         </div>
       </motion.div>

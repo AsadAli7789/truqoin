@@ -64,7 +64,7 @@ export default function Section_8() {
             alt="Right Image"
           />
           <h1 className="lg:text-[1.7vw] xl:text-[1.2vw] text-[3.5vw] md:text-[1.5vw] text-center">
-            <span id="h2"> TruQoin</span> Dashboard (Centralized)
+            <span id="h2"> TruIQ </span> Dashboard (Centralized)
           </h1>
         </div>
       </div>
