@@ -169,28 +169,27 @@ export default function Header() {
             ))}
             <motion.button
               // whileHover={{ scale: 1.1 }}
-              className="text-[12px] bg-custom-gradient duration-300 flex justify-center items-center hover:bg-custom-gradient1  px-8 py-3 rounded-[10px] mt-4"
+              className="text-[12px] gap-1 bg-custom-gradient duration-300 flex justify-center items-center hover:bg-custom-gradient1  px-8 py-3 rounded-[10px] mt-4"
             >
-              Launch WebApp{" "}
-              <div className=" text-white ">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlSpace="preserve"
-                  id="Layer_1"
-                  width="20"
-                  height="16"
-                  fill="currentColor"
-                  version="1.1"
-                  viewBox="0 0 330 330"
-                >
-                  <g id="XMLID_509_">
-                    <path
-                      id="XMLID_510_"
-                      d="M65 330h200c8.284 0 15-6.716 15-15V145c0-8.284-6.716-15-15-15h-15V85c0-46.869-38.131-85-85-85S80 38.131 80 85v45H65c-8.284 0-15 6.716-15 15v170c0 8.284 6.716 15 15 15m115-95.014V255c0 8.284-6.716 15-15 15s-15-6.716-15-15v-20.014c-6.068-4.565-10-11.824-10-19.986 0-13.785 11.215-25 25-25s25 11.215 25 25c0 8.162-3.932 15.421-10 19.986M110 85c0-30.327 24.673-55 55-55s55 24.673 55 55v45H110z"
-                    ></path>
-                  </g>
-                </svg>
-              </div>
+              {" "}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlSpace="preserve"
+                id="Layer_1"
+                width="12"
+                height="12"
+                fill="currentColor"
+                version="1.1"
+                viewBox="0 0 330 330"
+              >
+                <g id="XMLID_509_">
+                  <path
+                    id="XMLID_510_"
+                    d="M65 330h200c8.284 0 15-6.716 15-15V145c0-8.284-6.716-15-15-15h-15V85c0-46.869-38.131-85-85-85S80 38.131 80 85v45H65c-8.284 0-15 6.716-15 15v170c0 8.284 6.716 15 15 15m115-95.014V255c0 8.284-6.716 15-15 15s-15-6.716-15-15v-20.014c-6.068-4.565-10-11.824-10-19.986 0-13.785 11.215-25 25-25s25 11.215 25 25c0 8.162-3.932 15.421-10 19.986M110 85c0-30.327 24.673-55 55-55s55 24.673 55 55v45H110z"
+                  ></path>
+                </g>
+              </svg>
+              Launch WebApp <div className=" text-white "></div>
             </motion.button>
           </motion.div>
         )}
