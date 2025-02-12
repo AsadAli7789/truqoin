@@ -156,12 +156,19 @@ export default function Gsap({ color }) {
                 img3 ? "opacity-100 scale-100 " : " opacity-0 scale-50"
               }`}
             >
-              <Image
+              <video
+                src="/WhatsApp Video 2025-02-10 at 16.55.13_48ceca58.mp4"
+                className="w-[100%] "
+                muted
+                loop
+                autoPlay
+              />
+              {/* <Image
                 src={"/man.png"}
                 width={0}
                 height={0}
                 layout="responsive"
-              />
+              /> */}
             </div>
           </div>
         </div>

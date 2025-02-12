@@ -221,7 +221,7 @@ export default function Section3() {
             initial={{ opacity: 0, y: 50 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="lg:w-[543px] lg:h-[179px] md:w-[80%] justify-start flex flex-col my-3">
+            <div className="lg:w-[543px]  md:w-[80%] h-fit justify-start flex flex-col my-3">
               <div>
                 <svg
                   width="30"
@@ -349,7 +349,9 @@ export default function Section3() {
             </div>
             <div
               className={` transition-all ease-in-out duration-500 ${
-                img3 ? "block xsm:h-[150px] sm:h-[200px] h-[124px]  " : "h-0  "
+                img3
+                  ? "block xsm:h-[200px] sm:h-[250px] md:h-[290px] h-[154px]  "
+                  : "h-0  "
               }`}
             >
               <div
@@ -357,12 +359,19 @@ export default function Section3() {
                   img3 ? "opacity-100 scale-100 " : " opacity-0 scale-50"
                 }`}
               >
-                <Image
+                <video
+                  src="/WhatsApp Video 2025-02-10 at 16.55.13_48ceca58.mp4"
+                  className="w-[100%] mx-auto "
+                  muted
+                  loop
+                  autoPlay
+                />
+                {/* <Image
                   src={"/man.png"}
                   width={0}
                   height={0}
                   layout="responsive"
-                />
+                /> */}
               </div>
             </div>
           </motion.div>
