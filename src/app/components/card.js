@@ -62,7 +62,7 @@ export default function ContactCard() {
               </defs>
             </svg>
           </div>
-          <div className="lg:text-[1.875vw] text-[6vw]  my-2 font-[700] lg:leading-[2vw]">
+          <div className="lg:text-[1.875vw] text-[6vw] md:text-[3vw]  my-2 font-[700] lg:leading-[2vw]">
             Email Us:{" "}
           </div>
           <div className="lg:text-[1vw] font-[700] xl:w-[70%] lg:leading-[1.2vw]">
@@ -124,7 +124,7 @@ export default function ContactCard() {
               </defs>
             </svg>
           </div>
-          <div className="lg:text-[1.875vw] text-[6vw]  my-2 font-[700] lg:leading-[2vw]">
+          <div className="lg:text-[1.875vw] text-[6vw] md:text-[3vw] my-2 font-[700] lg:leading-[2vw]">
             Address:
           </div>
           <div className="lg:text-[1vw] font-[700] xl:w-[70%] lg:leading-[1vw]">
