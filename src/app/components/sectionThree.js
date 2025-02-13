@@ -22,7 +22,7 @@ export default function SectionThrees() {
         <h1 className="text-white font-[700] my-3 text-[1.5rem] sm:text-[2rem] lg:text-[2.6vw] leading-[1.9rem] sm:leading-[2.4rem] lg:leading-[2.9vw]">
           One Location for all your cryptocurrency and personal needs.
         </h1>
-        <p className="font-[600] text-[#8E8E8E] my-3 text-[8px] xl:w-[50%] mx-auto  sm:text-[14px] sm:leading-[14px]">
+        <p className="font-[600] text-[#8E8E8E]   w-[80%] my-3 text-[8px] xl:w-[50%] mx-auto  sm:text-[14px] sm:leading-[14px]">
           To simplify and normalize the acquisition and use of cryptocurrency
           and digital assets.
         </p>
@@ -80,7 +80,7 @@ export default function SectionThrees() {
             className=""
           />
         </div>
-        <div className="lg:hidden text-[2rem] font-[700] my-4 text-center text-white">
+        <div className="lg:hidden w-[90%]  text-[2rem] font-[700] my-4 text-center text-white">
           <div>OR</div>
           <div>
             <div id="h2" className="">
@@ -181,29 +181,29 @@ function Svg1(name) {
           <path
             d="M14.2587 5L7.59204 11.6667L14.2587 18.3333"
             stroke="url(#paint0_linear_466_376)"
-            stroke-width="3"
-            stroke-linecap="round"
+            strokeWidth="3"
+            strokeLinecap="round"
             stroke-linejoin="round"
           />
           <path
             d="M7.59204 11.667H34.2587"
             stroke="url(#paint1_linear_466_376)"
-            stroke-width="3"
-            stroke-linecap="round"
+            strokeWidth="3"
+            strokeLinecap="round"
             stroke-linejoin="round"
           />
           <path
             d="M27.5921 35.0003L34.2587 28.3337L27.5921 21.667"
             stroke="url(#paint2_linear_466_376)"
-            stroke-width="3"
-            stroke-linecap="round"
+            strokeWidth="3"
+            strokeLinecap="round"
             stroke-linejoin="round"
           />
           <path
             d="M34.2587 28.333H7.59204"
             stroke="url(#paint3_linear_466_376)"
-            stroke-width="3"
-            stroke-linecap="round"
+            strokeWidth="3"
+            strokeLinecap="round"
             stroke-linejoin="round"
           />
           <defs>
@@ -377,8 +377,8 @@ function Svg2(name) {
           <path
             d="M2.34213 2.41699H5.67547L10.1088 23.117C10.2714 23.8751 10.6932 24.5528 11.3017 25.0334C11.9101 25.5141 12.667 25.7676 13.4421 25.7503H29.7421C30.5008 25.7491 31.2363 25.4891 31.8272 25.0134C32.4181 24.5376 32.829 23.8745 32.9921 23.1337L35.7421 10.7503H7.4588M13.9255 33.9997C13.9255 34.9201 13.1793 35.6663 12.2588 35.6663C11.3383 35.6663 10.5921 34.9201 10.5921 33.9997C10.5921 33.0792 11.3383 32.333 12.2588 32.333C13.1793 32.333 13.9255 33.0792 13.9255 33.9997ZM32.2587 33.9997C32.2587 34.9201 31.5125 35.6663 30.5921 35.6663C29.6716 35.6663 28.9254 34.9201 28.9254 33.9997C28.9254 33.0792 29.6716 32.333 30.5921 32.333C31.5125 32.333 32.2587 33.0792 32.2587 33.9997Z"
             stroke="url(#paint0_linear_466_412)"
-            stroke-width="3"
-            stroke-linecap="round"
+            strokeWidth="3"
+            strokeLinecap="round"
             stroke-linejoin="round"
           />
           <defs>

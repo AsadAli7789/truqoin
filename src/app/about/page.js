@@ -34,7 +34,7 @@ export default function About() {
             <Gsap />
           </div>
         </div>
-        <div className=" mb-20  my-10  lg:mt-[-500px] ">
+        <div className=" mb-20  my-10  lg:mt-[-600px] ">
           <SectionFour1 />
         </div>
 

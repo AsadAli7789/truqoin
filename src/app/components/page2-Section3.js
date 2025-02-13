@@ -12,7 +12,7 @@ export default function Pge2() {
   return (
     <>
       <div className="border-white mt-20">
-        <div className="md:w-[83.162vw] xl:max-w-[1071px] w-[100vw] font-montserrat border-white mx-auto">
+        <div className="md:w-[83.162vw] xl:max-w-[1071px] w-[90vw] font-montserrat border-white mx-auto">
           <motion.div
             ref={ref}
             initial={{ opacity: 0, y: 50 }}

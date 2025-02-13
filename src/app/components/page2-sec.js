@@ -19,24 +19,24 @@ export default function Gsap({ color }) {
     tll = gsap.timeline({
       scrollTrigger: {
         trigger: main_div.current,
-        start: "top top", // Start the animation when the top of the section is in the center of the viewport
-        end: "+=250%", // End the animation after scrolling the height of the viewport
+        start: "top top",
+        end: "+=250%",
         scrub: 1,
-        markers: false,
-        pin: true, // Pin the section during animation
+        markers: true,
+        pin: true,
       },
     });
     tll.to(
       divv.current,
       {
-        y: 0, // Animate scale and opacity for desktop
+        y: 0,
       },
       0
     );
     tll.to(
       divv2.current,
       {
-        y: "-100%",
+        y: "-70%",
       },
       0
     );

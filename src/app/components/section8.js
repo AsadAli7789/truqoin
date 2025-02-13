@@ -22,6 +22,7 @@ export default function Section_8() {
             src="/sec8.png"
             width={0}
             height={0}
+            className="rounded-[10px]"
             layout="responsive"
             objectFit="cover"
             alt="Left Image"
@@ -60,6 +61,7 @@ export default function Section_8() {
             src="/sec8_2.png"
             width={0}
             height={0}
+            className="border rounded-[10px]"
             layout="responsive"
             alt="Right Image"
           />

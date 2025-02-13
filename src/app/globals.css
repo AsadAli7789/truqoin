@@ -259,6 +259,10 @@ body {
 #Gsap {
   background: linear-gradient(112.37deg, #1a1a1a 0%, #000000 101.62%);
 }
+#Gsap:hover {
+  background: linear-gradient(180deg, #1a1a1a 0%, #000000 100%);
+}
+
 #page2 {
   background-color: #ee5a02;
 }

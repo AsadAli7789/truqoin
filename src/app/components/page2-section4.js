@@ -28,13 +28,13 @@ export default function SectionFour1() {
         {/* Activity-Based Rewards Section */}
         <motion.div
           ref={rewardRef}
-          className="w-full  items-center flex mx-auto lg:mx-0 lg:justify-center lg:w-[33%] xl:w-[31.25vw] max-w-[427px] max-h-[341px]  h-[50.17vh] border border-[#343434] rounded-[8px] text-left bg-black py-8 px-4"
+          className="w-full  items-center flex mx-auto lg:mx-0 lg:justify-center lg:w-[33%] xl:w-[31.25vw] max-w-[427px] max-h-[341px]  min-h-fit h-[50.17vh] border border-[#343434] rounded-[8px] text-left bg-black py-8 px-4"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: impactInView ? 1 : 0, y: impactInView ? 0 : 50 }}
           transition={{ duration: 1.2 }}
           id="p2_sec4"
         >
-          <div className="xl:w-[24.816vw]  xl:h-[38.05vh]   xl:max-w-[339px]  xl:max-h-[231px]  ">
+          <div className="xl:w-[24.816vw]  xl:h-[38.05vh]    xl:max-w-[339px]  xl:max-h-[231px]  ">
             <div className="mb-1 text-[2vw]">{Svg("1")}</div>
             <div className=" text-[26px] leading-[26px] xl:text-[36px] font-montserrat my-4 font-[700] lg:text-[2.8vw] lg:leading-[3vw] xl:leading-[36px] text-white">
               Activity-Based Rewards:{" "}
@@ -49,7 +49,7 @@ export default function SectionFour1() {
         {/* Real-World Impact Section */}
         <motion.div
           ref={impactRef}
-          className="w-full  items-center flex mx-auto  lg:mx-0 lg:justify-center lg:w-[33%] xl:w-[31.25vw] max-w-[427px] max-h-[341px]  h-[50.17vh] border border-[#343434] rounded-[8px] text-left bg-black py-8 px-4"
+          className="w-full  items-center flex mx-auto  min-h-fit lg:mx-0 lg:justify-center lg:w-[33%] xl:w-[31.25vw] max-w-[427px] max-h-[341px]  h-[50.17vh] border border-[#343434] rounded-[8px] text-left bg-black py-8 px-4"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: impactInView ? 1 : 0, y: impactInView ? 0 : 50 }}
           transition={{ duration: 1.2 }}
@@ -70,7 +70,7 @@ export default function SectionFour1() {
         {/* Global Community Section */}
         <motion.div
           ref={communityRef}
-          className="w-full  items-center flex mx-auto  lg:mx-0 lg:justify-center lg:w-[33%] xl:w-[31.25vw]  max-w-[427px] max-h-[341px]  h-[50.17vh] border border-[#343434] rounded-[8px] text-left bg-black py-8 px-4"
+          className="w-full  items-center flex mx-auto  min-h-fit  lg:mx-0 lg:justify-center lg:w-[33%] xl:w-[31.25vw]  max-w-[427px] max-h-[341px]  h-[50.17vh] border border-[#343434] rounded-[8px] text-left bg-black py-8 px-4"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: impactInView ? 1 : 0, y: impactInView ? 0 : 50 }}
           transition={{ duration: 1.2 }}
