@@ -11,7 +11,7 @@ export default function Contact() {
         <div>
           <Header />
         </div>
-        <div className="border-white mt-20 my-20 lg:my-32">
+        <div className="border-white mt-20 md:mt-32 my-20 lg:my-32">
           <div className="w-full z-10 sm:w-[59.167vw] font-montserrat border-white mx-auto">
             <div className="w-full sm:w-[37.135vw] border-white mx-auto text-center">
               <div className="text-[6vw] sm:text-[1.25vw] md:text-[1.25vw] leading-[4vw] sm:leading-[1.25vw] font-[700] text-white">
@@ -37,7 +37,7 @@ export default function Contact() {
         <div className="my-20 lg:my-32">
           <ContactCard />
         </div>
-        <div className="my-20 lg:my-32 ">
+        <div className="my-10 md:my-20 ">
           <SectionFour />
         </div>
         <div></div>

@@ -14,7 +14,7 @@ export default function About() {
   return (
     <>
       <div className="relative overflow-hidden">
-        <div>
+        <div className="md:mb-32 ">
           <Header />
         </div>
         <Pge2 />
@@ -22,7 +22,7 @@ export default function About() {
           id="F_sec"
           className="absolute hidden lg:block  w-[769px] h-[742px] rounded-full -left-[30%] "
         ></div>
-        <div className=" lg:my-20  my-10">
+        <div className=" lg:mb-[10vw] lg:mt-[3vw]  my-10">
           <SectionTwo />
         </div>
         <div>
@@ -34,7 +34,7 @@ export default function About() {
             <Gsap />
           </div>
         </div>
-        <div className=" mb-20  my-10  lg:mt-[-600px] ">
+        <div className=" mb-[10vw]  my-10  lg:mt-[-600px] ">
           <SectionFour1 />
         </div>
 

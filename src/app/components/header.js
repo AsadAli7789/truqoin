@@ -52,7 +52,7 @@ export default function Header() {
         id="nav"
         className={`flex flex-wrap p-4  ${
           showHeader ? "translate-y-0" : "-translate-y-[200%]"
-        }  left-0 right-0 z-10 rounded-[10px] fixed transition-transform duration-300 mt-3 text-white justify-between items-center md:w-[95vw] lg:w-[75.208vw] max-w-[1200px] mx-auto`}
+        }  left-0 right-0 z-10 rounded-[10px] md:fixed transition-transform duration-300 mt-3 text-white justify-between items-center md:w-[95vw] lg:w-[75.208vw] max-w-[1200px] mx-auto`}
         // initial={{ opacity: 0, y: -20 }}
         // animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: -20 }}
         // transition={{ duration: 0.5 }}

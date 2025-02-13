@@ -10,7 +10,7 @@ export default function RightMobile({ className }) {
   return (
     <div
       id="M_bg"
-      className={`border-white w-[100%] shadow-lg  max-w-[300px]  xsm1:max-w-[390px]  shadow-black h-[100%] p-4 sm:p-6   gap-3 flex rounded-[10px] flex-col ${className}`}
+      className={`border-white w-[100%] shadow-lg   max-w-[300px]  xsm1:max-w-[390px]  shadow-black h-[100%] p-4 sm:p-6   gap-3 flex rounded-[10px] flex-col ${className}`}
     >
       {/* Header Section */}
       <div className="  border-white w-[100%] h-[10%] py-4 px-2 flex justify-between">
@@ -25,22 +25,6 @@ export default function RightMobile({ className }) {
               src={"/Final.png"}
               // layout="responsive"
             />
-            {/* <svg
-              width="20"
-              height="20"
-              viewBox="0 0 20 18"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M19.3264 17.6595L15.4211 12.5089C16.3069 10.8013 16.5883 8.82024 16.2155 6.91609C15.8427 5.01194 14.8398 3.30736 13.384 2.10382C11.9283 0.900275 10.1136 0.27531 8.26081 0.33945C6.40803 0.403589 4.63657 1.1527 3.25971 2.4543C1.88285 3.7559 0.989316 5.52613 0.737118 7.45192C0.48492 9.37771 0.890313 11.335 1.8816 12.9776C2.87289 14.6202 4.3862 15.8423 6.15391 16.4277C7.92162 17.0132 9.82983 16.9243 11.5411 16.1768L12.7433 17.6595H19.3264ZM2.56078 8.57325C2.56078 7.33413 2.91119 6.12284 3.56771 5.09255C4.22423 4.06226 5.15736 3.25925 6.24911 2.78506C7.34086 2.31087 8.54219 2.1868 9.70119 2.42854C10.8602 2.67028 11.9248 3.26697 12.7604 4.14316C13.596 5.01935 14.165 6.13568 14.3955 7.35099C14.6261 8.5663 14.5078 9.826 14.0555 10.9708C13.6033 12.1156 12.8375 13.0941 11.855 13.7825C10.8724 14.4709 9.71727 14.8383 8.53556 14.8383C6.95095 14.8383 5.43124 14.1783 4.31075 13.0033C3.19026 11.8284 2.56078 10.2349 2.56078 8.57325Z"
-                fill="#FF6300"
-              />
-              <path
-                d="M12.6501 4.01855V5.9968H9.60479V14.6293H7.48283V5.9968H4.4375V4.01855H12.6501Z"
-                fill="#FF6300"
-              />
-            </svg> */}
           </button>
         </div>
 
@@ -95,7 +79,6 @@ export default function RightMobile({ className }) {
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
-        {/* Ring Section */}
         <div className="w-[100%] h-[15%]  pt-4 mt-4  justify-between border-white  flex mx-auto">
           <div>
             <button
@@ -165,7 +148,6 @@ export default function RightMobile({ className }) {
           </div>
         </div>
 
-        {/* Wallet List */}
         <div className="w-[100%] h-[90%]  pt-10 justify-between border-white  flex mx-auto">
           <div
             id="scroller"
@@ -181,6 +163,7 @@ export default function RightMobile({ className }) {
                 height={0}
                 src={"/RightMoblie.png"}
                 layout="responsive"
+                className=""
               />
             </div>
             <div
@@ -191,7 +174,9 @@ export default function RightMobile({ className }) {
               <Image
                 width={0}
                 height={0}
+                className=" scale-[1.2]"
                 src={"/wrapper.png"}
+                // objectFit="cover"
                 layout="responsive"
               />
             </div>

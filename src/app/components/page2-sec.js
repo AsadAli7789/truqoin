@@ -20,7 +20,7 @@ export default function Gsap({ color }) {
       scrollTrigger: {
         trigger: main_div.current,
         start: "top top",
-        end: "+=250%",
+        end: "+=200%",
         scrub: 1,
         markers: false,
         pin: true,
