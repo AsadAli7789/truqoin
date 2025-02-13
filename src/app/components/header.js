@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import "../globals.css";
@@ -17,22 +17,45 @@ const arry = [
 ];
 
 export default function Header() {
+  const [showHeader, setShowHeader] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
   const [text, settext] = useState("");
   const [menuOpen, setMenuOpen] = useState(false); // State to control mobile menu
-  const { ref, inView } = useInView({
-    triggerOnce: true, // Animation triggers only once
-    threshold: 0.1, // Trigger when 10% of the component is in view
-  });
+  // const { ref, inView } = useInView({
+  //   triggerOnce: true, // Animation triggers only once
+  //   threshold: 0.1, // Trigger when 10% of the component is in view
+  // });
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
 
+      if (currentScrollY < lastScrollY) {
+        setShowHeader(true); // Show when scrolling up
+      } else {
+        setShowHeader(false);
+      }
+
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [lastScrollY]);
+
+  console.log(showHeader);
   return (
     <>
       <motion.div
-        ref={ref}
+        // ref={ref}
         id="nav"
-        className="flex flex-wrap p-4 rounded-[10px] mt-3 text-white justify-between items-center md:w-[95vw] lg:w-[75.208vw] max-w-[1200px] mx-auto"
-        initial={{ opacity: 0, y: -20 }}
-        animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: -20 }}
-        transition={{ duration: 0.5 }}
+        className={`flex flex-wrap p-4  ${
+          showHeader ? "translate-y-0" : "-translate-y-[200%]"
+        }  left-0 right-0 z-10 rounded-[10px] fixed transition-transform duration-300 mt-3 text-white justify-between items-center md:w-[95vw] lg:w-[75.208vw] max-w-[1200px] mx-auto`}
+        // initial={{ opacity: 0, y: -20 }}
+        // animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: -20 }}
+        // transition={{ duration: 0.5 }}
       >
         {/* Logo Section */}
         <div className="flex items-center">
