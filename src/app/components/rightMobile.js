@@ -175,8 +175,7 @@ export default function RightMobile({ className }) {
                 width={0}
                 height={0}
                 className=" scale-[1.2]"
-                src={"/wrapper.png"}
-                // objectFit="cover"
+                src={"/Wrapper.png"}
                 layout="responsive"
               />
             </div>
