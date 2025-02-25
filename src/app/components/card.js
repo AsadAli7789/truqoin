@@ -62,10 +62,10 @@ export default function ContactCard() {
               </defs>
             </svg>
           </div>
-          <div className="lg:text-[1.875vw] text-[6vw] md:text-[3vw]  my-2 font-[700] lg:leading-[2vw]">
+          <div className="font-[700] text-[28px] xl:text-[36px]  my-2  lg:leading-[2vw]">
             Email Us:{" "}
           </div>
-          <div className="lg:text-[1vw] font-[700] xl:w-[70%] lg:leading-[1.2vw]">
+          <div className="text-[16px] leading-[19px] xl:text-[24px] xl:leading-[29.26px] font-[700] xl:w-[70%] ">
             support@truqoin.com
           </div>
         </div>
@@ -124,10 +124,10 @@ export default function ContactCard() {
               </defs>
             </svg>
           </div>
-          <div className="lg:text-[1.875vw] text-[6vw] md:text-[3vw] my-2 font-[700] lg:leading-[2vw]">
+          <div className=" my-2 font-[700] text-[28px] xl:text-[36px]">
             Address:
           </div>
-          <div className="lg:text-[1vw] font-[700] xl:w-[70%] lg:leading-[1vw]">
+          <div className=" font-[700] xl:w-[70%] max-w-[541px] text-[16px] leading-[19px] xl:text-[24px] xl:leading-[29.26px]">
             TrūQoin Headquarters23 Blockchain Drive, Tech City, USA
           </div>
         </div>

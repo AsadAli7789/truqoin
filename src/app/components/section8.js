@@ -5,10 +5,10 @@ export default function Section_8() {
     <div className="text-white flex flex-col items-center px-4 md:px-8">
       {/* Text Section */}
       <div className="max-w-[650px] p-4 text-center">
-        <div className="text-2xl md:text-3xl xl:text-[2.5vw] my-4 leading-tight xl:leading-[3.1vw] font-bold font-montserrat">
+        <div className="text-[28px] md:text-[48px]  md:leading-[48px] leading-[29px] my-4   font-bold font-montserrat">
           Connecting
         </div>
-        <div className="text-sm md:text-base xl:text-[0.729vw] my-4 text-[#8E8E8E] leading-relaxed xl:leading-[0.885vw] font-semibold font-montserrat">
+        <div className=" text-[13px] leading-[16px]  md:text-[14px]   my-4 text-[#8E8E8E]  font-montserrat">
           TruQoin (along with its’ Product Partners) is connecting the digital
           world with that of traditional marketing, shopping and social rewards.
         </div>
@@ -27,7 +27,7 @@ export default function Section_8() {
             objectFit="cover"
             alt="Left Image"
           />
-          <h1 className="lg:text-[1.7vw] xl:text-[1.2vw] my-2 text-[3.5vw] md:text-[1.5vw] text-center ">
+          <h1 className="text-[13px] leading-[16px] md:text-[14px]  text-center ">
             <span id="h2"> TruQoin</span> Miner site (Decentralized)
           </h1>
         </div>
@@ -65,7 +65,7 @@ export default function Section_8() {
             layout="responsive"
             alt="Right Image"
           />
-          <h1 className="lg:text-[1.7vw] xl:text-[1.2vw] my-2 text-[3.5vw] md:text-[1.5vw] text-center">
+          <h1 className="text-[13px] leading-[16px] md:text-[14px]   my-2  text-center">
             <span id="h2"> TruIQ </span> Dashboard (Centralized)
           </h1>
         </div>

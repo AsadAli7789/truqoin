@@ -51,7 +51,7 @@ export default function Gsap({ color }) {
         ref={main_div}
         className="  h-fit relative  xl:max-w-[1330px]   mx-auto overflow-hidden w-[90vw]  xl:w-[95vw]  flex justify-between "
       >
-        <div ref={divv} className={`  w-[50%] translate-y-[0vh] h-[138px] `}>
+        <div ref={divv} className={`w-[50%] translate-y-[0vh] h-[138px] `}>
           <h2 className=" lg:text-[40px] xl:text-[48px] font-[700] font-montserrat text-white">
             Why Choose <b id="h2">TrūQoin?</b>
           </h2>
@@ -184,7 +184,7 @@ export default function Gsap({ color }) {
               setimg2(false);
               setimg3(false);
             }}
-            className="  xl:p-4 xl:h-[326px] h-[276px]   flex-col p-4 flex xl:justify-center  cursor-pointer xl:items-center lg:w-[450px] xl:w-[650px] border-[#343434] rounded-[10px] "
+            className="  xl:p-4 xl:h-[326px] h-[276px]   flex-col p-8 flex xl:justify-center  cursor-pointer xl:items-center lg:w-[450px] xl:w-[650px] border-[#343434] rounded-[10px] "
           >
             <div className=" lg:w-[343px] xl:w-[543px] h-[179px]  my-3 ">
               <div>
@@ -248,7 +248,7 @@ export default function Gsap({ color }) {
               setimg(false);
               setimg3(false);
             }}
-            className="  xl:p-4  flex-col p-4  xl:h-[326px] h-[276px]  flex xl:justify-center xl:items-center cursor-pointer   lg:w-[450px] xl:w-[650px] border-[#343434] rounded-[10px]"
+            className="  xl:p-4  flex-col p-8  xl:h-[326px] h-[276px]  flex xl:justify-center xl:items-center cursor-pointer   lg:w-[450px] xl:w-[650px] border-[#343434] rounded-[10px]"
           >
             <div className="lg:w-[343px] xl:w-[543px] h-[179px]  my-3  ">
               <div>
@@ -307,7 +307,7 @@ export default function Gsap({ color }) {
               setimg(false);
               setimg2(false);
             }}
-            className=" xl:p-4  flex-col p-4 xl:h-[326px] h-[276px] flex xl:justify-center xl:items-center cursor-pointer lg:w-[450px] xl:w-[650px] border-[#343434] rounded-[10px] "
+            className=" xl:p-4  flex-col p-8 xl:h-[326px] h-[276px] flex xl:justify-center xl:items-center cursor-pointer lg:w-[450px] xl:w-[650px] border-[#343434] rounded-[10px] "
           >
             <div className="lg:w-[343px] xl:w-[543px] h-[179px]  my-3 ">
               <div>

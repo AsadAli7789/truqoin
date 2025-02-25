@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 import { redirect } from "next/navigation";
 import { useInView } from "react-intersection-observer";
 
@@ -26,16 +27,18 @@ export default function Footer() {
         <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <span className="text-xl mb-4">
-              <Image
-                src={"/footerlogo.png"}
-                width={140}
-                height={140}
-                alt="not found"
-              />
+              <Link href={"/"}>
+                <Image
+                  src={"/footerlogo.png"}
+                  width={140}
+                  height={140}
+                  alt="not found"
+                />
+              </Link>
             </span>
           </a>
 
-          <p className="mt-2 text-[14px] leading-[15px] text-[#8E8E8E]">
+          <p className="mt-2  text-[13px] md:text-[14px]  text-[#8E8E8E]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam
@@ -45,11 +48,11 @@ export default function Footer() {
           <div className="lg:w-1/4 md:w-1/2 w-full ">
             <h2
               id="h2"
-              className="font-[700] font-montserrat text-[16px] mb-10"
+              className="font-[700] font-montserrat text-[16px] mb-6 md:mb-10"
             >
               TruQoin
             </h2>
-            <nav className="list-none mb-10 text-[14px] font-montserrat font-[600]">
+            <nav className="list-none mb-10 text-[13px] md:text-[14px] font-montserrat font-[600]">
               <li className="my-3" onClick={() => redirect("/")}>
                 <a className="text-[#8E8E8E] hover:text-white  cursor-default">
                   Earn
@@ -70,11 +73,11 @@ export default function Footer() {
           <div className="lg:w-1/4 md:w-1/2 w-full ">
             <h2
               id="h2"
-              className="font-[700] font-montserratB text-[16px] mb-10"
+              className="font-[700] font-montserrat text-[16px] md:text-[14px]  mb-6 md:mb-10"
             >
               Company
             </h2>
-            <nav className="list-none mb-10 text-[14px] font-montserratSB font-[600]">
+            <nav className="list-none mb-10 text-[13px] md:text-[14px] font-montserrat font-[600]">
               <li className="my-3" onClick={() => redirect("/")}>
                 <a className="text-[#8E8E8E] hover:text-white cursor-default">
                   Doc
@@ -98,7 +101,7 @@ export default function Footer() {
           <div className="lg:w-2/4 md:w-1/2 w-full px-4">
             <h2
               id="h2"
-              className="font-[700] font-montserrat text-[16px] mb-10"
+              className="font-[700] font-montserrat text-[16px]  mb-10"
             >
               Web
             </h2>
