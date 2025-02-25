@@ -46,7 +46,7 @@ export default function SectionFour() {
             Follow us
           </motion.h2>
           <motion.p
-            className="text-[13px] md:text-[14px] font-[600] my-3 text-[#8E8E8E] font-montserrat"
+            className="text-[13px] md:text-[14px] font-[400] my-3 text-[#8E8E8E] font-montserrat"
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}

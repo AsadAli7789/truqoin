@@ -64,7 +64,7 @@ export default function AboutSec() {
             <div className=" text-[28px]  xl:text-[36px] my-4 font-[700] ">
               Address 1:{" "}
             </div>
-            <div className="text-[16px] leading-[19px] xl:text-[24px] xl:leading-[29.26px]  w-[100%] font-[700] ">
+            <div className="text-[16px] leading-[20px] xl:text-[24px] xl:leading-[31px]  w-[100%] font-[400] ">
               TrūQoin Headquarters  123 Blockchain Drive, Tech City, USA{" "}
             </div>
           </div>
@@ -131,7 +131,7 @@ export default function AboutSec() {
             <div className="text-[28px]  xl:text-[36px] my-4 font-[700] ">
               Address 2:{" "}
             </div>
-            <div className="text-[16px] leading-[19px] xl:text-[24px] xl:leading-[29.26px]  w-[100%] font-[700] ">
+            <div className="text-[16px] leading-[20px] xl:text-[24px] xl:leading-[31px]  w-[100%] font-[400] ">
               Sharjah Media City, Al Messaned – Al Mutsannid Suburb – Sharjah{" "}
             </div>
           </div>

@@ -39,7 +39,7 @@ export default function SectionFour1() {
             <div className="text-[24px] leading-[25px] md:text-[32px] md:leading-[32px] xl:text-[36px] xl:leading-[36px] font-montserrat my-4 font-[700]  text-white">
               Activity-Based Rewards:{" "}
             </div>
-            <div className="text-[#8E8E8E] text-[13px] leading-[16px] md:text-[14px] md:leading-[17.07px] my-4 font-montserrat font-[660]">
+            <div className="text-[#8E8E8E] text-[13px] leading-[16px] md:text-[14px] md:leading-[17.07px] my-4 font-montserrat font-[400]">
               Your activities in TruQoin and TruIQ Global drive your success and
               rewards.
             </div>
@@ -60,7 +60,7 @@ export default function SectionFour1() {
             <div className="text-[24px] leading-[25px] md:text-[32px] md:leading-[32px] xl:text-[36px] xl:leading-[36px] font-montserrat my-4 font-[700]  text-white">
               Real-World Impact:{" "}
             </div>
-            <div className="text-[#8E8E8E] text-[13px] leading-[16px] md:text-[14px] md:leading-[17.07px]  my-4 font-montserrat font-[660]">
+            <div className="text-[#8E8E8E] text-[13px] leading-[16px] md:text-[14px] md:leading-[17.07px]  my-4 font-montserrat font-[400]">
               From personal care to wellness products, TrūQoin connects
               blockchain technology to daily life.
             </div>
@@ -81,7 +81,7 @@ export default function SectionFour1() {
             <div className="text-[24px] leading-[25px] md:text-[32px] md:leading-[32px] xl:text-[36px] xl:leading-[36px] font-montserrat my-4 font-[700]  text-white">
               Global Community:
             </div>
-            <div className="text-[#8E8E8E] text-[13px] leading-[16px] md:text-[14px] md:leading-[17.07px] my-4 font-montserrat font-[660]">
+            <div className="text-[#8E8E8E] text-[13px] leading-[16px] md:text-[14px] md:leading-[17.07px] my-4 font-montserrat font-[400]">
               Join a international network of users united by the vision of
               financial growth and innovation.
             </div>

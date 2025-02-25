@@ -17,7 +17,7 @@ export default function Section3() {
             Why Choose <b id="h2">TrūQoin?</b>
           </h2>
 
-          <h2 className=" text-[0.71vw] font-[600] font-montserrat text-[#8E8E8E] px-2">
+          <h2 className=" text-[0.71vw] font-[400] font-montserrat text-[#8E8E8E] px-2">
             <ul className="flex flex-col gap-y-3 mt-4">
               <li className="flex gap-x-2 items- text-[13px] leading-[16px] md:text-[14px] md:leading-[17.07px]">
                 <div
@@ -117,7 +117,7 @@ export default function Section3() {
               <div className="text-[24px]  leading-[24px]  md:text-[32px] md:leading-[32px] lg:text-[38px] font-[700] font-montserrat my-3 text-[#ffff]">
                 Earn by Engaging:
               </div>
-              <div className="text-[13px] leading-[16px] md:text-[14px] md:leading-[15px] font-[600] font-montserrat text-[#8E8E8E] w-[98%] my-3">
+              <div className="text-[13px] leading-[16px] md:text-[14px] md:leading-[15px] font-[400] font-montserrat text-[#8E8E8E] w-[98%] my-3">
                 We use a Proof-of-Activity Mining (PoAM) model that rewards
                 users for participating in our ecosystem—no expensive hardware
                 needed.
@@ -188,7 +188,7 @@ export default function Section3() {
               <div className="text-[24px]  leading-[24px]  md:leading-[32px] md:text-[32px] lg:text-[38px] font-[700] font-montserrat my-3 text-[#ffff]">
                 Seamless Ecosystem:
               </div>
-              <div className="text-[13px] leading-[16px] md:text-[14px] md:leading-[15px] font-[600] font-montserrat text-[#8E8E8E] w-[98%] my-3">
+              <div className="text-[13px] leading-[16px] md:text-[14px] md:leading-[15px] font-[400] font-montserrat text-[#8E8E8E] w-[98%] my-3">
                 TrūQoin is designed to work effortlessly with TrūIQ Global's
                 range of health and wellness products.
               </div>
@@ -342,7 +342,7 @@ export default function Section3() {
               <div className="text-[24px] leading-[24px] md:leading-[32px] md:text-[32px] lg:text-[38px] font-[700] font-montserrat my-3 text-[#ffff]">
                 Borderless and Secure:
               </div>
-              <div className="text-[13px] leading-[16px] md:text-[14px] md:leading-[15px] font-[600] font-montserrat text-[#8E8E8E] w-[98%] my-3">
+              <div className="text-[13px] leading-[16px] md:text-[14px] md:leading-[15px] font-[400] font-montserrat text-[#8E8E8E] w-[98%] my-3">
                 With blockchain technology, TrūQoin ensures a global platform
                 that’s secure and easy to use for everyone.
               </div>

@@ -60,7 +60,7 @@ export default function Gsap({ color }) {
               img || img2 || img3
                 ? "h-0 opacity-0 scale-50 "
                 : "h-[200px] opacity-100 scale-100"
-            } text-[0.71vw]  font-[600]   overflow-hidden font-montserrat text-[#8E8E8E] px-2`}
+            } text-[0.71vw]  font-[400]   overflow-hidden font-montserrat text-[#8E8E8E] px-2`}
           >
             <ul className="flex flex-col gap-y-3 mt-4">
               <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
@@ -232,7 +232,7 @@ export default function Gsap({ color }) {
               <div className="xl:text-[36px]  text-[2.1vw] leading-[2.4vw] xl:leading-[43.88px] font-[700] font-montserrat my-3 text-[#ffff] ">
                 Earn by Engaging:
               </div>
-              <div className=" text-[14px] leading-[17.07px]  font-[600] font-montserrat text-[#8E8E8E] w-[98%] my-3 ">
+              <div className=" text-[14px] leading-[17.07px]  font-[400] font-montserrat text-[#8E8E8E] w-[98%] my-3 ">
                 TrūQoin™ is the first cryptocurrency to integrate
                 Proof-of-Transaction & Activity™ mining technologies into a
                 cryptocurrency, empowering miners to acquire tokens without the
@@ -292,7 +292,7 @@ export default function Gsap({ color }) {
               <div className="xl:text-[36px] text-[2.1vw] leading-[2.4vw] xl:leading-[43.88px] font-[700] font-montserrat my-3 text-[#ffff] ">
                 Seamless Ecosystem:{" "}
               </div>
-              <div className=" text-[14px] leading-[17.07px] font-[600] font-montserrat text-[#8E8E8E] w-[98%] my-3 ">
+              <div className=" text-[14px] leading-[17.07px] font-[400] font-montserrat text-[#8E8E8E] w-[98%] my-3 ">
                 Using the latest in blockchain and smart contract technology,
                 Web 3 infrastructure and infused with Responsible AI™ (R-AI),
                 the TrūQoin ecosystem is positioning itself and its members to
@@ -435,7 +435,7 @@ export default function Gsap({ color }) {
               <div className="xl:text-[36px] text-[2.1vw] leading-[2.4vw] xl:leading-[43.88px] font-[700] font-montserrat my-3 text-[#ffff] ">
                 Borderless and Secure:{" "}
               </div>
-              <div className=" text-[14px] leading-[17.07px] font-[600] font-montserrat text-[#8E8E8E] w-[98%] my-3 ">
+              <div className=" text-[14px] leading-[17.07px] font-[400] font-montserrat text-[#8E8E8E] w-[98%] my-3 ">
                 Understanding the purpose, accessibility and use of new
                 technologies requires a careful and legally prudent path to
                 adoption. TruQoin has and will continually monitor local and

@@ -34,7 +34,7 @@ export default function SectionTwo() {
             <div className="text-[24px] md:text-[32px] font-montserrat font-[700] text-white my-2">
               Our Vision{" "}
             </div>
-            <div className="sm:text-[14px] text-[13px] leading-[16px] sm:leading-[17px]  font-montserrat my-2 md:text-[#8E8E8E] md:font-[600] text-[#ffffffcb] font-[500]">
+            <div className="sm:text-[14px] text-[13px] leading-[16px] sm:leading-[17px]  font-montserrat my-2 md:text-[#8E8E8E] md:font-[400] text-[#ffffffcb] font-[500]">
               By connecting systems, processes and people through positive
               activities, TruQoin is anxiously engaged in creating tools to give
               everyone an opportunity for success and a better life.
@@ -58,7 +58,7 @@ export default function SectionTwo() {
             <div className="text-[24px] md:text-[32px] font-montserrat font-[700] text-white my-2">
               Our Mission
             </div>
-            <div className="sm:text-[14px] text-[13px] leading-[16px] sm:leading-[17px]  font-montserrat my-2 md:text-[#8E8E8E] md:font-[600] text-[#ffffffcb] font-[500]">
+            <div className="sm:text-[14px] text-[13px] leading-[16px] sm:leading-[17px]  font-montserrat my-2 md:text-[#8E8E8E] md:font-[400] text-[#ffffffcb] font-[500]">
               To connect innovative blockchain technology with real-world value,
               making financial growth a reality for everyone.
             </div>

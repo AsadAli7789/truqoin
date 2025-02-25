@@ -22,7 +22,7 @@ export default function SectionThrees() {
         <h1 className="text-white font-[700] my-3 text-[27px] md:text-[48px] leading-[30px] md:leading-[58.51px]">
           One Location for all your cryptocurrency and personal needs.
         </h1>
-        <p className="font-[600] text-[#8E8E8E]   w-[80%] my-3 text-[13px] xl:w-[50%] mx-auto  sm:text-[14px] sm:leading-[14px]">
+        <p className="font-[400] text-[#8E8E8E]   w-[80%] my-3 text-[13px] xl:w-[50%] mx-auto  sm:text-[14px] sm:leading-[14px]">
           To simplify and normalize the acquisition and use of cryptocurrency
           and digital assets.
         </p>
