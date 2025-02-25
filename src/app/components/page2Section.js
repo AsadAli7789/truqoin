@@ -24,7 +24,7 @@ export default function Future() {
         Our People
       </motion.div>
       <motion.div
-        className="text-[13px] md:text-[14px] w-[80vw] lg:w-[45.5vw] max-w-[690px] my-4 lg:my-8 leading-[16px] lg:leading-[17.5px] text-[#ffff] font-montserrat font-[600]"
+        className="text-[13px] md:text-[14px] w-[80vw] lg:w-[45.5vw] max-w-[690px] my-4 lg:my-8 leading-[16px] lg:leading-[17.5px] text-[#ffff] font-montserrat font-[400]"
         initial={{ opacity: 0, x: 50 }}
         animate={isInView ? { opacity: 1, x: 0 } : {}}
         transition={{ duration: 1.2, ease: "easeOut", delay: 0.2 }}

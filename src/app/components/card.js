@@ -1,7 +1,7 @@
 export default function ContactCard() {
   return (
     <>
-      <div className=" p-6   md:w-[100vw]   lg:w-[60vw] flex mx-auto lg:flex-row flex-col ">
+      <div className=" p-6   md:w-[100vw] max-w-[1096px]  lg:w-[80vw] flex mx-auto lg:flex-row flex-col ">
         <div className="   text-white mx-auto my-5 lg:mx-0 text-center flex flex-col items-center  w-[50%] ">
           <div className="my-2 ">
             <svg
@@ -65,7 +65,7 @@ export default function ContactCard() {
           <div className="font-[700] text-[28px] xl:text-[36px]  my-2  lg:leading-[2vw]">
             Email Us:{" "}
           </div>
-          <div className="text-[16px] leading-[19px] xl:text-[24px] xl:leading-[29.26px] font-[700] xl:w-[70%] ">
+          <div className="text-[16px] leading-[19px] xl:text-[24px] xl:leading-[29.26px] font-[400] xl:w-[70%] ">
             support@truqoin.com
           </div>
         </div>
@@ -127,7 +127,7 @@ export default function ContactCard() {
           <div className=" my-2 font-[700] text-[28px] xl:text-[36px]">
             Address:
           </div>
-          <div className=" font-[700] xl:w-[70%] max-w-[541px] text-[16px] leading-[19px] xl:text-[24px] xl:leading-[29.26px]">
+          <div className=" font-[400] xl:w-[80%] max-w-[541px] text-[16px] leading-[19px] xl:text-[24px] xl:leading-[29.26px]">
             TrūQoin Headquarters23 Blockchain Drive, Tech City, USA
           </div>
         </div>

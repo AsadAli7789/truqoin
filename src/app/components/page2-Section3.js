@@ -20,11 +20,11 @@ export default function Pge2() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="w-full md:w-[70vw] xl:max-w-[1071px] border-white mx-auto text-center"
           >
-            <div className=" text-[24px] md:text-[24px] font-montserrat  font-[700] text-white">
+            <div className=" text-[24px] md:text-[24px] font-montserrat  font-[400] text-white">
               About Us
             </div>
 
-            <div className="text-[13px] md:text-[30px] md:leading-[36.57px] mx-auto  text-[#8E8E8E]  font-montserrat  font-[700] ">
+            <div className="text-[13px] md:text-[30px] md:leading-[36.57px] mx-auto  text-[#8E8E8E]  font-montserrat  font-[400] ">
               TrūQoin is a groundbreaking cryptocurrency designed to make
               financial freedom accessible to everyone. Built on the TRON
               blockchain, we’ve created a unique system where your activities

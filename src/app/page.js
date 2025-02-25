@@ -31,7 +31,7 @@ export default function Home() {
           <div className="md:text-[48px]  text-[28px] font-[700] text-white">
             Our Mission
           </div>
-          <div className="md:text-[14px] text-[13px] leading-[16px] text-[#8E8E8E] font-[600]">
+          <div className="md:text-[14px] text-[13px] leading-[16px] text-[#8E8E8E] font-[400]">
             To simplify and normalize the acquisition and use of cryptocurrency
             and digital assets.
           </div>
