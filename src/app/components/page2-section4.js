@@ -21,27 +21,27 @@ export default function SectionFour1() {
 
   return (
     <div className="mt-10 text-center gap-10 flex flex-col mx-auto px-4 md:px-0">
-      <div className="text-[2rem] leading-[2.6rem]  lg:text-[2.8rem] lg:leading-[3rem] font-montserrat font-[700] text-white">
+      <div className="md:text-[48px] text-[28px] leading-[28px] md:leading-[48px] font-montserrat font-[700] text-white">
         What We Offer
       </div>
       <div className="flex xl:max-w-[1321px] lg:mx-auto xl:w-[100vw] lg:w-[90vw]  flex-col lg:flex-row lg:flex- gap-4 justify-center">
         {/* Activity-Based Rewards Section */}
         <motion.div
-          ref={rewardRef}
-          className="w-full  items-center flex mx-auto lg:mx-0 lg:justify-center lg:w-[33%] xl:w-[31.25vw] max-w-[427px] max-h-[341px]  min-h-fit h-[50.17vh] border border-[#343434] rounded-[8px] text-left bg-black py-8 px-4"
+          ref={communityRef}
+          className="w-full  items-center flex mx-auto  min-h-fit  lg:mx-0 lg:justify-center lg:w-[33%] xl:w-[31.25vw]  max-w-[427px] max-h-[341px]  h-[50.17vh] border border-[#343434] rounded-[8px] text-left bg-black py-8 px-4"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: impactInView ? 1 : 0, y: impactInView ? 0 : 50 }}
           transition={{ duration: 1.2 }}
           id="p2_sec4"
         >
-          <div className="xl:w-[24.816vw]  xl:h-[38.05vh]    xl:max-w-[339px]  xl:max-h-[231px]  ">
-            <div className="mb-1 text-[2vw]">{Svg("1")}</div>
-            <div className=" text-[26px] leading-[26px] xl:text-[36px] font-montserrat my-4 font-[700] lg:text-[2.8vw] lg:leading-[3vw] xl:leading-[36px] text-white">
+          <div className=" xl:w-[24.816vw]  xl:h-[38.05vh]   xl:max-w-[339px]  xl:max-h-[231px]  ">
+            <div className="mb-1 text-[2vw]">{Svg("3")}</div>
+            <div className="text-[24px] leading-[25px] md:text-[32px] md:leading-[32px] xl:text-[36px] xl:leading-[36px] font-montserrat my-4 font-[700]  text-white">
               Activity-Based Rewards:{" "}
             </div>
-            <div className="text-[#8E8E8E] text-[4vw]  md:text-[2vw] md:leading-[2.3vw] lg:text-[1.5vw] lg:leading-[2vw]  xl:text-[14px] xl:leading-[17.07px] my-4 leading-[4vw]  font-montserrat font-[660]">
+            <div className="text-[#8E8E8E] text-[13px] leading-[16px] md:text-[14px] md:leading-[17.07px] my-4 font-montserrat font-[660]">
               Your activities in TruQoin and TruIQ Global drive your success and
-              rewards.{" "}
+              rewards.
             </div>
           </div>
         </motion.div>
@@ -57,10 +57,10 @@ export default function SectionFour1() {
         >
           <div className="xl:w-[24.816vw]  xl:h-[38.05vh]   xl:max-w-[339px]  xl:max-h-[231px] ">
             <div className="mb-1 text-[2vw]">{Svg("2")}</div>
-            <div className="text-[26px] leading-[26px] xl:text-[36px] font-montserrat my-4 font-[700] lg:text-[2.8vw] lg:leading-[3vw] xl:leading-[36px] text-white">
+            <div className="text-[24px] leading-[25px] md:text-[32px] md:leading-[32px] xl:text-[36px] xl:leading-[36px] font-montserrat my-4 font-[700]  text-white">
               Real-World Impact:{" "}
             </div>
-            <div className="text-[#8E8E8E] text-[4vw]  md:text-[2vw] md:leading-[2.3vw] lg:text-[1.5vw] lg:leading-[2vw] xl:text-[14px] xl:leading-[17.07px] my-4 leading-[4vw]  font-montserrat font-[660]">
+            <div className="text-[#8E8E8E] text-[13px] leading-[16px] md:text-[14px] md:leading-[17.07px]  my-4 font-montserrat font-[660]">
               From personal care to wellness products, TrūQoin connects
               blockchain technology to daily life.
             </div>
@@ -78,10 +78,10 @@ export default function SectionFour1() {
         >
           <div className=" xl:w-[24.816vw]  xl:h-[38.05vh]   xl:max-w-[339px]  xl:max-h-[231px]  ">
             <div className="mb-1 text-[2vw]">{Svg("3")}</div>
-            <div className="text-[26px] leading-[26px] xl:text-[36px] font-montserrat my-4 font-[700] lg:text-[2.8vw] lg:leading-[3vw] xl:leading-[36px] text-white">
+            <div className="text-[24px] leading-[25px] md:text-[32px] md:leading-[32px] xl:text-[36px] xl:leading-[36px] font-montserrat my-4 font-[700]  text-white">
               Global Community:
             </div>
-            <div className="text-[#8E8E8E] text-[4vw]  md:text-[2vw] md:leading-[2.3vw] lg:text-[1.5vw] lg:leading-[2vw] xl:text-[14px] xl:leading-[17.07px] my-4 leading-[4vw]  font-montserrat font-[660]">
+            <div className="text-[#8E8E8E] text-[13px] leading-[16px] md:text-[14px] md:leading-[17.07px] my-4 font-montserrat font-[660]">
               Join a international network of users united by the vision of
               financial growth and innovation.
             </div>

@@ -18,11 +18,11 @@ const arry2 = [
 export default function SectionThrees() {
   return (
     <div className="font-montserrat">
-      <div className="xl:max-w-[1096px] w-[90vw] sm:w-[82vw] md:w-[82vw] lg:w-[60vw] mx-auto text-center">
-        <h1 className="text-white font-[700] my-3 text-[1.5rem] sm:text-[2rem] lg:text-[2.6vw] leading-[1.9rem] sm:leading-[2.4rem] lg:leading-[2.9vw]">
+      <div className="xl:max-w-[1096px] w-[85vw] sm:w-[80vw] md:w-[82vw] lg:w-[60vw] mx-auto text-center">
+        <h1 className="text-white font-[700] my-3 text-[27px] md:text-[48px] leading-[30px] md:leading-[58.51px]">
           One Location for all your cryptocurrency and personal needs.
         </h1>
-        <p className="font-[600] text-[#8E8E8E]   w-[80%] my-3 text-[8px] xl:w-[50%] mx-auto  sm:text-[14px] sm:leading-[14px]">
+        <p className="font-[600] text-[#8E8E8E]   w-[80%] my-3 text-[13px] xl:w-[50%] mx-auto  sm:text-[14px] sm:leading-[14px]">
           To simplify and normalize the acquisition and use of cryptocurrency
           and digital assets.
         </p>
@@ -34,25 +34,25 @@ export default function SectionThrees() {
           className="xl:max-w-[538px] w-[80vw] sm:w-[60vw] xl:w-[40%]  md:w-[60vw]  flex flex-col md:flex-row p-4 lg:p-0 xl:p-4 border border-[#34343480] border-dotted rounded-[10px]"
         >
           <div className="w-full xl:w-[50%] h-full p-4 flex flex-col gap-2">
-            <h2 className="text-white xl:text-[0.79vw] text-[16px] font-[700] lg:text-[1.2vw]">
+            <h2 className="text-white   text-[16px] md:leading-[24.38px]  md:text-[20px] font-[700] ">
               Digital Activities
             </h2>
             {arry.map((data) => (
               <div
                 id="secThree-btm"
                 key={data.id}
-                className="flex md:p-4 p-2 items-center  rounded-[10px] gap-x-3 border border-[#343434]"
+                className="flex md:p-4 p-2 items-center rounded-[10px] gap-x-3 border border-[#343434]"
               >
                 {Svg1(data.id)}
 
-                <h3 className="text-white font-[500] text-[14px]">
+                <h3 className="text-white font-[500]  text-[13px] leading-[16px] md:text-[14px]">
                   {data.name}
                 </h3>
               </div>
             ))}
           </div>
           <div className="w-full xl:w-[50%] h-full p-4 flex flex-col gap-2">
-            <h2 className="text-white xl:text-[0.79vw] lg:text-[1.2vw] text-[16px] font-[700]">
+            <h2 className="text-white text-[16px] md:leading-[24.38px]  md:text-[20px] font-[700]">
               Personal Activities
             </h2>
             {arry2.map((data) => (
@@ -63,7 +63,7 @@ export default function SectionThrees() {
               >
                 {Svg2(data.id)}
 
-                <h3 className="text-white font-[500] text-[14px]">
+                <h3 className="text-white font-[500] text-[13px] leading-[16px] md:text-[14px]">
                   {data.name}
                 </h3>
               </div>
@@ -80,7 +80,7 @@ export default function SectionThrees() {
             className=""
           />
         </div>
-        <div className="lg:hidden w-[90%]  text-[2rem] font-[700] my-4 text-center text-white">
+        <div className="lg:hidden w-[90%] text-[28px] md:text-[48px] font-[700] my-4 text-center text-white">
           <div>OR</div>
           <div>
             <div id="h2" className="">

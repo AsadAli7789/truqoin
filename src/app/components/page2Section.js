@@ -16,7 +16,7 @@ export default function Future() {
       transition={{ duration: 1.2, ease: "easeOut" }}
     >
       <motion.div
-        className="text-[8vw] lg:text-[3.513vw] leading-[8vw] max-w-[690px] lg:leading-[4vw] text-[#ffff] font-montserrat font-[700]"
+        className=" text-[28px] leading-[28px] md:text-[48px] md:leading-[48px] max-w-[690px]  text-[#ffff] font-montserrat font-[700]"
         initial={{ opacity: 0, x: -50 }}
         animate={isInView ? { opacity: 1, x: 0 } : {}}
         transition={{ duration: 1.2, ease: "easeOut" }}
@@ -24,7 +24,7 @@ export default function Future() {
         Our People
       </motion.div>
       <motion.div
-        className="text-[12px] lg:text-[14px] w-[80vw] lg:w-[45.5vw] max-w-[690px] my-4 lg:my-8 leading-[16px] lg:leading-[17.5px] text-[#ffff] font-montserrat font-[600]"
+        className="text-[13px] md:text-[14px] w-[80vw] lg:w-[45.5vw] max-w-[690px] my-4 lg:my-8 leading-[16px] lg:leading-[17.5px] text-[#ffff] font-montserrat font-[600]"
         initial={{ opacity: 0, x: 50 }}
         animate={isInView ? { opacity: 1, x: 0 } : {}}
         transition={{ duration: 1.2, ease: "easeOut", delay: 0.2 }}

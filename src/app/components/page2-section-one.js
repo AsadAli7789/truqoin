@@ -22,7 +22,7 @@ export default function SectionTwo() {
         {/* Vision Section with Motion */}
         <motion.div
           ref={visionRef}
-          className="w-full lg:w-[50%]   max-w-[492px] p-10  -white text-center"
+          className="w-full lg:w-[50%]   max-w-[492px] px-5 py-10 -white text-center"
           initial={{ opacity: 0, x: -100 }}
           animate={{
             opacity: visionInView ? 1 : 0,
@@ -34,7 +34,7 @@ export default function SectionTwo() {
             <div className="text-[24px] md:text-[32px] font-montserrat font-[700] text-white my-2">
               Our Vision{" "}
             </div>
-            <div className="text-[8px] md:text-[12px] md:leading-[13px] leading-[9.07px] font-montserrat my-2 text-[#8E8E8E] font-[700]">
+            <div className="sm:text-[14px] text-[13px] leading-[16px] sm:leading-[17px]  font-montserrat my-2 md:text-[#8E8E8E] md:font-[600] text-[#ffffffcb] font-[500]">
               By connecting systems, processes and people through positive
               activities, TruQoin is anxiously engaged in creating tools to give
               everyone an opportunity for success and a better life.
@@ -58,7 +58,7 @@ export default function SectionTwo() {
             <div className="text-[24px] md:text-[32px] font-montserrat font-[700] text-white my-2">
               Our Mission
             </div>
-            <div className="text-[8px] md:text-[12px] md:leading-[13px] leading-[9.07px] font-montserrat my-2 text-[#8E8E8E] font-[700]">
+            <div className="sm:text-[14px] text-[13px] leading-[16px] sm:leading-[17px]  font-montserrat my-2 md:text-[#8E8E8E] md:font-[600] text-[#ffffffcb] font-[500]">
               To connect innovative blockchain technology with real-world value,
               making financial growth a reality for everyone.
             </div>

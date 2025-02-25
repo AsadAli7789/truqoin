@@ -31,14 +31,14 @@ export default function SectionFour() {
   return (
     <div className="w-full px-4 md:px-0">
       <motion.div
-        className="max-w-[65vw] mx-auto"
+        className="max-w-[1027px] mx-auto"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
         <div className="text-white text-center">
           <motion.h2
-            className="font-montserrat font-[700] my-3 text-[32px] md:text-[48px] leading-[1.2] md:leading-[48px]"
+            className="font-montserrat font-[700] my-3 text-[28px] leading-[28px] md:text-[48px] md:leading-[48px]"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
@@ -46,7 +46,7 @@ export default function SectionFour() {
             Follow us
           </motion.h2>
           <motion.p
-            className="text-[12px] md:text-[14px] font-[600] my-3 text-[#8E8E8E] font-montserrat"
+            className="text-[13px] md:text-[14px] font-[600] my-3 text-[#8E8E8E] font-montserrat"
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
@@ -55,7 +55,7 @@ export default function SectionFour() {
           </motion.p>
         </div>
         <motion.div
-          className="p-4 max-w-[900px] mx-auto flex flex-wrap justify-center gap-3"
+          className="p-4 max-w-[900px] w-[100%] mx-auto flex flex-wrap justify-center gap-3"
           initial="hidden"
           animate={isInView ? "visible" : "hidden"} // Animate when in view
           variants={{
@@ -78,7 +78,7 @@ export default function SectionFour() {
             <motion.div
               key={social.name}
               id="sec4"
-              className="social-item border-[1px] rounded-[8px] flex border-[#343434] h-[60px] w-full sm:w-[260px] items-center px-2"
+              className="social-item border-[1px] rounded-[8px] flex border-[#343434] h-[60px] w-[90%] sm:w-[260px] items-center px-2"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               variants={{
@@ -90,12 +90,12 @@ export default function SectionFour() {
               <div className="border border-[#2B2B2B] p-2">
                 <SocialIcon name={social.icon} />
               </div>
-              <h3 className="text-[10px] sm:text-[14px] text-white px-2 font-montserrat">
+              <h3 className="text-[13px] md:text-[14px] text-white px-2 font-montserrat">
                 {social.name}
               </h3>
               <h3
                 id="h2"
-                className="text-[10px] sm:text-[14px] font-[600] font-montserrat ml-auto"
+                className="text-[13px] md:text-[14px] font-[600] font-montserrat ml-auto"
               >
                 {social.followers}
               </h3>

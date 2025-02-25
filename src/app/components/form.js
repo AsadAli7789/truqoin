@@ -1266,12 +1266,12 @@ export default function Form() {
           </button>
         </div>
         <div className="lg:w-[57.083vw] xl:max-w-[1096px] mx-auto xl:my-4 my-">
-          <div className="xl:w-[32.396vw]  md:w-[50%] w-[90%] text-center my-4 mx-auto">
+          <div className="xl:w-[32.396vw]  md:w-[60%] lg:w-[80%]    w-[90%] text-center my-4 mx-auto">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 30 }}
               transition={{ duration: 0.5 }}
-              className="xl:text-[3vw] sm:text-[3.5vw] text-[6vw] leading-[6vw] xl:leading-[3vw] text-white font-[600] font-montserrat"
+              className="  text-[28px] leading-[30px] md:leading-[58.51px] md:text-[48px] text-white font-[600] font-montserrat"
             >
               Send Us a Message
             </motion.div>
@@ -1279,7 +1279,7 @@ export default function Form() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 30 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="xl:text-[0.9vw] text-[3vw] md:text-[1.2vw] text-[#8E8E8E] my-6 xl:leading-[1vw] font-[500] font-montserrat"
+              className=" text-[#8E8E8E] my-6 md:text-[14px] text-[13px] leading-[16px] max-w-[476px] mx-auto font-[500] font-montserrat"
             >
               Have a question or need assistance? Fill out the form below, and
               we’ll get back to you as soon as possible.

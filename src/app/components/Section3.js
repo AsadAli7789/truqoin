@@ -13,20 +13,20 @@ export default function Section3() {
     <>
       <div className=" h-fit flex-col sm:w-[70vw]   relative max-w-[1330px] mx-auto overflow- flex justify-between">
         <div className="sm:mx-auto my-5  w-[90vw]  sm:w-[60vw]  -white mx-auto lg:w-[45.53vw] translate-y-[0vh] lg:h-[138px]">
-          <h2 className="text-[9vw] leading-[9vw] text-center font-[700] font-montserrat text-white">
+          <h2 className="text-[28px] leading-[28px] md:text-[48px] md:leading-[48px] text-center font-[700] font-montserrat text-white">
             Why Choose <b id="h2">TrūQoin?</b>
           </h2>
 
           <h2 className=" text-[0.71vw] font-[600] font-montserrat text-[#8E8E8E] px-2">
             <ul className="flex flex-col gap-y-3 mt-4">
-              <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
+              <li className="flex gap-x-2 items- text-[13px] leading-[16px] md:text-[14px] md:leading-[17.07px]">
                 <div
                   id="dot"
                   className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
                 ></div>
                 Acquire cryptocurrency without any hardware of software costs.
               </li>
-              <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
+              <li className="flex gap-x-2 items- text-[13px] leading-[16px] md:text-[14px]">
                 {" "}
                 <div
                   id="dot"
@@ -34,21 +34,21 @@ export default function Section3() {
                 ></div>
                 Mine cryptocurrency through yours and other’s activities.{" "}
               </li>
-              <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
+              <li className="flex gap-x-2 items- text-[13px] leading-[16px] md:text-[14px]">
                 <div
                   id="dot"
                   className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
                 ></div>
                 Build a digital-assets business – without any boarders.{" "}
               </li>
-              <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
+              <li className="flex gap-x-2 items- text-[13px] leading-[16px] md:text-[14px]">
                 <div
                   id="dot"
                   className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
                 ></div>
                 Achieve success and rewards, for developing a like-minded team.{" "}
               </li>
-              <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
+              <li className="flex gap-x-2 items- text-[13px] leading-[16px] md:text-[14px]">
                 <div
                   id="dot"
                   className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
@@ -56,7 +56,7 @@ export default function Section3() {
                 Earn fiat currency (USD) for help to build the TruQoin/TruIQ
                 ecosystem.{" "}
               </li>
-              <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
+              <li className="flex gap-x-2 items- text-[13px] leading-[16px] md:text-[14px]">
                 <div
                   id="dot"
                   className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
@@ -114,10 +114,10 @@ export default function Section3() {
                   </defs>
                 </svg>
               </div>
-              <div className="text-[4.875vw] sm:text-[4vw] leading-[4w] font-[700] font-montserrat my-3 text-[#ffff]">
+              <div className="text-[24px]  leading-[24px]  md:text-[32px] md:leading-[32px] lg:text-[38px] font-[700] font-montserrat my-3 text-[#ffff]">
                 Earn by Engaging:
               </div>
-              <div className="text-[3vw] leading-[3.2vw] sm:text-[2vw] sm:leading-[2.3vw] font-[600] font-montserrat text-[#8E8E8E] w-[98%] my-3">
+              <div className="text-[13px] leading-[16px] md:text-[14px] md:leading-[15px] font-[600] font-montserrat text-[#8E8E8E] w-[98%] my-3">
                 We use a Proof-of-Activity Mining (PoAM) model that rewards
                 users for participating in our ecosystem—no expensive hardware
                 needed.
@@ -185,10 +185,10 @@ export default function Section3() {
                   </defs>
                 </svg>
               </div>
-              <div className="text-[4.875vw] sm:text-[4vw] leading-[4w] font-[700] font-montserrat my-3 text-[#ffff]">
+              <div className="text-[24px]  leading-[24px]  md:leading-[32px] md:text-[32px] lg:text-[38px] font-[700] font-montserrat my-3 text-[#ffff]">
                 Seamless Ecosystem:
               </div>
-              <div className="text-[3vw] leading-[3.2vw] sm:text-[2vw] sm:leading-[2.3vw] font-[600] font-montserrat text-[#8E8E8E] w-[98%] my-3">
+              <div className="text-[13px] leading-[16px] md:text-[14px] md:leading-[15px] font-[600] font-montserrat text-[#8E8E8E] w-[98%] my-3">
                 TrūQoin is designed to work effortlessly with TrūIQ Global's
                 range of health and wellness products.
               </div>
@@ -339,10 +339,10 @@ export default function Section3() {
                   </defs>
                 </svg>
               </div>
-              <div className="text-[4.875vw] sm:text-[4vw] leading-[4w] font-[700] font-montserrat my-3 text-[#ffff]">
+              <div className="text-[24px] leading-[24px] md:leading-[32px] md:text-[32px] lg:text-[38px] font-[700] font-montserrat my-3 text-[#ffff]">
                 Borderless and Secure:
               </div>
-              <div className="text-[3vw] leading-[3.2vw] sm:text-[2vw] sm:leading-[2.3vw] font-[600] font-montserrat text-[#8E8E8E] w-[98%] my-3">
+              <div className="text-[13px] leading-[16px] md:text-[14px] md:leading-[15px] font-[600] font-montserrat text-[#8E8E8E] w-[98%] my-3">
                 With blockchain technology, TrūQoin ensures a global platform
                 that’s secure and easy to use for everyone.
               </div>

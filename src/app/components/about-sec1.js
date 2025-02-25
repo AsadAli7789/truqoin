@@ -1,12 +1,12 @@
 export default function AboutSec() {
   return (
     <>
-      <div className="xl:max-w-[1321px]  md:w-[50vw] lg:w-[60vw] gap-7 sm:w-[60vw]  w-[80vw] flex lg:flex-row flex-col  gap-x-3 mx-auto">
+      <div className="xl:max-w-[1321px]  md:w-[50vw] lg:w-[70vw] gap-7 sm:w-[60vw]  w-[80vw] flex lg:flex-row flex-col  gap-x-3 mx-auto">
         <div
           id="abot-sec"
           className="xl:max-w-[646px] lg:w-[50%]  flex justify-center items-center rounded-[10px] border border-[#343434] "
         >
-          <div className=" xl:max-w-[315px]  lg:  md:w-[70%] w-[70%]     text-white mx-auto lg:mx-0  my-5 text-center flex flex-col items-center border-white  ">
+          <div className=" xl:max-w-[357px] md:w-[70%] w-[70%]     text-white mx-auto lg:mx-0  my-5 text-center flex flex-col items-center border-white  ">
             <div className="my-2">
               <svg
                 width="32"
@@ -61,19 +61,19 @@ export default function AboutSec() {
                 </defs>
               </svg>
             </div>
-            <div className="lg:text-[1.3vw]   md:text-[3vw] sm:text-[4vw] text-[6vw]  my-2 font-[700] lg:leading-[2vw]">
+            <div className=" text-[28px]  xl:text-[36px] my-4 font-[700] ">
               Address 1:{" "}
             </div>
-            <div className="lg:text-[0.79vw] font-[700] xl:w-[70%] lg:leading-[1vw]">
+            <div className="text-[16px] leading-[19px] xl:text-[24px] xl:leading-[29.26px]  w-[100%] font-[700] ">
               TrūQoin Headquarters  123 Blockchain Drive, Tech City, USA{" "}
             </div>
           </div>
         </div>
         <div
           id="abot-sec"
-          className="xl:max-w-[646px]   flex lg:w-[50%] justify-center items-center border rounded-[10px] border-[#343434]"
+          className="xl:max-w-[646px] py-4    flex lg:w-[50%] justify-center items-center border rounded-[10px] border-[#343434]"
         >
-          <div className=" xl:max-w-[315px] md:w-[70%] w-[70%]   text-white mx-auto lg:mx-0  my-5 text-center flex flex-col items-center border-white ">
+          <div className=" xl:max-w-[357px] md:w-[70%] w-[70%]     text-white mx-auto lg:mx-0  my-5 text-center flex flex-col items-center border-white ">
             <div className="my-2">
               <svg
                 width="32"
@@ -128,10 +128,10 @@ export default function AboutSec() {
                 </defs>
               </svg>
             </div>
-            <div className="lg:text-[1.3vw]  sm:text-[4vw] text-[6vw] md:text-[3vw]   my-2 font-[700] lg:leading-[2vw]">
+            <div className="text-[28px]  xl:text-[36px] my-4 font-[700] ">
               Address 2:{" "}
             </div>
-            <div className="lg:text-[0.79vw] font-[700] xl:w-[70%] lg:leading-[1vw]">
+            <div className="text-[16px] leading-[19px] xl:text-[24px] xl:leading-[29.26px]  w-[100%] font-[700] ">
               Sharjah Media City, Al Messaned – Al Mutsannid Suburb – Sharjah{" "}
             </div>
           </div>
