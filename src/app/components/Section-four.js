@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function SectionFour() {
   const [isInView, setIsInView] = useState(false);
@@ -69,37 +70,47 @@ export default function SectionFour() {
           }}
         >
           {[
-            { name: "Instagram", icon: "instagram", followers: "10.2k" },
-            { name: "Facebook", icon: "facebook", followers: "13.2k" },
-            { name: "Discord", icon: "discord", followers: "15.2k" },
-            { name: "Telegram", icon: "telegram", followers: "10.2k" },
-            { name: "X", icon: "x", followers: "11.2k" },
+            {
+              name: "Youtube",
+              icon: "Youtube",
+              followers: "10.2k",
+              link: "https://www.youtube.com/@TruQoin",
+            },
+
+            {
+              name: "X",
+              icon: "x",
+              followers: "11.2k",
+              link: "https://x.com/TruQoin",
+            },
           ].map((social) => (
-            <motion.div
-              key={social.name}
-              id="sec4"
-              className="social-item border-[1px] rounded-[8px] flex border-[#343434] h-[60px] w-[90%] sm:w-[260px] items-center px-2"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              variants={{
-                hidden: { opacity: 0, y: 50 },
-                visible: { opacity: 1, y: 0 },
-              }}
-              transition={{ duration: 0.3 }}
-            >
-              <div className="border border-[#2B2B2B] p-2">
-                <SocialIcon name={social.icon} />
-              </div>
-              <h3 className="text-[13px] md:text-[14px] text-white px-2 font-montserrat">
-                {social.name}
-              </h3>
-              <h3
-                id="h2"
-                className="text-[13px] md:text-[14px] font-[600] font-montserrat ml-auto"
+            <Link href={social.link} target="_blank" rel="noopener noreferrer">
+              <motion.div
+                key={social.name}
+                id="sec4"
+                className="social-item border-[1px] rounded-[8px] flex border-[#343434] h-[60px] w-[90%] sm:w-[260px] min-w-[260px] items-center px-2"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                variants={{
+                  hidden: { opacity: 0, y: 50 },
+                  visible: { opacity: 1, y: 0 },
+                }}
+                transition={{ duration: 0.3 }}
               >
-                {social.followers}
-              </h3>
-            </motion.div>
+                <div className="border border-[#2B2B2B] p-2 text-white">
+                  <SocialIcon name={social.icon} />
+                </div>
+                <h3 className="text-[13px] md:text-[14px] text-white px-2 font-montserrat">
+                  {social.name}
+                </h3>
+                <h3
+                  id="h2"
+                  className="text-[13px] md:text-[14px] font-[600] font-montserrat ml-auto"
+                >
+                  {social.followers}
+                </h3>
+              </motion.div>
+            </Link>
           ))}
         </motion.div>
       </motion.div>
@@ -183,6 +194,24 @@ function SocialIcon({ name }) {
             d="M13.8757 0.545654H16.4764L10.7952 7.05546L17.4794 15.9153H12.2464L8.14476 10.5429L3.45682 15.9153H0.85363L6.92977 8.95001L0.520508 0.546866H5.8868L9.58869 5.45647L13.8757 0.545654ZM12.9611 14.3551H14.4026L5.09942 2.02471H3.55373L12.9611 14.3551Z"
             fill="white"
           />
+        </svg>
+      );
+    case "Youtube":
+      return (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-youtube"
+        >
+          <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
+          <path d="m10 15 5-3-5-3z" />
         </svg>
       );
     default:

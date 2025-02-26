@@ -3,6 +3,7 @@ import Form from "../components/form";
 import SectionFour from "@/app/components/Section-four";
 import Header from "../components/header";
 import ContactCard from "../components/card";
+import AboutSec from "../components/about-sec1";
 
 export default function Contact() {
   return (
@@ -35,7 +36,7 @@ export default function Contact() {
           <Form />
         </div>
         <div className="my-20 lg:my-32">
-          <ContactCard />
+          <AboutSec />
         </div>
         <div className="my-10 md:my-20 ">
           <SectionFour />
