@@ -65,7 +65,7 @@ export default function AboutSec() {
               Address 1:{" "}
             </div>
             <div className="text-[16px] leading-[20px] xl:text-[24px] xl:leading-[31px]  w-[100%] font-[400] ">
-              TrūQoin Headquarters  123 Blockchain Drive, Tech City, USA{" "}
+              TruIQ Global, LLC 5513 W. 11000 N. Suite 121 Highland, UT 84003
             </div>
           </div>
         </div>
