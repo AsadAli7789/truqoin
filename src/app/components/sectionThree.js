@@ -89,7 +89,7 @@ export default function SectionThrees() {
           </div>
         </div>
 
-        <div className="xl:max-w-[656px] w-full xl:w-[60%] mt-10 xl:mt-0 ml-auto">
+        <div className="xl:max-w-[656px] w-full lg:p-4 xl:w-[60%] mt-10 xl:mt-0 ml-auto">
           <Image
             src="/tabs.png"
             layout="responsive"

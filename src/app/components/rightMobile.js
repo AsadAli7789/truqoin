@@ -161,7 +161,7 @@ export default function RightMobile({ className }) {
               <Image
                 width={0}
                 height={0}
-                src={"/RightMoblie.png"}
+                src={"/png.png"}
                 layout="responsive"
                 className=""
               />
