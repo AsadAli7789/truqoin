@@ -13,169 +13,174 @@ export default function Gsap({ color }) {
   const [img3, setimg3] = useState(false);
 
   const main_div = useRef(null);
-  useEffect(() => {
-    var tll;
+  // useEffect(() => {
+  //   var tll;
 
-    tll = gsap.timeline({
-      scrollTrigger: {
-        trigger: main_div.current,
-        start: "top top",
-        end: "+=200%",
-        scrub: 1,
-        markers: false,
-        pin: true,
-      },
-    });
-    tll.to(
-      divv.current,
-      {
-        y: 0,
-      },
-      0
-    );
-    tll.to(
-      divv2.current,
-      {
-        y: "-70%",
-      },
-      0
-    );
-    // return () => {
-    //   tll.kill();
-    //   ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-    // };
-  }, []);
+  //   tll = gsap.timeline({
+  //     scrollTrigger: {
+  //       trigger: main_div.current,
+  //       start: "top top",
+  //       end: "+=200%",
+  //       scrub: 1,
+  //       markers: false,
+  //       pin: true,
+  //     },
+  //   });
+  //   tll.to(
+  //     divv.current,
+  //     {
+  //       y: 0,
+  //     },
+  //     0
+  //   );
+  //   tll.to(
+  //     divv2.current,
+  //     {
+  //       y: "-70%",
+  //     },
+  //     0
+  //   );
+  //   // return () => {
+  //   //   tll.kill();
+  //   //   ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+  //   // };
+  // }, []);
   return (
     <>
       <div
         ref={main_div}
-        className="  h-fit relative  xl:max-w-[1330px]   mx-auto overflow-hidden w-[90vw]  xl:w-[95vw]  flex justify-between "
+        className="  h-fit relative  xl:max-w-[1330px]   mx-auto  w-[90vw]  xl:w-[95vw]  flex justify-between "
       >
-        <div ref={divv} className={`w-[50%] translate-y-[0vh] h-[138px] `}>
-          <h2 className=" lg:text-[40px] xl:text-[48px] font-[700] font-montserrat text-white">
-            Why Choose <b id="h2">TrūQoin?</b>
-          </h2>
-          <h2
-            className={` transition-all ease-in-out pointer-events-none  duration-500 ${
-              img || img2 || img3
-                ? "h-0 opacity-0 scale-50 "
-                : "h-[200px] opacity-100 scale-100"
-            } text-[0.71vw]  font-[400]   overflow-hidden font-montserrat text-[#8E8E8E] px-2`}
-          >
-            <ul className="flex flex-col gap-y-3 mt-4">
-              <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
-                <div
-                  id="dot"
-                  className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
-                ></div>
-                Acquire cryptocurrency without any hardware of software costs.
-              </li>
-              <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
-                {" "}
-                <div
-                  id="dot"
-                  className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
-                ></div>
-                Mine cryptocurrency through yours and other’s activities.{" "}
-              </li>
-              <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
-                <div
-                  id="dot"
-                  className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
-                ></div>
-                Build a digital-assets business – without any boarders.{" "}
-              </li>
-              <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
-                <div
-                  id="dot"
-                  className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
-                ></div>
-                Achieve success and rewards, for developing a like-minded team.{" "}
-              </li>
-              <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
-                <div
-                  id="dot"
-                  className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
-                ></div>
-                Earn fiat currency (USD) for help to build the TruQoin/TruIQ
-                ecosystem.{" "}
-              </li>
-              <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
-                <div
-                  id="dot"
-                  className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
-                ></div>
-                Use TruQoin to buy products and services in the real world.{" "}
-              </li>
-            </ul>
-          </h2>
+        <div className="w-[50%] relative  ">
           <div
-            className={` transition-all ease-in-out pointer-events-none w-[80%]  border-black   duration-500 ${
-              img ? "block h-[200px] xl:h-[300px] " : "h-0 "
-            }`}
+            ref={divv}
+            className={`w-[100%] pt-[5vw] sticky    top-0  h-fit `}
           >
+            <h2 className=" lg:text-[40px] xl:text-[48px]    font-[700] font-montserrat text-white">
+              Why Choose <b id="h2">TrūQoin?</b>
+            </h2>
+            <h2
+              className={` transition-all ease-in-out pointer-events-none  duration-500 ${
+                img || img2 || img3
+                  ? "h-0 opacity-0 scale-50 "
+                  : "h-[200px] opacity-100 scale-100"
+              } text-[0.71vw]  font-[400]   overflow-hidden font-montserrat text-[#8E8E8E] px-2`}
+            >
+              <ul className="flex flex-col gap-y-3 mt-4">
+                <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
+                  <div
+                    id="dot"
+                    className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
+                  ></div>
+                  Acquire cryptocurrency without any hardware of software costs.
+                </li>
+                <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
+                  {" "}
+                  <div
+                    id="dot"
+                    className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
+                  ></div>
+                  Mine cryptocurrency through yours and other’s activities.{" "}
+                </li>
+                <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
+                  <div
+                    id="dot"
+                    className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
+                  ></div>
+                  Build a digital-assets business – without any boarders.{" "}
+                </li>
+                <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
+                  <div
+                    id="dot"
+                    className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
+                  ></div>
+                  Achieve success and rewards, for developing a like-minded
+                  team.{" "}
+                </li>
+                <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
+                  <div
+                    id="dot"
+                    className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
+                  ></div>
+                  Earn fiat currency (USD) for help to build the TruQoin/TruIQ
+                  ecosystem.{" "}
+                </li>
+                <li className="flex gap-x-2 items- text-[14px] leading-[17.07px]">
+                  <div
+                    id="dot"
+                    className=" sm:w-[12px] sm:h-[10px] mt-1 w-[10px] h-[8px] rounded-full "
+                  ></div>
+                  Use TruQoin to buy products and services in the real world.{" "}
+                </li>
+              </ul>
+            </h2>
             <div
-              className={`transition-all abs  pointer-events-none duration-500 ease-in-out transform ${
-                img ? "opacity-100 scale-100 " : " opacity-0 scale-50"
+              className={` transition-all ease-in-out pointer-events-none w-[80%]  border-black   duration-500 ${
+                img ? "block h-[200px] xl:h-[300px] " : "h-0 "
               }`}
             >
-              <Image
-                className="  pointer-events-none"
-                src={"/man.png"}
-                width={0}
-                height={0}
-                layout="responsive"
-              />
+              <div
+                className={`transition-all abs  pointer-events-none duration-500 ease-in-out transform ${
+                  img ? "opacity-100 scale-100 " : " opacity-0 scale-50"
+                }`}
+              >
+                <Image
+                  className="  pointer-events-none"
+                  src={"/man.png"}
+                  width={0}
+                  height={0}
+                  layout="responsive"
+                />
+              </div>
             </div>
-          </div>
-          <div
-            className={` transition-all ease-in-out w-[80%] duration-500 ${
-              img2 ? "blockh-[200px] xl:h-[300px]" : "h-0  "
-            }`}
-          >
             <div
-              className={`transition-all abs duration-500 ease-in-out transform ${
-                img2 ? "opacity-100 scale-100 " : " opacity-0 scale-50"
+              className={` transition-all ease-in-out w-[80%] duration-500 ${
+                img2 ? "blockh-[200px] xl:h-[300px]" : "h-0  "
               }`}
             >
-              <Image
-                src={"/man.png"}
-                width={0}
-                height={0}
-                layout="responsive"
-              />
+              <div
+                className={`transition-all abs duration-500 ease-in-out transform ${
+                  img2 ? "opacity-100 scale-100 " : " opacity-0 scale-50"
+                }`}
+              >
+                <Image
+                  src={"/man.png"}
+                  width={0}
+                  height={0}
+                  layout="responsive"
+                />
+              </div>
             </div>
-          </div>
-          <div
-            className={` transition-all ease-in-out w-[80%] duration-500 ${
-              img3 ? "blockh-[200px] xl:h-[300px]" : "h-0  "
-            }`}
-          >
             <div
-              className={`transition-all abs duration-500 ease-in-out transform ${
-                img3 ? "opacity-100 scale-100 " : " opacity-0 scale-50"
+              className={` transition-all ease-in-out w-[80%] duration-500 ${
+                img3 ? "blockh-[200px] xl:h-[300px]" : "h-0  "
               }`}
             >
-              <video
-                src="/WhatsApp Video 2025-02-10 at 16.55.13_48ceca58.mp4"
-                className="w-[100%] "
-                muted
-                loop
-                autoPlay
-              />
-              {/* <Image
+              <div
+                className={`transition-all abs duration-500 ease-in-out transform ${
+                  img3 ? "opacity-100 scale-100 " : " opacity-0 scale-50"
+                }`}
+              >
+                <video
+                  src="/WhatsApp Video 2025-02-10 at 16.55.13_48ceca58.mp4"
+                  className="w-[100%] "
+                  muted
+                  loop
+                  autoPlay
+                />
+                {/* <Image
                 src={"/man.png"}
                 width={0}
                 height={0}
                 layout="responsive"
               /> */}
+              </div>
             </div>
           </div>
         </div>
-
         <div
           ref={divv2}
-          className=" gap-y-16 w-[50%] flex flex-col h-fit    items-end xl:items-none"
+          className=" gap-y-16 w-[50%] flex flex-col h-fit  pt-[5vw]  items-end xl:items-none"
         >
           <div
             id="Gsap"

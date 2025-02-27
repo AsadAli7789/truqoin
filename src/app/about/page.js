@@ -13,8 +13,8 @@ import SectionFour from "../components/Section-four";
 export default function About() {
   return (
     <>
-      <div className="relative overflow-hidden">
-        <div className="md:mb-32 ">
+      <div className="relative ">
+        <div className="md:mb-32 overflow-hidden ">
           <Header />
         </div>
         <Pge2 />
@@ -22,7 +22,7 @@ export default function About() {
           id="F_sec"
           className="absolute hidden lg:block  w-[769px] h-[742px] rounded-full -left-[30%] "
         ></div>
-        <div className=" lg:mb-[10vw] lg:mt-[3vw]  my-10">
+        <div className=" lg:mb-10 lg:mt-10  my-10">
           <SectionTwo />
         </div>
         <div>
@@ -30,11 +30,11 @@ export default function About() {
             <Section3 />
           </div>
 
-          <div className="hidden lg:block mt-10 ">
+          <div className="hidden  lg:block  mb-40 ">
             <Gsap />
           </div>
         </div>
-        <div className=" mb-[10vw]  my-10  lg:mt-[-600px] ">
+        <div className=" mb-24  my-10   ">
           <SectionFour1 />
         </div>
 
@@ -48,11 +48,13 @@ export default function About() {
           <div className="md:my-20">
             <SectionFour />
           </div>
-          <div
-            id="F_sec"
-            className="absolute  w-[809px] h-[742px] rounded-full -right-[30%] "
-          ></div>
-          <Footer />
+          <div className="relative overflow-hidden">
+            <div
+              id="F_sec"
+              className="absolute  w-[809px] h-[742px] rounded-full -right-[30%] "
+            ></div>
+            <Footer />
+          </div>
         </div>
       </div>
     </>

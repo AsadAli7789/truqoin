@@ -66,11 +66,11 @@ export default function Header() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex">
-          <div className="flex flex-row gap-5">
+          <div className="flex flex-row lg:gap-x-6 gap-x-4 gap-y-5">
             <Link href={"/"}>
               <motion.span
                 whileHover={{ scale: 1.1 }}
-                className={`font-montserratM hover:text-white  text-[#BABABA]
+                className={`font-montserrat hover:text-white  text-[#BABABA]
                    
                     font-[500] text-[14px]`}
               >
@@ -80,7 +80,7 @@ export default function Header() {
             <Link href={"/"}>
               <motion.span
                 whileHover={{ scale: 1.1 }}
-                className={`font-montserratM  hover:text-white text-[#BABABA] font-[500] text-[14px]`}
+                className={`font-montserrat  hover:text-white text-[#BABABA] font-[500] text-[14px]`}
               >
                 Trade
               </motion.span>
@@ -88,23 +88,23 @@ export default function Header() {
             <Link href={"/"}>
               <motion.span
                 whileHover={{ scale: 1.1 }}
-                className={`font-montserratM hover:text-white text-[#BABABA]  font-[500] text-[14px]`}
+                className={`font-montserrat hover:text-white text-[#BABABA]  font-[500] text-[14px]`}
               >
                 Spend
               </motion.span>
             </Link>
-            <a href={"/about"}>
+            <Link href={"/about"}>
               <motion.span
                 whileHover={{ scale: 1.1 }}
-                className={`font-montserratM hover:text-white text-[#BABABA] font-[500] text-[14px]`}
+                className={`font-montserrat hover:text-white text-[#BABABA] font-[500] text-[14px]`}
               >
                 About
               </motion.span>
-            </a>
+            </Link>
             <Link href={"/"}>
               <motion.span
                 whileHover={{ scale: 1.1 }}
-                className={`font-montserratM hover:text-white text-[#BABABA]  font-[500] text-[14px]`}
+                className={`font-montserrat hover:text-white text-[#BABABA]  font-[500] text-[14px]`}
               >
                 Doc
               </motion.span>

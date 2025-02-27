@@ -43,6 +43,10 @@ export default function Home() {
           ></div>
 
           <MobileSection />
+          <p className="md:text-[14px] text-[13px] leading-[16px] text-[#8E8E8E] font-[400] text-center my-4 ">
+            {" "}
+            One location – One App for all your digital assets
+          </p>
           <div
             id="bg2"
             className="absolute w-[300vw] h-[100%] top-0   z-[-2]"
@@ -54,12 +58,16 @@ export default function Home() {
             className="absolute w-[100%] h-[100%] bottom-0  opacity-[0.8] z-[-1]"
           ></div>
           <Carouse />
+          <p className="md:text-[14px] w-[80vw] mx-auto text-[13px] leading-[16px] text-[#8E8E8E] font-[400] text-center my-4 ">
+            {" "}
+            One location – One App for all your digital assets
+          </p>
         </div>
         <div
           id="gradent"
           className="  w-[100%] opacity-  h-[100%] z-[-2] absolute border-white"
         ></div>
-        <div className="md:my-32 relative bg-[]">
+        <div className="md:my-32 relative ">
           <SectionThrees />
         </div>
 
