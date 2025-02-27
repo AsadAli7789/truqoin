@@ -71,7 +71,7 @@ export default function SectionThrees() {
           </div>
         </div>
 
-        <div className="hidden lg:block absolute xl:-bottom-10 lg:-bottom-10   lg:left-[35%]  xl:left-[30%]">
+        <div className="hidden lg:block absolute xl:-bottom-10 lg:-bottom-10 z-[2]  lg:left-[35%]  xl:left-[30%]">
           <Image
             src="/Arrow&text.png"
             width={600}
@@ -89,9 +89,14 @@ export default function SectionThrees() {
           </div>
         </div>
 
-        <div className="xl:max-w-[656px] w-full lg:p-4 xl:w-[60%] mt-10 xl:mt-0 ml-auto">
+        <div className="xl:max-w-[656px] relative  w-full lg:p-4 xl:w-[60%] mt-10 xl:mt-0 ml-auto">
+          <div
+            id="lean"
+            className="absolute
+           w-[100%] left-0 right-0 top-0 h-[100%] hidden lg:block"
+          ></div>
           <Image
-            src="/tabs.png"
+            src="/sec123.png"
             layout="responsive"
             width={0}
             height={0}

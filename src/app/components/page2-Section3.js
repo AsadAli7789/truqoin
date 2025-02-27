@@ -20,7 +20,7 @@ export default function Pge2() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="w-full md:w-[70vw] xl:max-w-[1071px] border-white mx-auto text-center"
           >
-            <div className=" text-[24px] md:text-[24px] font-montserrat  font-[400] text-white">
+            <div className=" text-[28px] md:text-[48px] font-montserrat  font-[700] text-white">
               About Us
             </div>
 

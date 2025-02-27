@@ -35,7 +35,7 @@ export default function SectionFour1() {
           id="p2_sec4"
         >
           <div className=" xl:w-[24.816vw]  xl:h-[38.05vh]   xl:max-w-[339px]  xl:max-h-[231px]  ">
-            <div className="mb-1 text-[2vw]">{Svg("3")}</div>
+            <div className="mb-1 text-[2vw]">{Svg("1")}</div>
             <div className="text-[24px] leading-[25px] md:text-[32px] md:leading-[32px] xl:text-[36px] xl:leading-[36px] font-montserrat my-4 font-[700]  text-white">
               Activity-Based Rewards:{" "}
             </div>

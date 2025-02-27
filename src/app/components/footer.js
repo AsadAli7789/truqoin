@@ -83,19 +83,20 @@ export default function Footer() {
                   Doc
                 </a>
               </li>
-              <li className="my-3">
-                <a
-                  href="/about"
-                  className="text-[#8E8E8E] hover:text-white cursor-default"
-                >
-                  About
-                </a>
-              </li>
-              <li className="my-3" onClick={() => redirect("/contact")}>
-                <a className="text-[#8E8E8E] hover:text-white cursor-default">
-                  Contact
-                </a>
-              </li>
+              <Link href="/about">
+                <li className="my-3">
+                  <a className="text-[#8E8E8E] hover:text-white cursor-default">
+                    About
+                  </a>
+                </li>
+              </Link>
+              <Link href={"/contact"}>
+                <li className="my-3">
+                  <a className="text-[#8E8E8E] hover:text-white cursor-default">
+                    Contact
+                  </a>
+                </li>
+              </Link>
             </nav>
           </div>
           <div className="lg:w-2/4 md:w-1/2 w-full px-4">

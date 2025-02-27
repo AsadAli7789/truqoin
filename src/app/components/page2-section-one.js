@@ -16,9 +16,9 @@ export default function SectionTwo() {
   return (
     <div
       id="p2_sec3"
-      className=" border-[0.5px] rounded-[8px] my-10 max-w-[1459px]  border-[#343434] overflow-hidden w-[75.99vw] items-center  justify-center  flex flex-col lg:flex-row mx-auto"
+      className=" border-[0.5px]  rounded-[8px] my-10 max-w-[1459px] xl:min-h-[277px]  border-[#343434] overflow-hidden w-[75.99vw] items-center  justify-center  flex flex-col lg:flex-row mx-auto"
     >
-      <div className=" flex flex-col lg:flex-row xl:justify-between  xl:w-[90%]  xl:max-w-[1205px]">
+      <div className=" flex flex-col lg:flex-row xl:justify-between   xl:w-[90%]  xl:max-w-[1205px]">
         {/* Vision Section with Motion */}
         <motion.div
           ref={visionRef}
@@ -59,8 +59,8 @@ export default function SectionTwo() {
               Our Mission
             </div>
             <div className="sm:text-[14px] text-[13px] leading-[16px] sm:leading-[17px]  font-montserrat my-2 md:text-[#8E8E8E] md:font-[400] text-[#ffffffcb] font-[500]">
-              To connect innovative blockchain technology with real-world value,
-              making financial growth a reality for everyone.
+              To simplify and normalize the acquisition and use of
+              cryptocurrency and digital assets around the world.
             </div>
           </div>
         </motion.div>
